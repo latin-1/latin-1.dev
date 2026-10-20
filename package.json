@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "astro build",
-    "check": "biome check",
+    "check": "biome check --error-on-warnings",
     "dev": "astro dev",
     "typecheck": "astro check"
   },
