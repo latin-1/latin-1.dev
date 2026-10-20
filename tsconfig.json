@@ -6,6 +6,8 @@
     // Astro's language server defaults to Node10 resolution when this is omitted.
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
+    "allowArbitraryExtensions": true,
+    "allowImportingTsExtensions": true,
 
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
