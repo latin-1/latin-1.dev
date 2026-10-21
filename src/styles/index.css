@@ -25,25 +25,37 @@
   }
 
   @media (prefers-reduced-motion: no-preference) {
-    @keyframes page-enter {
-      from {
-        opacity: 0%;
-        translate: 0 --spacing(2);
-      }
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+      mix-blend-mode: plus-lighter;
     }
 
-    @keyframes page-leave {
+    ::view-transition-old(root) {
+      animation: page-fade-out 300ms linear both;
+    }
+
+    ::view-transition-new(root) {
+      animation:
+        page-fade-in 300ms linear both,
+        page-slide-in 300ms var(--ease-out) both;
+    }
+
+    @keyframes page-fade-out {
       to {
         opacity: 0%;
       }
     }
 
-    ::view-transition-old(root) {
-      animation: page-leave 300ms var(--ease-in) both;
+    @keyframes page-fade-in {
+      from {
+        opacity: 0%;
+      }
     }
 
-    ::view-transition-new(root) {
-      animation: page-enter 300ms var(--ease-out) both;
+    @keyframes page-slide-in {
+      from {
+        translate: 0 --spacing(2);
+      }
     }
   }
 
