@@ -16,7 +16,7 @@
   "devDependencies": {
     "@astrojs/check": "0.9.11",
     "@astrojs/sitemap": "3.7.4",
-    "@biomejs/biome": "https://pkg.pr.new/biomejs/biome/@biomejs/biome@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
+    "@biomejs/biome": "2.6.2",
     "@tailwindcss/vite": "4.3.3",
     "tailwindcss": "4.3.3",
     "typescript": "6.0.3",

@@ -378,22 +378,22 @@
         }
       }
     },
-    "@biomejs/biome@https://pkg.pr.new/biomejs/biome/@biomejs/biome@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
-      "checksum": "c5db8a42e9df3a5460176bfe21a2e8dad9993b21fc4f23401cc278ddccbd1484db7fa2dcb80f828d249f9b9f4388d634d16d1f2fa8232f2a177f244a766d8b78",
+    "@biomejs/biome@npm:2.6.2": {
+      "checksum": "f09901decc8e02795861d61d03e7b403a6212031f0d18605f73f4a27f5542aaf1d740cd52b3b252eeb1a1663407ef13415e37aba11c4e90afb3d76f565e7a273",
       "resolution": {
-        "resolution": "@biomejs/biome@https://pkg.pr.new/biomejs/biome/@biomejs/biome@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/biome@npm:2.6.2",
+        "version": "2.6.2",
         "dependencies": {
-          "@biomejs/cli-android-arm64": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-android-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-android-x64": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-android-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-darwin-arm64": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-darwin-x64": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-linux-arm64": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-linux-arm64-musl": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64-musl@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-linux-x64": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-linux-x64-musl": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64-musl@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-win32-arm64": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-          "@biomejs/cli-win32-x64": "https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c"
+          "@biomejs/cli-android-arm64": "2.6.2",
+          "@biomejs/cli-android-x64": "2.6.2",
+          "@biomejs/cli-darwin-arm64": "2.6.2",
+          "@biomejs/cli-darwin-x64": "2.6.2",
+          "@biomejs/cli-linux-arm64": "2.6.2",
+          "@biomejs/cli-linux-arm64-musl": "2.6.2",
+          "@biomejs/cli-linux-x64": "2.6.2",
+          "@biomejs/cli-linux-x64-musl": "2.6.2",
+          "@biomejs/cli-win32-arm64": "2.6.2",
+          "@biomejs/cli-win32-x64": "2.6.2"
         },
         "optionalDependencies": [
           "@biomejs/cli-android-arm64",
@@ -409,11 +409,11 @@
         ]
       }
     },
-    "@biomejs/cli-android-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-android-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-android-arm64@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-android-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-android-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-android-arm64@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "arm64"
@@ -424,11 +424,11 @@
         }
       }
     },
-    "@biomejs/cli-android-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-android-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-android-x64@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-android-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-android-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-android-x64@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "x64"
@@ -439,11 +439,11 @@
         }
       }
     },
-    "@biomejs/cli-darwin-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-darwin-arm64@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-darwin-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-darwin-arm64@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "arm64"
@@ -454,11 +454,11 @@
         }
       }
     },
-    "@biomejs/cli-darwin-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-darwin-x64@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-darwin-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-darwin-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-darwin-x64@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "x64"
@@ -469,11 +469,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-linux-arm64@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-linux-arm64@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "arm64"
@@ -487,11 +487,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-arm64-musl@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64-musl@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-linux-arm64-musl@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-arm64-musl@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-arm64-musl@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-linux-arm64-musl@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "arm64"
@@ -505,11 +505,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-linux-x64@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-linux-x64@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "x64"
@@ -523,11 +523,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-x64-musl@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64-musl@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-linux-x64-musl@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-x64-musl@https://pkg.pr.new/biomejs/biome/@biomejs/cli-linux-x64-musl@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-linux-x64-musl@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "x64"
@@ -541,11 +541,11 @@
         }
       }
     },
-    "@biomejs/cli-win32-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-win32-arm64@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-win32-arm64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-arm64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-win32-arm64@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "arm64"
@@ -556,11 +556,11 @@
         }
       }
     },
-    "@biomejs/cli-win32-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c": {
+    "@biomejs/cli-win32-x64@npm:2.6.2": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-win32-x64@https://pkg.pr.new/biomejs/biome/@biomejs/cli-win32-x64@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
-        "version": "2.5.15",
+        "resolution": "@biomejs/cli-win32-x64@npm:2.6.2",
+        "version": "2.6.2",
         "requirements": {
           "cpu": [
             "x64"
@@ -3103,7 +3103,7 @@
         "dependencies": {
           "@astrojs/check": "0.9.11",
           "@astrojs/sitemap": "3.7.4",
-          "@biomejs/biome": "https://pkg.pr.new/biomejs/biome/@biomejs/biome@7bf9765544d4f95b4b63d24b23b641e3e64a1c0c",
+          "@biomejs/biome": "2.6.2",
           "@lucide/astro": "1.59.0",
           "@tailwindcss/vite": "4.3.3",
           "astro": "7.4.1",
