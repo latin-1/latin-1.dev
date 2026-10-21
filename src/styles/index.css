@@ -31,13 +31,13 @@
     }
 
     ::view-transition-old(root) {
-      animation: page-fade-out 300ms linear both;
+      animation: page-fade-out 200ms linear both;
     }
 
     ::view-transition-new(root) {
       animation:
-        page-fade-in 300ms linear both,
-        page-slide-in 300ms var(--ease-out) both;
+        page-fade-in 200ms linear both,
+        page-slide-in 200ms var(--ease-out) both;
     }
 
     @keyframes page-fade-out {
