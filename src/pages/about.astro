@@ -1,10 +1,12 @@
 ---
+import { Image } from "astro:assets";
 import {
   Gamepad2Icon,
   LaptopIcon,
   SmartphoneIcon,
   TabletIcon,
 } from "@lucide/astro";
+import coverImage from "../assets/cover.webp";
 import devices from "../data/devices.json" with { type: "json" };
 import socials from "../data/socials.json" with { type: "json" };
 import PageLayout from "../layouts/PageLayout.astro";
@@ -32,6 +34,10 @@ const deviceIcons = {
       </a>
     ))}
   </div>
+
+  <figure class="my-8 rounded-3xl bg-mauve-100 p-2">
+    <Image class="rounded-2xl shadow-sm" src={coverImage} alt="" />
+  </figure>
 
   <h2 class="mt-8 mb-4 font-heading text-2xl font-bold text-mauve-900">
     My devices
