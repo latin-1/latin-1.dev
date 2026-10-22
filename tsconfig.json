@@ -1,10 +1,14 @@
 {
+  "include": ["**/*", ".astro/types.d.ts"],
+  "exclude": ["dist/"],
+
   "compilerOptions": {
     "noEmit": true,
 
+    // Use "nodenext" after migrating to `@astrojs/ts-content-mapper`.
     "module": "esnext",
-    // Astro's language server defaults to Node10 resolution when this is omitted.
     "moduleResolution": "bundler",
+
     "verbatimModuleSyntax": true,
     "allowArbitraryExtensions": true,
     "allowImportingTsExtensions": true,
