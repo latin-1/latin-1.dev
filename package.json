@@ -9,7 +9,7 @@
     "typecheck": "astro check"
   },
   "dependencies": {
-    "@lucide/astro": "1.59.0",
+    "@lucide/astro": "1.61.0",
     "astro": "7.4.1",
     "ts-dedent": "2.3.0"
   },
