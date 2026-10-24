@@ -253,10 +253,10 @@
       }
     },
     "@astrojs/language-server@npm:^2.17.2": {
-      "checksum": "b546217b021953688321ba3ff32771b4f1292c1b78754c1b7b0de806bb1806441f666a454a950aef22db3c9e9a40e5f8272dc81fc0f092ee730088bf4cc00815",
+      "checksum": "06aec9daab89490d33efb7047192f5026e5b9702e4a9471e46e525dd6764999fae6d0c232d19326f385f578657fa19db99cff28fa3a62a6f58e779c2c009af15",
       "resolution": {
-        "resolution": "@astrojs/language-server@npm:2.17.2",
-        "version": "2.17.2",
+        "resolution": "@astrojs/language-server@npm:2.17.3",
+        "version": "2.17.3",
         "dependencies": {
           "@astrojs/astro2tsx": "^0.1.2",
           "@astrojs/yaml2ts": "^0.2.4",
@@ -1480,18 +1480,18 @@
         "version": "1.1.0"
       }
     },
-    "@oxc-project/types@npm:=0.154.0": {
-      "checksum": "5e91335945ce2f2cce85e4ea58b7a9c986f24b02dfd11eb4fa4bfbba072a09e1518bdd15ff5a0d585326406575b28450f8116596de81c735b4ee66a14cbc9ea3",
+    "@oxc-project/types@npm:=0.155.0": {
+      "checksum": "94d92d871ab702a9270136a425ea2b40b0f060edf9179e7d0733097a3f82f766cce33b4a5dc512cb43219c5248b8e25debbec8d22fe852652230168d8c7f853b",
       "resolution": {
-        "resolution": "@oxc-project/types@npm:0.154.0",
-        "version": "0.154.0"
+        "resolution": "@oxc-project/types@npm:0.155.0",
+        "version": "0.155.0"
       }
     },
-    "@rolldown/binding-android-arm-eabi@npm:1.2.14": {
+    "@rolldown/binding-android-arm-eabi@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-android-arm-eabi@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-android-arm-eabi@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "arm"
@@ -1502,11 +1502,11 @@
         }
       }
     },
-    "@rolldown/binding-android-arm64@npm:1.2.14": {
+    "@rolldown/binding-android-arm64@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-android-arm64@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-android-arm64@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1517,11 +1517,11 @@
         }
       }
     },
-    "@rolldown/binding-darwin-arm64@npm:1.2.14": {
+    "@rolldown/binding-darwin-arm64@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-darwin-arm64@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-darwin-arm64@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1532,11 +1532,11 @@
         }
       }
     },
-    "@rolldown/binding-darwin-x64@npm:1.2.14": {
+    "@rolldown/binding-darwin-x64@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-darwin-x64@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-darwin-x64@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "x64"
@@ -1547,11 +1547,11 @@
         }
       }
     },
-    "@rolldown/binding-freebsd-x64@npm:1.2.14": {
+    "@rolldown/binding-freebsd-x64@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-freebsd-x64@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-freebsd-x64@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "x64"
@@ -1562,11 +1562,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.14": {
+    "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "arm"
@@ -1577,11 +1577,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-arm64-gnu@npm:1.2.14": {
+    "@rolldown/binding-linux-arm64-gnu@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-arm64-gnu@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-linux-arm64-gnu@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1595,11 +1595,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-arm64-musl@npm:1.2.14": {
+    "@rolldown/binding-linux-arm64-musl@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-arm64-musl@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-linux-arm64-musl@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1613,11 +1613,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-ppc64-gnu@npm:1.2.14": {
+    "@rolldown/binding-linux-ppc64-gnu@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-ppc64-gnu@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-linux-ppc64-gnu@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "ppc64"
@@ -1631,11 +1631,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-s390x-gnu@npm:1.2.14": {
+    "@rolldown/binding-linux-s390x-gnu@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-s390x-gnu@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-linux-s390x-gnu@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "s390x"
@@ -1649,11 +1649,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-x64-gnu@npm:1.2.14": {
+    "@rolldown/binding-linux-x64-gnu@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-x64-gnu@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-linux-x64-gnu@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "x64"
@@ -1667,11 +1667,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-x64-musl@npm:1.2.14": {
+    "@rolldown/binding-linux-x64-musl@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-x64-musl@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-linux-x64-musl@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "x64"
@@ -1685,11 +1685,11 @@
         }
       }
     },
-    "@rolldown/binding-openharmony-arm64@npm:1.2.14": {
+    "@rolldown/binding-openharmony-arm64@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-openharmony-arm64@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-openharmony-arm64@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1700,11 +1700,11 @@
         }
       }
     },
-    "@rolldown/binding-win32-arm64-msvc@npm:1.2.14": {
+    "@rolldown/binding-win32-arm64-msvc@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-win32-arm64-msvc@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-win32-arm64-msvc@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1715,11 +1715,11 @@
         }
       }
     },
-    "@rolldown/binding-win32-x64-msvc@npm:1.2.14": {
+    "@rolldown/binding-win32-x64-msvc@npm:1.2.15": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-win32-x64-msvc@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "@rolldown/binding-win32-x64-msvc@npm:1.2.15",
+        "version": "1.2.15",
         "requirements": {
           "cpu": [
             "x64"
@@ -1818,10 +1818,10 @@
       }
     },
     "@shikijs/vscode-textmate@npm:^10.0.2": {
-      "checksum": "f33f648b93b5d8b46cb298081416a1f20f88c1d6ab3d5335cb0994d796c87c79ba411cce273ec60a1ca7172f556c3872fdcded5e8e13c3ec483391200e9561c6",
+      "checksum": "a821be7a9f3e26aa2a204473dd86ecab1b389d1859fdb30d48652dfc8e9a1eb8676db65d5f7e63938c49672bc36a15b27de37bb692cf0c41da5debca87dc95b9",
       "resolution": {
-        "resolution": "@shikijs/vscode-textmate@npm:10.0.2",
-        "version": "10.0.2"
+        "resolution": "@shikijs/vscode-textmate@npm:10.1.0",
+        "version": "10.1.0"
       }
     },
     "@tailwindcss/node@npm:4.3.3": {
@@ -2189,80 +2189,99 @@
       }
     },
     "@volar/kit@npm:~2.4.28": {
-      "checksum": "81802b649bedfabf6e0806060cb1a0eaee0bf8227ed5b5439c543e7f725a49f12bba40f049b567db3229d9e880d6d3b27671d404dd5bcc81ad187fda10f19e3e",
+      "checksum": "7aaee277c3d02f6933c0e23055e9734e94bce27967e9df31a21fc5c8ef819b39c9fcf8eeda6071ccd073a84c3f9d71ee05c7ccd1a0248227f07e61dbaa4fd977",
       "resolution": {
-        "resolution": "@volar/kit@npm:2.4.28",
-        "version": "2.4.28",
+        "resolution": "@volar/kit@npm:2.4.30",
+        "version": "2.4.30",
         "dependencies": {
-          "@volar/language-service": "2.4.28",
-          "@volar/typescript": "2.4.28",
+          "@volar/language-service": "2.4.30",
+          "@volar/typescript": "2.4.30",
           "typesafe-path": "^0.2.2",
           "vscode-languageserver-textdocument": "^1.0.11",
           "vscode-uri": "^3.0.8"
         },
         "peerDependencies": {
-          "typescript": "*"
+          "typescript": "<7"
         }
       }
     },
-    "@volar/language-core@npm:2.4.28, @volar/language-core@npm:~2.4.28": {
-      "checksum": "d7e1fdb2a639835795d71e1551f21e647ddc47c14b25c87fc00b571900349a21dca9575fb5b0d18550342e57e6fd51b3f6aa4659af20452c100213e24c5e3229",
+    "@volar/language-core@npm:2.4.30, @volar/language-core@npm:~2.4.28": {
+      "checksum": "533b3e5c306a375e5834bcdd51d332953ac61ba54fb35f1bd51156657556286f8dd01be6c5ac07705a366eceb0a1251e7309063f0b62de5288a231277f0b654b",
       "resolution": {
-        "resolution": "@volar/language-core@npm:2.4.28",
-        "version": "2.4.28",
+        "resolution": "@volar/language-core@npm:2.4.30",
+        "version": "2.4.30",
         "dependencies": {
-          "@volar/source-map": "2.4.28"
+          "@volar/source-map": "2.4.30"
         }
       }
     },
     "@volar/language-server@npm:~2.4.28": {
-      "checksum": "bf8e901093f63a079772f4f41b5bb12c774e4436030eda329641fb5221856b8689b53b8dcc6d8f4eccdb24d91d17d9e89a373b65eed35d49031a0c10767b3844",
+      "checksum": "ad070ae08aab6fa6e9e6f94be2aa1292be6b547d3483f2381bb65b8b3795034c9d82ceab31fb6b301897e56f635ed4a7b1b85326d03fa164172052f41ecac122",
       "resolution": {
-        "resolution": "@volar/language-server@npm:2.4.28",
-        "version": "2.4.28",
+        "resolution": "@volar/language-server@npm:2.4.30",
+        "version": "2.4.30",
         "dependencies": {
-          "@volar/language-core": "2.4.28",
-          "@volar/language-service": "2.4.28",
-          "@volar/typescript": "2.4.28",
+          "@volar/language-core": "2.4.30",
+          "@volar/language-service": "2.4.30",
+          "@volar/typescript": "2.4.30",
           "path-browserify": "^1.0.1",
           "request-light": "^0.7.0",
           "vscode-languageserver": "^9.0.1",
           "vscode-languageserver-protocol": "^3.17.5",
           "vscode-languageserver-textdocument": "^1.0.11",
           "vscode-uri": "^3.0.8"
-        }
+        },
+        "peerDependencies": {
+          "typescript": "<7"
+        },
+        "optionalPeerDependencies": [
+          "typescript"
+        ]
       }
     },
-    "@volar/language-service@npm:2.4.28, @volar/language-service@npm:~2.4.28": {
-      "checksum": "591eb81b6d87b4e71e018393f444757a39b6d08548cd2ba97e9a2a3c80cceb96f6cc7a98309a6e0999277ff0a1f87853a7353a00be824019969d5c8b2c9f879e",
+    "@volar/language-service@npm:2.4.30, @volar/language-service@npm:~2.4.28": {
+      "checksum": "9186fd7c68b6d03b9de374c048a5c637e8d956f313bcd179ca8e1ca7460be629b483048af513bc94ad45f436e69995965ee520d929b5180c48f0dff5de6bcaff",
       "resolution": {
-        "resolution": "@volar/language-service@npm:2.4.28",
-        "version": "2.4.28",
+        "resolution": "@volar/language-service@npm:2.4.30",
+        "version": "2.4.30",
         "dependencies": {
-          "@volar/language-core": "2.4.28",
+          "@volar/language-core": "2.4.30",
           "vscode-languageserver-protocol": "^3.17.5",
           "vscode-languageserver-textdocument": "^1.0.11",
           "vscode-uri": "^3.0.8"
-        }
+        },
+        "peerDependencies": {
+          "typescript": "<7"
+        },
+        "optionalPeerDependencies": [
+          "typescript"
+        ]
       }
     },
-    "@volar/source-map@npm:2.4.28": {
-      "checksum": "d37e29d1445bc553458a9161a2e9f98bbff9c22de0635b4f1e678f161c6b83c7fc91541fb0d00f0f9041f5ac954eb0a2ae8015a3265af8ea1f5d1d94b2e4341e",
+    "@volar/source-map@npm:2.4.30": {
+      "checksum": "7034ac0d09d0e1eaa0947050f6c9150bde12ea24d4504c5825f1c4d4e037ab61922bccae1313fa0e833a2d0f4391a9963b4b935f61484976a8e050728e2d2e75",
       "resolution": {
-        "resolution": "@volar/source-map@npm:2.4.28",
-        "version": "2.4.28"
+        "resolution": "@volar/source-map@npm:2.4.30",
+        "version": "2.4.30"
       }
     },
-    "@volar/typescript@npm:2.4.28": {
-      "checksum": "724ad86477eefe373b67290464b6b060a82865bbfadd379cd1b5a8ed8234e706c09392434d312dcaf09d828a8cb914eeb6c64e300c01705551de9fefe3085201",
+    "@volar/typescript@npm:2.4.30": {
+      "checksum": "d42d13bcfccd4c00566fd5730e346decf9efe43f884a13c3c50e377229bddc6594d1832fca7b83e66d1bc1970ee14760903060cb87f0e9034f20f2da5317f0e8",
       "resolution": {
-        "resolution": "@volar/typescript@npm:2.4.28",
-        "version": "2.4.28",
+        "resolution": "@volar/typescript@npm:2.4.30",
+        "version": "2.4.30",
         "dependencies": {
-          "@volar/language-core": "2.4.28",
+          "@volar/language-core": "2.4.30",
+          "@volar/language-service": "2.4.30",
           "path-browserify": "^1.0.1",
           "vscode-uri": "^3.0.8"
-        }
+        },
+        "peerDependencies": {
+          "typescript": "<7"
+        },
+        "optionalPeerDependencies": [
+          "typescript"
+        ]
       }
     },
     "@vscode/emmet-helper@npm:^2.9.3": {
@@ -2835,10 +2854,10 @@
       }
     },
     "fast-uri@npm:^3.0.1": {
-      "checksum": "2551d8125063370c88c65ec0bdfe5167e98757b2e84cdbc072f96a41c66cc6cd9957e0e75438f4e73cad3522f2c406c93092a007f9ad47cb2ffa01e8f26be3f8",
+      "checksum": "f4915be16f4a33c8aeec31f62ec1329bb23d71eb46b1af3055d9baf42754898b82d8356b697cb69c51a90cbbc0d3844fb7e775c1f3f8b119d67a3fbf1a41afe8",
       "resolution": {
-        "resolution": "fast-uri@npm:3.1.8",
-        "version": "3.1.8"
+        "resolution": "fast-uri@npm:3.1.9",
+        "version": "3.1.9"
       }
     },
     "fast-wrap-ansi@npm:^0.2.0": {
@@ -3874,7 +3893,7 @@
         "version": "4.0.7"
       }
     },
-    "postcss@npm:^8.5.29": {
+    "postcss@npm:^8.5.29, postcss@npm:^8.5.30": {
       "checksum": "cb9b9e72ee4a1376406ff49e2e9846d33308f48c0d5a5de5e73e587f00854060d6e62f7319b9d682ec31d30aa1c916c8cc70d67e06fc399c7686c89fb7300ba3",
       "resolution": {
         "resolution": "postcss@npm:8.5.31",
@@ -4002,28 +4021,28 @@
         }
       }
     },
-    "rolldown@npm:^1.2.13, rolldown@npm:~1.2.12": {
-      "checksum": "68b0a6e5266cf3c696991c6a9ee1741b30a0cea510ed1bb1f60dd8491722bbb0eb473dbbfa1946cb5918d19e06718226c58fbae57cc77b6508b0b9d10451c466",
+    "rolldown@npm:^1.2.13, rolldown@npm:~1.2.12, rolldown@npm:~1.2.14": {
+      "checksum": "0d7cc7c161fac76e3843ec7cde9d3d7aa145cbf739dd2ea82c78f2ee68b54ed5269a5cbc92f89d0d37c14852fb1059e551b214a1a8b45f5323dce14d4df772bf",
       "resolution": {
-        "resolution": "rolldown@npm:1.2.14",
-        "version": "1.2.14",
+        "resolution": "rolldown@npm:1.2.15",
+        "version": "1.2.15",
         "dependencies": {
-          "@oxc-project/types": "=0.154.0",
-          "@rolldown/binding-android-arm-eabi": "1.2.14",
-          "@rolldown/binding-android-arm64": "1.2.14",
-          "@rolldown/binding-darwin-arm64": "1.2.14",
-          "@rolldown/binding-darwin-x64": "1.2.14",
-          "@rolldown/binding-freebsd-x64": "1.2.14",
-          "@rolldown/binding-linux-arm-gnueabihf": "1.2.14",
-          "@rolldown/binding-linux-arm64-gnu": "1.2.14",
-          "@rolldown/binding-linux-arm64-musl": "1.2.14",
-          "@rolldown/binding-linux-ppc64-gnu": "1.2.14",
-          "@rolldown/binding-linux-s390x-gnu": "1.2.14",
-          "@rolldown/binding-linux-x64-gnu": "1.2.14",
-          "@rolldown/binding-linux-x64-musl": "1.2.14",
-          "@rolldown/binding-openharmony-arm64": "1.2.14",
-          "@rolldown/binding-win32-arm64-msvc": "1.2.14",
-          "@rolldown/binding-win32-x64-msvc": "1.2.14",
+          "@oxc-project/types": "=0.155.0",
+          "@rolldown/binding-android-arm-eabi": "1.2.15",
+          "@rolldown/binding-android-arm64": "1.2.15",
+          "@rolldown/binding-darwin-arm64": "1.2.15",
+          "@rolldown/binding-darwin-x64": "1.2.15",
+          "@rolldown/binding-freebsd-x64": "1.2.15",
+          "@rolldown/binding-linux-arm-gnueabihf": "1.2.15",
+          "@rolldown/binding-linux-arm64-gnu": "1.2.15",
+          "@rolldown/binding-linux-arm64-musl": "1.2.15",
+          "@rolldown/binding-linux-ppc64-gnu": "1.2.15",
+          "@rolldown/binding-linux-s390x-gnu": "1.2.15",
+          "@rolldown/binding-linux-x64-gnu": "1.2.15",
+          "@rolldown/binding-linux-x64-musl": "1.2.15",
+          "@rolldown/binding-openharmony-arm64": "1.2.15",
+          "@rolldown/binding-win32-arm64-msvc": "1.2.15",
+          "@rolldown/binding-win32-x64-msvc": "1.2.15",
           "@rolldown/pluginutils": "^1.0.0"
         },
         "optionalDependencies": [
@@ -4348,10 +4367,10 @@
       }
     },
     "tinyps@npm:^0.5.0": {
-      "checksum": "940229d12e9179a729ef3f2999d21bdc4067347287012baf83aeca7296dc7032a0212a79533654ef65a0618c729eb6ef4505832b99aa1c36667391fd51dd7c54",
+      "checksum": "34718e95d5749481ea059f820bbae7e5a0897cd2259f3ea42f705f71e820cdc3045b19264f268401fa1a3cb914b65234863e31a8010037f565b0df227957faf6",
       "resolution": {
-        "resolution": "tinyps@npm:0.5.0",
-        "version": "0.5.0"
+        "resolution": "tinyps@npm:0.5.1",
+        "version": "0.5.1"
       }
     },
     "trim-lines@npm:^3.0.0": {
@@ -4625,7 +4644,7 @@
         }
       }
     },
-    "vite@npm:8.3.4, vite@npm:^8.3.4": {
+    "vite@npm:8.3.4": {
       "checksum": "b3a82f3bacc253807d948dc8507552ed07f656b8f5602983e201e4a6f8bd44f74dabe30c179fa0b9e81aa616587ddf74a7706c90b51c63c736eeea265bc4e354",
       "resolution": {
         "resolution": "vite@npm:8.3.4",
@@ -4641,6 +4660,52 @@
         "peerDependencies": {
           "@types/node": "^20.19.0 || >=22.12.0",
           "@vitejs/devtools": "^0.7.1",
+          "esbuild": "^0.27.0 || ^0.28.0",
+          "jiti": ">=1.21.0",
+          "less": "^4.0.0",
+          "sass": "^1.70.0",
+          "sass-embedded": "^1.70.0",
+          "stylus": ">=0.54.8",
+          "sugarss": "^5.0.0",
+          "terser": "^5.16.0",
+          "tsx": "^4.8.1",
+          "yaml": "^2.4.2"
+        },
+        "optionalDependencies": [
+          "fsevents"
+        ],
+        "optionalPeerDependencies": [
+          "@types/node",
+          "@vitejs/devtools",
+          "esbuild",
+          "jiti",
+          "less",
+          "sass",
+          "sass-embedded",
+          "stylus",
+          "sugarss",
+          "terser",
+          "tsx",
+          "yaml"
+        ]
+      }
+    },
+    "vite@npm:^8.3.4": {
+      "checksum": "b2bba277c87f3dff68e229abdb57f6bd7ebf324c88141bd62183c841db2a8a2d244b4a383b67b2d44979724bcda9cfe3a0f9d359030b079456bb7a7690eec394",
+      "resolution": {
+        "resolution": "vite@npm:8.3.5",
+        "version": "8.3.5",
+        "dependencies": {
+          "fsevents": "~2.3.3",
+          "lightningcss": "^1.33.0",
+          "picomatch": "^4.0.7",
+          "postcss": "^8.5.30",
+          "rolldown": "~1.2.14",
+          "tinyglobby": "^0.2.17"
+        },
+        "peerDependencies": {
+          "@types/node": "^20.19.0 || >=22.12.0",
+          "@vitejs/devtools": "^0.7.1 || ^0.8.0",
           "esbuild": "^0.27.0 || ^0.28.0",
           "jiti": ">=1.21.0",
           "less": "^4.0.0",
@@ -4851,18 +4916,18 @@
         }
       }
     },
+    "vscode-jsonrpc@npm:10.0.0": {
+      "checksum": "24e6c780ba1c3dac7ffac20c2c8c2d8feea892c9c46265717342052a9f22072a4d504037191a1d07610e184cf8c662501675401c411eafe4db0cc4a2036ab029",
+      "resolution": {
+        "resolution": "vscode-jsonrpc@npm:10.0.0",
+        "version": "10.0.0"
+      }
+    },
     "vscode-jsonrpc@npm:8.2.0": {
       "checksum": "27a2d065173892163d2e2a32064217c33600ae4dc8b7a0c8e67838ff02c618d32646a7e1bca7bc37385019b858b2fcec08e37f03472292f9616780689e933bcf",
       "resolution": {
         "resolution": "vscode-jsonrpc@npm:8.2.0",
         "version": "8.2.0"
-      }
-    },
-    "vscode-jsonrpc@npm:9.0.3": {
-      "checksum": "dc8a05d35a627ddfb45336fa85041e62a3a40f36db2681816246221525c98c0a364e631bd5358258826e2f3708d79b0c69f96389d547d115c34bce88faaa1656",
-      "resolution": {
-        "resolution": "vscode-jsonrpc@npm:9.0.3",
-        "version": "9.0.3"
       }
     },
     "vscode-languageserver@npm:^9.0.0, vscode-languageserver@npm:^9.0.1": {
@@ -4887,21 +4952,21 @@
       }
     },
     "vscode-languageserver-protocol@npm:^3.17.5": {
-      "checksum": "7e4822d25731140e042fef0eda84dc164ee86b7101b9a2b2a129fa784c355c41a8b21ff27edd6e11e0bde4c60e92736e05b6262bacff99d34910138a52273482",
+      "checksum": "1b66759ee8b721a2881dd9d7aecf6ae15391f2cc2d0b2f52ecc4c939ba6d92764a69062d21688559c3cfde3a445102dacf7d243c89014a2c63b534dbfabaa5e5",
       "resolution": {
-        "resolution": "vscode-languageserver-protocol@npm:3.18.4",
-        "version": "3.18.4",
+        "resolution": "vscode-languageserver-protocol@npm:3.18.5",
+        "version": "3.18.5",
         "dependencies": {
-          "vscode-jsonrpc": "9.0.3",
-          "vscode-languageserver-types": "3.18.4"
+          "vscode-jsonrpc": "10.0.0",
+          "vscode-languageserver-types": "3.18.5"
         }
       }
     },
     "vscode-languageserver-textdocument@npm:^1.0.1, vscode-languageserver-textdocument@npm:^1.0.11, vscode-languageserver-textdocument@npm:^1.0.12": {
-      "checksum": "4564b92ea87419522ac033ad330d1a7b831792e194f32b20b5b83f5dad98cde1334b6487cecba5b9358a68ad0fc7e366a5ca4a5787d8a1952ca029fd917f6428",
+      "checksum": "2ab5de7aa17a7f5747fdba73199c447456ede9079b8bcff9f5b8d53fffe5aa50931661d4581e23bfa3545bb8a85e407e2aa1bf1f25f23adaf57ca8f9d9a7acec",
       "resolution": {
-        "resolution": "vscode-languageserver-textdocument@npm:1.0.15",
-        "version": "1.0.15"
+        "resolution": "vscode-languageserver-textdocument@npm:1.0.16",
+        "version": "1.0.16"
       }
     },
     "vscode-languageserver-types@npm:3.17.5": {
@@ -4911,11 +4976,11 @@
         "version": "3.17.5"
       }
     },
-    "vscode-languageserver-types@npm:3.18.4, vscode-languageserver-types@npm:^3.15.1, vscode-languageserver-types@npm:^3.16.0, vscode-languageserver-types@npm:^3.17.5": {
-      "checksum": "316a6cbb7a4e3eeaf8fd482d34176f1ebe856fc2277bc2909e967e114f811f33610f9d81b3ec24feb6401ef7472626d935cc2244c4ed9a25a98a4683b2d832c1",
+    "vscode-languageserver-types@npm:3.18.5, vscode-languageserver-types@npm:^3.15.1, vscode-languageserver-types@npm:^3.16.0, vscode-languageserver-types@npm:^3.17.5": {
+      "checksum": "03b7c06cf45b5b9337d774da153921c94ac73427485e21991b3548132e32a83fe7d2a79ba7e6d444d582b95668bf3ef48887863ef623cfc0036d152f7783cbbf",
       "resolution": {
-        "resolution": "vscode-languageserver-types@npm:3.18.4",
-        "version": "3.18.4"
+        "resolution": "vscode-languageserver-types@npm:3.18.5",
+        "version": "3.18.5"
       }
     },
     "vscode-nls@npm:^5.0.0, vscode-nls@npm:^5.2.0": {
