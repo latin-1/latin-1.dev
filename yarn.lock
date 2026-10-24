@@ -14,13 +14,13 @@
         }
       }
     },
-    "@astrojs/check@npm:0.9.11": {
-      "checksum": "9aa6248a824b46d14e615bcc065ff24a24346a775c38541d75a4e8c186e2079ea42067d4f1aa365617aa0453b9d153e0c6ecea87fc34f369ec643f8d0565d264",
+    "@astrojs/check@npm:0.9.12": {
+      "checksum": "5215cf724d2d798b550cd13151786a59155c612e86d4b1f978dba296a8093e07242f57c3aaa136462db4f0259fc791ddb876d7f66ad3caa09888d036e0dd5ee7",
       "resolution": {
-        "resolution": "@astrojs/check@npm:0.9.11",
-        "version": "0.9.11",
+        "resolution": "@astrojs/check@npm:0.9.12",
+        "version": "0.9.12",
         "dependencies": {
-          "@astrojs/language-server": "^2.17.2",
+          "@astrojs/language-server": "^2.17.3",
           "chokidar": "^5.0.0",
           "kleur": "^4.1.5",
           "yargs": "^18.2.0"
@@ -252,7 +252,7 @@
         }
       }
     },
-    "@astrojs/language-server@npm:^2.17.2": {
+    "@astrojs/language-server@npm:^2.17.3": {
       "checksum": "06aec9daab89490d33efb7047192f5026e5b9702e4a9471e46e525dd6764999fae6d0c232d19326f385f578657fa19db99cff28fa3a62a6f58e779c2c009af15",
       "resolution": {
         "resolution": "@astrojs/language-server@npm:2.17.3",
@@ -286,24 +286,24 @@
         ]
       }
     },
-    "@astrojs/markdown-satteri@npm:0.4.4": {
-      "checksum": "c6f004bde61d0493c78c3594c34409b5064028ba3a9f0d9d2832e15b34a488985107277934b7c3ad263becfa06ce127cbbfa2ebb0a4fb9989f7527e8a6a9bac4",
+    "@astrojs/markdown-satteri@npm:0.4.5": {
+      "checksum": "ebb1ba6a82403634d50a61bec4a6336a0ae10ada82e8cd9d363e5a844a01c95192f01401f6a667a70b9504746cff024e9d6a005c8a4b16e8a98b5714b9552856",
       "resolution": {
-        "resolution": "@astrojs/markdown-satteri@npm:0.4.4",
-        "version": "0.4.4",
+        "resolution": "@astrojs/markdown-satteri@npm:0.4.5",
+        "version": "0.4.5",
         "dependencies": {
           "@astrojs/internal-helpers": "0.13.0",
-          "@astrojs/prism": "4.1.0",
+          "@astrojs/prism": "4.1.1",
           "github-slugger": "^2.0.0",
           "satteri": "^0.10.5"
         }
       }
     },
-    "@astrojs/prism@npm:4.1.0": {
-      "checksum": "53967fa73102b29e087aa1f4e77427704ba02db4fededdfcfd8f6d2865ffdd045d8804e33de295649ad0354c2a07029e4c048a5c01a53b38dc1e9d3bbfe8bd5f",
+    "@astrojs/prism@npm:4.1.1": {
+      "checksum": "2220aa11f644d21ca074fd73b759f7f4da6fe59b519fc701f4f9c346c356a2412086c311652fa2a4f96809c342ba2df4c38d384596b3da5195942361e48e74cc",
       "resolution": {
-        "resolution": "@astrojs/prism@npm:4.1.0",
-        "version": "4.1.0",
+        "resolution": "@astrojs/prism@npm:4.1.1",
+        "version": "4.1.1",
         "dependencies": {
           "prismjs": "^1.30.0"
         }
@@ -320,11 +320,11 @@
         }
       }
     },
-    "@astrojs/telemetry@npm:3.4.0": {
-      "checksum": "72d051acf1ee4f0f9afa719b84e06f25e953583f2131f90dc07279063afb62429a728ac96afd9aa235e94b73a86b8aabc6145146c6d2d1244a6b6ef8538fc17d",
+    "@astrojs/telemetry@npm:3.4.1": {
+      "checksum": "1bc39a07882575d218165b38c1b49bcc45a5b3df7d168be07abe369585825fbc42b1db9c75c2360baa50931b9a6346c0b1729ef66e5dfa9aa1b495af7eedc7d5",
       "resolution": {
-        "resolution": "@astrojs/telemetry@npm:3.4.0",
-        "version": "3.4.0",
+        "resolution": "@astrojs/telemetry@npm:3.4.1",
+        "version": "3.4.1",
         "dependencies": {
           "ci-info": "^4.4.0",
           "dset": "^3.1.4",
@@ -2407,16 +2407,16 @@
         "version": "5.3.2"
       }
     },
-    "astro@npm:7.4.1": {
-      "checksum": "16b2415c04489c5161e95ccb6294ae39a392f63f68927e8d968932bd4421146d287b199bea315861ed28b56121fe144f386b58bb231309058f1240ced6805a06",
+    "astro@npm:7.4.2": {
+      "checksum": "368f190a1847bf58115d6e97b922d569f805a75a2351be80cdff6304ce7b6cd474792f5f36d33063df995220152bd01cf84e45ea3843f4ae45a0c72d07e34db7",
       "resolution": {
-        "resolution": "astro@npm:7.4.1",
-        "version": "7.4.1",
+        "resolution": "astro@npm:7.4.2",
+        "version": "7.4.2",
         "dependencies": {
           "@astrojs/compiler-rs": "^0.5.1",
           "@astrojs/internal-helpers": "0.13.0",
-          "@astrojs/markdown-satteri": "0.4.4",
-          "@astrojs/telemetry": "3.4.0",
+          "@astrojs/markdown-satteri": "0.4.5",
+          "@astrojs/telemetry": "3.4.1",
           "@capsizecss/unpack": "^4.0.1",
           "@clack/prompts": "^1.8.1",
           "@oslojs/encoding": "^1.1.0",
@@ -3130,12 +3130,12 @@
         "resolution": "latin-1.dev@workspace:latin-1.dev",
         "version": "0.0.0",
         "dependencies": {
-          "@astrojs/check": "0.9.11",
+          "@astrojs/check": "0.9.12",
           "@astrojs/sitemap": "3.7.4",
           "@biomejs/biome": "2.6.3",
           "@tabler/icons-astro": "3.49.0",
           "@tailwindcss/vite": "4.3.3",
-          "astro": "7.4.1",
+          "astro": "7.4.2",
           "tailwindcss": "4.3.3",
           "ts-dedent": "2.3.0",
           "typescript": "6.0.3",
