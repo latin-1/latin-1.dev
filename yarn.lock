@@ -378,22 +378,22 @@
         }
       }
     },
-    "@biomejs/biome@npm:2.6.2": {
-      "checksum": "f09901decc8e02795861d61d03e7b403a6212031f0d18605f73f4a27f5542aaf1d740cd52b3b252eeb1a1663407ef13415e37aba11c4e90afb3d76f565e7a273",
+    "@biomejs/biome@npm:2.6.3": {
+      "checksum": "507d53ea334e3573c32f159e48e097870af462070c411d4b1fb72fcf40feb981deceaecc27a0745f08711ebb7361aebb13a888a37d37e34e68ee0e460dd3b3fe",
       "resolution": {
-        "resolution": "@biomejs/biome@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/biome@npm:2.6.3",
+        "version": "2.6.3",
         "dependencies": {
-          "@biomejs/cli-android-arm64": "2.6.2",
-          "@biomejs/cli-android-x64": "2.6.2",
-          "@biomejs/cli-darwin-arm64": "2.6.2",
-          "@biomejs/cli-darwin-x64": "2.6.2",
-          "@biomejs/cli-linux-arm64": "2.6.2",
-          "@biomejs/cli-linux-arm64-musl": "2.6.2",
-          "@biomejs/cli-linux-x64": "2.6.2",
-          "@biomejs/cli-linux-x64-musl": "2.6.2",
-          "@biomejs/cli-win32-arm64": "2.6.2",
-          "@biomejs/cli-win32-x64": "2.6.2"
+          "@biomejs/cli-android-arm64": "2.6.3",
+          "@biomejs/cli-android-x64": "2.6.3",
+          "@biomejs/cli-darwin-arm64": "2.6.3",
+          "@biomejs/cli-darwin-x64": "2.6.3",
+          "@biomejs/cli-linux-arm64": "2.6.3",
+          "@biomejs/cli-linux-arm64-musl": "2.6.3",
+          "@biomejs/cli-linux-x64": "2.6.3",
+          "@biomejs/cli-linux-x64-musl": "2.6.3",
+          "@biomejs/cli-win32-arm64": "2.6.3",
+          "@biomejs/cli-win32-x64": "2.6.3"
         },
         "optionalDependencies": [
           "@biomejs/cli-android-arm64",
@@ -409,11 +409,11 @@
         ]
       }
     },
-    "@biomejs/cli-android-arm64@npm:2.6.2": {
+    "@biomejs/cli-android-arm64@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-android-arm64@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-android-arm64@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "arm64"
@@ -424,11 +424,11 @@
         }
       }
     },
-    "@biomejs/cli-android-x64@npm:2.6.2": {
+    "@biomejs/cli-android-x64@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-android-x64@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-android-x64@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "x64"
@@ -439,11 +439,11 @@
         }
       }
     },
-    "@biomejs/cli-darwin-arm64@npm:2.6.2": {
+    "@biomejs/cli-darwin-arm64@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-darwin-arm64@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-darwin-arm64@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "arm64"
@@ -454,11 +454,11 @@
         }
       }
     },
-    "@biomejs/cli-darwin-x64@npm:2.6.2": {
+    "@biomejs/cli-darwin-x64@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-darwin-x64@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-darwin-x64@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "x64"
@@ -469,11 +469,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-arm64@npm:2.6.2": {
+    "@biomejs/cli-linux-arm64@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-arm64@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-linux-arm64@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "arm64"
@@ -487,11 +487,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-arm64-musl@npm:2.6.2": {
+    "@biomejs/cli-linux-arm64-musl@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-arm64-musl@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-linux-arm64-musl@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "arm64"
@@ -505,11 +505,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-x64@npm:2.6.2": {
+    "@biomejs/cli-linux-x64@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-x64@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-linux-x64@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "x64"
@@ -523,11 +523,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-x64-musl@npm:2.6.2": {
+    "@biomejs/cli-linux-x64-musl@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-x64-musl@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-linux-x64-musl@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "x64"
@@ -541,11 +541,11 @@
         }
       }
     },
-    "@biomejs/cli-win32-arm64@npm:2.6.2": {
+    "@biomejs/cli-win32-arm64@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-win32-arm64@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-win32-arm64@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "arm64"
@@ -556,11 +556,11 @@
         }
       }
     },
-    "@biomejs/cli-win32-x64@npm:2.6.2": {
+    "@biomejs/cli-win32-x64@npm:2.6.3": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-win32-x64@npm:2.6.2",
-        "version": "2.6.2",
+        "resolution": "@biomejs/cli-win32-x64@npm:2.6.3",
+        "version": "2.6.3",
         "requirements": {
           "cpu": [
             "x64"
@@ -3132,14 +3132,14 @@
         "dependencies": {
           "@astrojs/check": "0.9.11",
           "@astrojs/sitemap": "3.7.4",
-          "@biomejs/biome": "2.6.2",
+          "@biomejs/biome": "2.6.3",
           "@tabler/icons-astro": "3.49.0",
           "@tailwindcss/vite": "4.3.3",
           "astro": "7.4.1",
           "tailwindcss": "4.3.3",
           "ts-dedent": "2.3.0",
           "typescript": "6.0.3",
-          "vite": "8.3.4"
+          "vite": "8.3.5"
         }
       }
     },
@@ -3903,7 +3903,7 @@
         "version": "4.0.7"
       }
     },
-    "postcss@npm:^8.5.29, postcss@npm:^8.5.30": {
+    "postcss@npm:^8.5.30": {
       "checksum": "cb9b9e72ee4a1376406ff49e2e9846d33308f48c0d5a5de5e73e587f00854060d6e62f7319b9d682ec31d30aa1c916c8cc70d67e06fc399c7686c89fb7300ba3",
       "resolution": {
         "resolution": "postcss@npm:8.5.31",
@@ -4031,7 +4031,7 @@
         }
       }
     },
-    "rolldown@npm:^1.2.13, rolldown@npm:~1.2.12, rolldown@npm:~1.2.14": {
+    "rolldown@npm:^1.2.13, rolldown@npm:~1.2.14": {
       "checksum": "0d7cc7c161fac76e3843ec7cde9d3d7aa145cbf739dd2ea82c78f2ee68b54ed5269a5cbc92f89d0d37c14852fb1059e551b214a1a8b45f5323dce14d4df772bf",
       "resolution": {
         "resolution": "rolldown@npm:1.2.15",
@@ -4654,53 +4654,7 @@
         }
       }
     },
-    "vite@npm:8.3.4": {
-      "checksum": "b3a82f3bacc253807d948dc8507552ed07f656b8f5602983e201e4a6f8bd44f74dabe30c179fa0b9e81aa616587ddf74a7706c90b51c63c736eeea265bc4e354",
-      "resolution": {
-        "resolution": "vite@npm:8.3.4",
-        "version": "8.3.4",
-        "dependencies": {
-          "fsevents": "~2.3.3",
-          "lightningcss": "^1.33.0",
-          "picomatch": "^4.0.7",
-          "postcss": "^8.5.29",
-          "rolldown": "~1.2.12",
-          "tinyglobby": "^0.2.17"
-        },
-        "peerDependencies": {
-          "@types/node": "^20.19.0 || >=22.12.0",
-          "@vitejs/devtools": "^0.7.1",
-          "esbuild": "^0.27.0 || ^0.28.0",
-          "jiti": ">=1.21.0",
-          "less": "^4.0.0",
-          "sass": "^1.70.0",
-          "sass-embedded": "^1.70.0",
-          "stylus": ">=0.54.8",
-          "sugarss": "^5.0.0",
-          "terser": "^5.16.0",
-          "tsx": "^4.8.1",
-          "yaml": "^2.4.2"
-        },
-        "optionalDependencies": [
-          "fsevents"
-        ],
-        "optionalPeerDependencies": [
-          "@types/node",
-          "@vitejs/devtools",
-          "esbuild",
-          "jiti",
-          "less",
-          "sass",
-          "sass-embedded",
-          "stylus",
-          "sugarss",
-          "terser",
-          "tsx",
-          "yaml"
-        ]
-      }
-    },
-    "vite@npm:^8.3.4": {
+    "vite@npm:8.3.5, vite@npm:^8.3.4": {
       "checksum": "b2bba277c87f3dff68e229abdb57f6bd7ebf324c88141bd62183c841db2a8a2d244b4a383b67b2d44979724bcda9cfe3a0f9d359030b079456bb7a7690eec394",
       "resolution": {
         "resolution": "vite@npm:8.3.5",
