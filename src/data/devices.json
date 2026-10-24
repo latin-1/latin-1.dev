@@ -20,12 +20,12 @@
     "summary": "Green, Snapdragon 8s Gen 3, 8GB + 128GB"
   },
   {
-    "kind": "game-console",
+    "kind": "nintendo-switch",
     "name": "Nintendo Switch 2",
     "summary": "Black, Tegra T239, 12GB + 256GB"
   },
   {
-    "kind": "game-console",
+    "kind": "nintendo-switch",
     "name": "Nintendo Switch Lite",
     "summary": "Coral, Tegra X1, 4GB + 32GB"
   }

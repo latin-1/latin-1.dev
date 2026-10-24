@@ -9,9 +9,8 @@
     "typecheck": "astro check"
   },
   "dependencies": {
-    "@lucide/astro": "1.59.0",
+    "@tabler/icons-astro": "3.49.0",
     "astro": "7.4.1",
-    "simple-icons": "16.35.0",
     "ts-dedent": "2.3.0"
   },
   "devDependencies": {

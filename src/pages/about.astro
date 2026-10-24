@@ -1,14 +1,14 @@
 ---
 import { Image } from "astro:assets";
 import {
-  Gamepad2Icon,
-  LaptopIcon,
-  SmartphoneIcon,
-  TabletIcon,
-} from "@lucide/astro";
-import GitHubIcon from "simple-icons/icons/github.svg";
-import SteamIcon from "simple-icons/icons/steam.svg";
-import XIcon from "simple-icons/icons/x.svg";
+  IconBrandGithub,
+  IconBrandSteam,
+  IconBrandX,
+  IconDeviceIpad,
+  IconDeviceLaptop,
+  IconDeviceMobile,
+  IconDeviceNintendo,
+} from "@tabler/icons-astro";
 import coverImage from "../assets/cover.webp";
 import devices from "../data/devices.json" with { type: "json" };
 import socials from "../data/socials.json" with { type: "json" };
@@ -17,18 +17,18 @@ import PageLayout from "../layouts/PageLayout.astro";
 type SocialKind = "x" | "github" | "steam";
 
 const socialIcons = {
-  x: XIcon,
-  github: GitHubIcon,
-  steam: SteamIcon,
+  x: IconBrandX,
+  github: IconBrandGithub,
+  steam: IconBrandSteam,
 } satisfies Record<SocialKind, unknown>;
 
-type DeviceKind = "laptop" | "phone" | "tablet" | "game-console";
+type DeviceKind = "laptop" | "phone" | "tablet" | "nintendo-switch";
 
 const deviceIcons = {
-  laptop: LaptopIcon,
-  phone: SmartphoneIcon,
-  tablet: TabletIcon,
-  "game-console": Gamepad2Icon,
+  laptop: IconDeviceLaptop,
+  phone: IconDeviceMobile,
+  tablet: IconDeviceIpad,
+  "nintendo-switch": IconDeviceNintendo,
 } satisfies Record<DeviceKind, unknown>;
 ---
 
@@ -43,7 +43,7 @@ const deviceIcons = {
           target="_blank"
           rel="noreferrer"
         >
-          <Icon class="size-4 fill-current" aria-hidden />
+          <Icon class="size-5" aria-hidden />
           <span class="px-1">{social.name}</span>
         </a>
       );
@@ -70,7 +70,7 @@ const deviceIcons = {
       return (
         <div class="flex flex-col gap-2 rounded-2xl bg-white p-6 shadow-xs inset-ring inset-ring-mauve-200">
           <h3 class="flex items-center gap-2 text-lg font-semibold text-mauve-900">
-            <Icon class="size-6 shrink-0" nonScalingStroke />
+            <Icon class="size-6 shrink-0" aria-hidden />
             <span class="truncate">{device.name}</span>
           </h3>
           <p class="text-sm font-medium text-mauve-500">{device.summary}</p>

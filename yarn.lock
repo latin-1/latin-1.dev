@@ -1435,16 +1435,6 @@
         }
       }
     },
-    "@lucide/astro@npm:1.59.0": {
-      "checksum": "e029f37a0872d082b854aa34b996b6d379027166b03c5889d993a10356e001cec9d02d199e81dba5607794890b70b0f2c6f235c71462447e70e3bd6153e5831d",
-      "resolution": {
-        "resolution": "@lucide/astro@npm:1.59.0",
-        "version": "1.59.0",
-        "peerDependencies": {
-          "astro": "^4 || ^5 || ^6 || ^7"
-        }
-      }
-    },
     "@napi-rs/wasm-runtime@npm:1.2.4": {
       "checksum": "f758fccba911811fbe98d22630fbe706e13a38b4a36efbc703137e28dcf8d0c731f681f578e76549d8e8fd78dfdccce09cf1bbedd3d8abb7d9ca410506aa3e2e",
       "resolution": {
@@ -1822,6 +1812,26 @@
       "resolution": {
         "resolution": "@shikijs/vscode-textmate@npm:10.1.0",
         "version": "10.1.0"
+      }
+    },
+    "@tabler/icons@npm:3.49.0": {
+      "checksum": "54b5ba3c700c506c5d930364f0f11a4079375987050f64284d2c62913f8b83e78f23903df758e62b0622e1f27f630fc95b16aff67bfcb0ec6508b988dfb17574",
+      "resolution": {
+        "resolution": "@tabler/icons@npm:3.49.0",
+        "version": "3.49.0"
+      }
+    },
+    "@tabler/icons-astro@npm:3.49.0": {
+      "checksum": "d4c1b5b20e35d98cc262db859371d4c1ff7096597615dfd0af258b8d57a7821025f2b247d3d6f50c8b60941f20b91e3ffa12248d899c350264506c4b0758da91",
+      "resolution": {
+        "resolution": "@tabler/icons-astro@npm:3.49.0",
+        "version": "3.49.0",
+        "dependencies": {
+          "@tabler/icons": "3.49.0"
+        },
+        "peerDependencies": {
+          "astro": ">=4.0.0"
+        }
       }
     },
     "@tailwindcss/node@npm:4.3.3": {
@@ -3123,10 +3133,9 @@
           "@astrojs/check": "0.9.11",
           "@astrojs/sitemap": "3.7.4",
           "@biomejs/biome": "2.6.2",
-          "@lucide/astro": "1.59.0",
+          "@tabler/icons-astro": "3.49.0",
           "@tailwindcss/vite": "4.3.3",
           "astro": "7.4.1",
-          "simple-icons": "16.35.0",
           "tailwindcss": "4.3.3",
           "ts-dedent": "2.3.0",
           "typescript": "6.0.3",
@@ -4197,13 +4206,6 @@
           "@shikijs/vscode-textmate": "^10.0.2",
           "@types/hast": "^3.0.5"
         }
-      }
-    },
-    "simple-icons@npm:16.35.0": {
-      "checksum": "dd0f699e184dde7580dcc9cbd455fbd107befaf536b4c74aa8eeb437b02ebadb3826b38035c65d7fcebf6ca9663e143b264b7c148aabc12a4eb1daf37a246d8b",
-      "resolution": {
-        "resolution": "simple-icons@npm:16.35.0",
-        "version": "16.35.0"
       }
     },
     "sisteransi@npm:^1.0.5": {
