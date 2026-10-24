@@ -6,10 +6,21 @@ import {
   SmartphoneIcon,
   TabletIcon,
 } from "@lucide/astro";
+import GitHubIcon from "simple-icons/icons/github.svg";
+import SteamIcon from "simple-icons/icons/steam.svg";
+import XIcon from "simple-icons/icons/x.svg";
 import coverImage from "../assets/cover.webp";
 import devices from "../data/devices.json" with { type: "json" };
 import socials from "../data/socials.json" with { type: "json" };
 import PageLayout from "../layouts/PageLayout.astro";
+
+type SocialKind = "x" | "github" | "steam";
+
+const socialIcons = {
+  x: XIcon,
+  github: GitHubIcon,
+  steam: SteamIcon,
+} satisfies Record<SocialKind, unknown>;
 
 type DeviceKind = "laptop" | "phone" | "tablet" | "game-console";
 
@@ -23,21 +34,25 @@ const deviceIcons = {
 
 <PageLayout title="About">
   <div class="flex flex-wrap items-center gap-3">
-    {socials.map((social) => (
-      <a
-        class="rounded-full bg-sky-50 px-6 py-2 font-semibold text-sky-700 shadow-xs inset-ring inset-ring-sky-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
-        href={social.link}
-        target="_blank"
-        rel="noreferrer"
-      >
-        {social.name}
-      </a>
-    ))}
+    {socials.map((social) => {
+      const Icon = socialIcons[social.kind as SocialKind];
+      return (
+        <a
+          class="flex items-center gap-2 rounded-full bg-sky-50 px-4 py-2 font-semibold text-sky-700 shadow-xs inset-ring inset-ring-sky-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+          href={social.link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Icon class="size-4 fill-current" aria-hidden />
+          <span class="px-1">{social.name}</span>
+        </a>
+      );
+    })}
   </div>
 
   <figure class="my-8 rounded-3xl bg-mauve-100 p-2">
     <Image
-      class="rounded-2xl shadow-sm"
+      class="rounded-2xl bg-mauve-200 shadow-sm"
       src={coverImage}
       alt=""
       loading="eager"

@@ -3126,6 +3126,7 @@
           "@lucide/astro": "1.59.0",
           "@tailwindcss/vite": "4.3.3",
           "astro": "7.4.1",
+          "simple-icons": "16.35.0",
           "tailwindcss": "4.3.3",
           "ts-dedent": "2.3.0",
           "typescript": "6.0.3",
@@ -4196,6 +4197,13 @@
           "@shikijs/vscode-textmate": "^10.0.2",
           "@types/hast": "^3.0.5"
         }
+      }
+    },
+    "simple-icons@npm:16.35.0": {
+      "checksum": "dd0f699e184dde7580dcc9cbd455fbd107befaf536b4c74aa8eeb437b02ebadb3826b38035c65d7fcebf6ca9663e143b264b7c148aabc12a4eb1daf37a246d8b",
+      "resolution": {
+        "resolution": "simple-icons@npm:16.35.0",
+        "version": "16.35.0"
       }
     },
     "sisteransi@npm:^1.0.5": {
