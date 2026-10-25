@@ -1,0 +1,43 @@
+---
+import AssetImage from "../../components/AssetImage.astro";
+import games from "../../data/collections/games.json" with { type: "json" };
+import PageLayout from "../../layouts/PageLayout.astro";
+
+const collections = [
+  { name: "Game Collection", href: "/collections/games/", items: games },
+];
+---
+
+<PageLayout title="Collections">
+  <div
+    class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(60),1fr))] gap-4"
+  >
+    {collections.map((collection) => (
+      <a
+        class="flex flex-col rounded-2xl bg-white p-2 text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+        href={collection.href}
+      >
+        <figure class="rounded-lg bg-mauve-100 p-1">
+          <div class="grid aspect-square grid-cols-2 grid-rows-2 gap-1">
+            {collection.items
+              .toSorted((a, b) => b.year - a.year)
+              .slice(0, 4)
+              .map((item) => (
+                <AssetImage
+                  class="size-full rounded-sm bg-mauve-200 object-cover"
+                  path={item.coverPath}
+                  alt=""
+                />
+              ))}
+          </div>
+        </figure>
+        <div class="p-4">
+          <h3 class="text-lg font-semibold">{collection.name}</h3>
+          <p class="text-sm font-medium text-mauve-500">
+            {collection.items.length} items
+          </p>
+        </div>
+      </a>
+    ))}
+  </div>
+</PageLayout>

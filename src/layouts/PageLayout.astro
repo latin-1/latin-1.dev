@@ -4,10 +4,10 @@ import Layout from "../layouts/Layout.astro";
 
 interface Props {
   title: string;
-  backLink?: string | undefined;
+  backHref?: string | undefined;
 }
 
-const { title, backLink = "/" } = Astro.props;
+const { title, backHref = "/" } = Astro.props;
 ---
 
 <Layout title={title}>
@@ -16,7 +16,7 @@ const { title, backLink = "/" } = Astro.props;
       <nav>
         <a
           class="-ml-1 flex w-fit items-center gap-1 rounded-xs text-lg font-semibold text-sky-700 outline-sky-600 hover:underline focus-visible:focus-ring"
-          href={backLink}
+          href={backHref}
         >
           <IconChevronLeft class="size-6" aria-hidden />
           <span>Back</span>

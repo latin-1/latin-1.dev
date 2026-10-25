@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import {
   IconBrandGithub,
   IconBrandSteam,
@@ -11,7 +10,7 @@ import {
   IconKey,
   IconMail,
 } from "@tabler/icons-astro";
-import coverImage from "../assets/cover.webp";
+import AssetImage from "../components/AssetImage.astro";
 import devices from "../data/devices.json" with { type: "json" };
 import socials from "../data/socials.json" with { type: "json" };
 import PageLayout from "../layouts/PageLayout.astro";
@@ -55,9 +54,9 @@ const deviceIcons = {
   </div>
 
   <figure class="my-8 rounded-3xl bg-mauve-100 p-2">
-    <Image
-      class="rounded-2xl bg-mauve-200 shadow-sm"
-      src={coverImage}
+    <AssetImage
+      class="w-full rounded-2xl bg-mauve-200 shadow-sm"
+      path="cover.webp"
       alt=""
       loading="eager"
     />

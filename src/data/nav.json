@@ -2,6 +2,7 @@
   "items": [
     { "name": "Posts", "href": "/posts/" },
     { "name": "Projects", "href": "/projects/" },
+    { "name": "Collections", "href": "/collections/" },
     { "name": "Friends", "href": "/friends/" },
     { "name": "About", "href": "/about/" }
   ]

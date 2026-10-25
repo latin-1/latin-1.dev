@@ -1,0 +1,24 @@
+---
+import { Image } from "astro:assets";
+import type { ComponentProps } from "astro/types";
+
+interface Props extends Omit<ComponentProps<typeof Image>, "src"> {
+  path: string;
+}
+
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "../assets/images/**/*.{jpg,webp}",
+);
+
+const getImage = (path: string) => {
+  const image = images[`../assets/images/${path}`]?.();
+  if (!image) {
+    throw new Error(`Image not found: ${path}`);
+  }
+  return image;
+};
+
+const { path, ...props } = Astro.props;
+---
+
+<Image src={getImage(path)} {...props as ComponentProps<typeof Image>} />

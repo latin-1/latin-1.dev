@@ -1,0 +1,33 @@
+---
+import AssetImage from "../../components/AssetImage.astro";
+import games from "../../data/collections/games.json" with { type: "json" };
+import PageLayout from "../../layouts/PageLayout.astro";
+---
+
+<PageLayout title="Game Collection" backHref="/collections/">
+  {Array.from(Map.groupBy(games, (game) => game.year))
+    .toSorted((a, b) => b[0] - a[0])
+    .map(([year, games]) => (
+      <>
+        <h2 class="mt-8 mb-4 font-heading text-2xl font-bold text-mauve-900">
+          {year !== -1 ? year : "Earlier"}
+        </h2>
+        <div class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(40),1fr))] gap-4">
+          {games.map((game) => (
+            <div class="flex flex-col gap-2">
+              <figure class="rounded-2xl bg-mauve-100 p-1">
+                <AssetImage
+                  class="aspect-2/3 w-full rounded-xl bg-mauve-200 object-cover shadow-xs"
+                  path={game.coverPath}
+                  alt=""
+                />
+              </figure>
+              <h3 class="px-1 leading-tight font-semibold text-mauve-900">
+                {game.name}
+              </h3>
+            </div>
+          ))}
+        </div>
+      </>
+    ))}
+</PageLayout>
