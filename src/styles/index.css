@@ -25,6 +25,11 @@
       navigation: auto;
     }
 
+    ::view-transition-group(*) {
+      animation-duration: 200ms;
+      animation-timing-function: var(--ease-in-out);
+    }
+
     ::view-transition-old(root),
     ::view-transition-new(root) {
       mix-blend-mode: plus-lighter;
