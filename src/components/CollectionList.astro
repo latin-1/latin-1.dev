@@ -1,0 +1,14 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+interface Props extends HTMLAttributes<"div"> {}
+
+const { ...props } = Astro.props;
+---
+
+<div
+  class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(40),1fr))] gap-4"
+  {...props}
+>
+  <slot />
+</div>

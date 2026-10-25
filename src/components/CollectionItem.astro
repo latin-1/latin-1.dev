@@ -1,0 +1,33 @@
+---
+import type { HTMLAttributes } from "astro/types";
+import AssetImage from "./AssetImage.astro";
+
+interface Props extends HTMLAttributes<"div"> {
+  name: string;
+  description?: string | undefined;
+  coverPath: string;
+  coverAspectRatio: string;
+}
+
+const { name, description, coverPath, coverAspectRatio, ...props } =
+  Astro.props;
+---
+
+<div class="flex flex-col gap-2" {...props}>
+  <figure class="rounded-2xl bg-mauve-100 p-1">
+    <AssetImage
+      class="aspect-(--aspect-ratio) w-full rounded-xl bg-mauve-200 object-cover shadow-xs"
+      style={{ "--aspect-ratio": coverAspectRatio }}
+      path={coverPath}
+      alt=""
+    />
+  </figure>
+  <div class="flex flex-col gap-1 px-1">
+    <h3 class="leading-tight font-semibold text-mauve-900">
+      {name}
+    </h3>
+    {description && (
+      <p class="text-sm font-medium text-mauve-500">{description}</p>
+    )}
+  </div>
+</div>

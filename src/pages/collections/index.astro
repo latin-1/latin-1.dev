@@ -1,10 +1,20 @@
 ---
 import AssetImage from "../../components/AssetImage.astro";
+import events from "../../data/collections/events.json" with { type: "json" };
 import games from "../../data/collections/games.json" with { type: "json" };
 import PageLayout from "../../layouts/PageLayout.astro";
 
 const collections = [
-  { name: "Game Collection", href: "/collections/games/", items: games },
+  {
+    name: "Event Collection",
+    href: "/collections/events/",
+    items: events,
+  },
+  {
+    name: "Game Collection",
+    href: "/collections/games/",
+    items: games,
+  },
 ];
 ---
 
