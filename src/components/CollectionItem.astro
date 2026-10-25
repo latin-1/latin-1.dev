@@ -4,13 +4,22 @@ import AssetImage from "./AssetImage.astro";
 
 interface Props extends HTMLAttributes<"div"> {
   name: string;
+  nameLang?: string | undefined;
   description?: string | undefined;
+  descriptionLang?: string | undefined;
   coverPath: string;
   coverAspectRatio: string;
 }
 
-const { name, description, coverPath, coverAspectRatio, ...props } =
-  Astro.props;
+const {
+  name,
+  nameLang,
+  description,
+  descriptionLang,
+  coverPath,
+  coverAspectRatio,
+  ...props
+} = Astro.props;
 ---
 
 <div class="flex flex-col gap-2" {...props}>
@@ -23,11 +32,13 @@ const { name, description, coverPath, coverAspectRatio, ...props } =
     />
   </figure>
   <div class="flex flex-col gap-1 px-1">
-    <h3 class="leading-tight font-semibold text-mauve-900">
+    <h3 class="leading-tight font-semibold text-mauve-900" lang={nameLang}>
       {name}
     </h3>
     {description && (
-      <p class="text-sm font-medium text-mauve-500">{description}</p>
+      <p class="text-sm font-medium text-mauve-500" lang={descriptionLang}>
+        {description}
+      </p>
     )}
   </div>
 </div>

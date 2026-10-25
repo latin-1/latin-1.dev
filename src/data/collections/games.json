@@ -1,61 +1,73 @@
 [
   {
     "name": "Magical Girl Witch Trials",
+    "nameLang": "en",
     "year": 2026,
     "coverPath": "steam/3101040.jpg"
   },
   {
     "name": "Sister Other Paranoia",
+    "nameLang": "en",
     "year": 2026,
     "coverPath": "steam/4240150.jpg"
   },
   {
     "name": "The Aquarium does not dance",
+    "nameLang": "en",
     "year": 2026,
     "coverPath": "steam/3675470.jpg"
   },
   {
     "name": "YOU and ME and HER: A Love Story",
+    "nameLang": "en",
     "year": 2026,
     "coverPath": "steam/1293820.jpg"
   },
   {
     "name": "The NOexistenceN of you AND me",
+    "nameLang": "en",
     "year": 2025,
     "coverPath": "steam/2873080.jpg"
   },
   {
     "name": "Yog-Sothoth's Yard",
+    "nameLang": "en",
     "year": 2025,
     "coverPath": "steam/2194530.jpg"
   },
   {
     "name": "Buy a Croquette!",
+    "nameLang": "en",
     "year": -1,
     "coverPath": "steam/2167960.jpg"
   },
   {
     "name": "Distant Memoraĵo",
+    "nameLang": "en",
     "year": -1,
     "coverPath": "steam/1591490.jpg"
   },
   {
     "name": "Looking Up I See Only A Ceiling",
+    "nameLang": "en",
     "year": -1,
     "coverPath": "steam/1742930.jpg"
   },
   {
     "name": "Rabi-Ribi",
+    "nameLang": "en",
     "year": -1,
     "coverPath": "steam/400910.jpg"
   },
   {
     "name": "TEVI",
+    "nameLang": "en",
     "year": -1,
     "coverPath": "steam/2230650.jpg"
   },
   {
     "name": "The Expression Amrilato",
+    "nameLang": "en",
     "year": -1,
     "coverPath": "steam/1044490.jpg"
   }

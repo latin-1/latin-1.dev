@@ -18,7 +18,9 @@ import PageLayout from "../../layouts/PageLayout.astro";
             {events.map((event) => (
               <CollectionItem
                 name={event.name}
+                nameLang={event.nameLang}
                 description={event.description}
+                descriptionLang={event.descriptionLang}
                 coverPath={event.coverPath}
                 coverAspectRatio="3 / 4"
               />

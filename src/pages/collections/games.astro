@@ -18,6 +18,7 @@ import PageLayout from "../../layouts/PageLayout.astro";
             {games.map((game) => (
               <CollectionItem
                 name={game.name}
+                nameLang={game.nameLang}
                 coverPath={game.coverPath}
                 coverAspectRatio="2 / 3"
               />

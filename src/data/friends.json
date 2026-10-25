@@ -1,56 +1,67 @@
 [
   {
     "name": "Aveline Swan",
+    "nameLang": "en",
     "link": "https://github.com/ym",
     "avatarUrl": "https://avatars.githubusercontent.com/u/352441?s={size}"
   },
   {
     "name": "Bingxing Wang",
+    "nameLang": "en",
     "link": "https://imbushuo.net/",
     "avatarUrl": "https://avatars.githubusercontent.com/u/6284353?s={size}"
   },
   {
     "name": "Eli Gao",
+    "nameLang": "en",
     "link": "https://eligao.com/",
     "avatarUrl": "https://avatars.githubusercontent.com/u/2323992?s={size}"
   },
   {
     "name": "Jesse Cheng",
+    "nameLang": "en",
     "link": "https://github.com/TundraWork",
     "avatarUrl": "https://avatars.githubusercontent.com/u/8012410?s={size}"
   },
   {
     "name": "Mingye Wang",
+    "nameLang": "en",
     "link": "https://github.com/Artoria2e5",
     "avatarUrl": "https://avatars.githubusercontent.com/u/6459309?s={size}"
   },
   {
     "name": "pandada8",
+    "nameLang": "en",
     "link": "https://x.com/pandada8_lol",
     "avatarUrl": "https://avatars.githubusercontent.com/u/3305174?s={size}"
   },
   {
     "name": "Tachibana Kiyomi",
+    "nameLang": "en",
     "link": "https://ioover.net/",
     "avatarUrl": "https://avatars.githubusercontent.com/u/34709816?s={size}"
   },
   {
     "name": "Yeechan Lu",
+    "nameLang": "en",
     "link": "https://orzfly.com/",
     "avatarUrl": "https://avatars.githubusercontent.com/u/158528?s={size}"
   },
   {
     "name": "Yingtao Tian",
+    "nameLang": "en",
     "link": "https://alantian.net/",
     "avatarUrl": "https://avatars.githubusercontent.com/u/1701454?s={size}"
   },
   {
     "name": "谦谦",
+    "nameLang": "zh-Hans",
     "link": "https://x.com/magicxqq",
     "avatarUrl": "https://avatars.githubusercontent.com/u/4645762?s={size}"
   },
   {
     "name": "三三",
+    "nameLang": "zh-Hans",
     "link": "https://best33.com/",
     "avatarUrl": "https://avatars.githubusercontent.com/u/905663?s={size}"
   }
