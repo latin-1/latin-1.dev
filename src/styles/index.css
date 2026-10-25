@@ -86,7 +86,7 @@
   html {
     scrollbar-gutter: stable;
     scroll-behavior: smooth;
-    scrollbar-color: var(--color-mauve-600) var(--color-mauve-50);
+    scrollbar-color: var(--color-mauve-500) var(--color-mauve-50);
     background-color: var(--color-mauve-50);
   }
 
