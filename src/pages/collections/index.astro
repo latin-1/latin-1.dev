@@ -5,22 +5,14 @@ import games from "../../data/collections/games.json" with { type: "json" };
 import PageLayout from "../../layouts/PageLayout.astro";
 
 const collections = [
-  {
-    name: "Event Collection",
-    href: "/collections/events/",
-    items: events,
-  },
-  {
-    name: "Game Collection",
-    href: "/collections/games/",
-    items: games,
-  },
+  { name: "Events", href: "/collections/events/", items: events },
+  { name: "Games", href: "/collections/games/", items: games },
 ];
 ---
 
 <PageLayout title="Collections">
   <div
-    class="my-4 grid grid-cols-[repeat(auto-fill,minmax(--spacing(60),1fr))] gap-4"
+    class="my-4 grid grid-cols-[repeat(auto-fill,minmax(--spacing(40),1fr))] gap-4"
   >
     {collections.map((collection) => (
       <a
@@ -34,17 +26,19 @@ const collections = [
               .slice(0, 4)
               .map((item) => (
                 <AssetImage
-                  class="size-full rounded-sm bg-mauve-200 object-cover"
+                  class="size-full rounded-sm bg-white object-cover"
                   path={item.coverPath}
                   alt=""
                 />
               ))}
           </div>
         </figure>
-        <div class="p-4">
-          <h3 class="text-lg font-semibold">{collection.name}</h3>
+        <div class="px-4 py-2">
+          <h3 class="font-semibold">{collection.name}</h3>
           <p class="text-sm font-medium text-mauve-500">
-            {collection.items.length} items
+            {collection.items.length === 1
+              ? `${collection.items.length} item`
+              : `${collection.items.length} items`}
           </p>
         </div>
       </a>

@@ -15,13 +15,15 @@ import PageLayout from "../layouts/PageLayout.astro";
         target="_blank"
         rel="noreferrer"
       >
-        <Image
-          class="size-16 rounded-lg"
-          src={friend.avatarUrl.replaceAll("{size}", "128")}
-          width={128}
-          height={128}
-          alt=""
-        />
+        <figure class="rounded-lg bg-mauve-100 p-0.5">
+          <Image
+            class="size-16 rounded-md bg-white"
+            src={friend.avatarUrl.replaceAll("{size}", "128")}
+            width={128}
+            height={128}
+            alt=""
+          />
+        </figure>
         <div class="flex min-w-0 flex-1 flex-col justify-center px-4 py-2">
           <h3 class="truncate font-semibold" lang={friend.nameLang}>
             {friend.name}
