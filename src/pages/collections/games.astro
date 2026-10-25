@@ -13,15 +13,17 @@ import PageLayout from "../../layouts/PageLayout.astro";
         <h2 class="mt-8 mb-4 font-heading text-2xl font-bold text-mauve-900">
           {year !== -1 ? year : "Earlier"}
         </h2>
-        <CollectionList>
-          {games.map((game) => (
-            <CollectionItem
-              name={game.name}
-              coverPath={game.coverPath}
-              coverAspectRatio="2 / 3"
-            />
-          ))}
-        </CollectionList>
+        <div class="my-4">
+          <CollectionList>
+            {games.map((game) => (
+              <CollectionItem
+                name={game.name}
+                coverPath={game.coverPath}
+                coverAspectRatio="2 / 3"
+              />
+            ))}
+          </CollectionList>
+        </div>
       </>
     ))}
 </PageLayout>

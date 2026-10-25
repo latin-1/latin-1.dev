@@ -20,11 +20,11 @@
 }
 
 @layer base {
-  @view-transition {
-    navigation: auto;
-  }
-
   @media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+      navigation: auto;
+    }
+
     ::view-transition-old(root),
     ::view-transition-new(root) {
       mix-blend-mode: plus-lighter;
