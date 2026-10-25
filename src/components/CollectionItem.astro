@@ -33,13 +33,16 @@ const {
   </figure>
   <div class="flex flex-col">
     <h3
-      class="py-0.5 leading-tight font-semibold text-mauve-900"
+      class="py-0.5 leading-tight font-semibold text-mauve-900 [text-spacing-trim:trim-start]"
       lang={nameLang}
     >
       {name}
     </h3>
     {description && (
-      <p class="text-sm font-medium text-mauve-500" lang={descriptionLang}>
+      <p
+        class="text-sm font-medium text-mauve-500 [text-spacing-trim:trim-start]"
+        lang={descriptionLang}
+      >
         {description}
       </p>
     )}
