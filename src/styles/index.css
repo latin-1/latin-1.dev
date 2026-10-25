@@ -49,14 +49,14 @@
       animation: view-transition-fade-out 200ms linear both;
     }
 
+    ::view-transition-new(.shared) {
+      animation: view-transition-fade-in 200ms linear both;
+    }
+
     ::view-transition-new(.shared):only-child {
       animation:
         view-transition-fade-in 200ms linear both,
         view-transition-slide-in 200ms var(--ease-out) both;
-    }
-
-    ::view-transition-new(.shared):not(:only-child) {
-      animation: view-transition-fade-in 200ms linear both;
     }
 
     @keyframes view-transition-fade-out {
