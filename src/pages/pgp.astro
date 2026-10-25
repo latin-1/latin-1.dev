@@ -1,0 +1,13 @@
+---
+import { Code } from "astro:components";
+import pgpPublicKey from "../../public/files/pgp.asc?raw";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="PGP">
+  <Code
+    class="rounded-3xl p-8 text-sm outline-sky-600 focus-visible:focus-ring"
+    code={pgpPublicKey}
+    theme="catppuccin-latte"
+  />
+</Layout>

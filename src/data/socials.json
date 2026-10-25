@@ -1,5 +1,10 @@
 [
   {
+    "kind": "email",
+    "name": "Email",
+    "link": "mailto:rev.hikari@gmail.com"
+  },
+  {
     "kind": "x",
     "name": "X",
     "link": "https://x.com/latin__1"
@@ -13,5 +18,10 @@
     "kind": "steam",
     "name": "Steam",
     "link": "https://steamcommunity.com/id/latin-1/"
+  },
+  {
+    "kind": "key",
+    "name": "PGP",
+    "link": "/pgp/"
   }
 ]

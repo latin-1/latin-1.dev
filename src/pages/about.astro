@@ -8,18 +8,22 @@ import {
   IconDeviceLaptop,
   IconDeviceMobile,
   IconDeviceNintendo,
+  IconKey,
+  IconMail,
 } from "@tabler/icons-astro";
 import coverImage from "../assets/cover.webp";
 import devices from "../data/devices.json" with { type: "json" };
 import socials from "../data/socials.json" with { type: "json" };
 import PageLayout from "../layouts/PageLayout.astro";
 
-type SocialKind = "x" | "github" | "steam";
+type SocialKind = "email" | "x" | "github" | "steam" | "key";
 
 const socialIcons = {
+  email: IconMail,
   x: IconBrandX,
   github: IconBrandGithub,
   steam: IconBrandSteam,
+  key: IconKey,
 } satisfies Record<SocialKind, unknown>;
 
 type DeviceKind = "laptop" | "phone" | "tablet" | "nintendo-switch";
@@ -33,7 +37,7 @@ const deviceIcons = {
 ---
 
 <PageLayout title="About">
-  <div class="flex flex-wrap items-center gap-3">
+  <div class="flex flex-wrap items-start gap-3">
     {socials.map((social) => {
       const Icon = socialIcons[social.kind as SocialKind];
       return (
