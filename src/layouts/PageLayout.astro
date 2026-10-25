@@ -13,15 +13,17 @@ const { title, backHref = "/" } = Astro.props;
 <Layout title={title}>
   <div class="mx-auto max-w-200">
     <header class="my-8 flex flex-col gap-2">
-      <nav>
-        <a
-          class="-ml-1 flex w-fit items-center gap-1 rounded-xs text-lg font-semibold text-sky-700 outline-sky-600 hover:underline focus-visible:focus-ring"
-          href={backHref}
-        >
-          <IconChevronLeft class="size-6" aria-hidden />
-          <span>Back</span>
-        </a>
-      </nav>
+      <a
+        class="-ml-1 flex w-fit items-center gap-1 rounded-xs text-lg font-semibold text-sky-700 outline-sky-600 hover:underline focus-visible:focus-ring"
+        style={{
+          "view-transition-name": "back-button",
+          "view-transition-class": "shared",
+        }}
+        href={backHref}
+      >
+        <IconChevronLeft class="size-6" aria-hidden />
+        <span>Back</span>
+      </a>
 
       <h1 class="font-display text-5xl font-semibold text-mauve-900">
         {title}

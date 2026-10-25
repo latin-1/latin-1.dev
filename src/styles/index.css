@@ -31,28 +31,47 @@
     }
 
     ::view-transition-old(root) {
-      animation: page-fade-out 200ms linear both;
+      animation: view-transition-fade-out 200ms linear both;
     }
 
     ::view-transition-new(root) {
       animation:
-        page-fade-in 200ms linear both,
-        page-slide-in 200ms var(--ease-out) both;
+        view-transition-fade-in 200ms linear both,
+        view-transition-slide-in 200ms var(--ease-out) both;
     }
 
-    @keyframes page-fade-out {
+    ::view-transition-old(.shared),
+    ::view-transition-new(.shared) {
+      mix-blend-mode: plus-lighter;
+    }
+
+    ::view-transition-old(.shared) {
+      animation: view-transition-fade-out 200ms linear both;
+    }
+
+    ::view-transition-new(.shared):only-child {
+      animation:
+        view-transition-fade-in 200ms linear both,
+        view-transition-slide-in 200ms var(--ease-out) both;
+    }
+
+    ::view-transition-new(.shared):not(:only-child) {
+      animation: view-transition-fade-in 200ms linear both;
+    }
+
+    @keyframes view-transition-fade-out {
       to {
         opacity: 0%;
       }
     }
 
-    @keyframes page-fade-in {
+    @keyframes view-transition-fade-in {
       from {
         opacity: 0%;
       }
     }
 
-    @keyframes page-slide-in {
+    @keyframes view-transition-slide-in {
       from {
         translate: 0 --spacing(2);
       }
