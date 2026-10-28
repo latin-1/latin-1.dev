@@ -12,7 +12,7 @@ const sortedEvents = events.toSorted((a, b) => b.year - a.year);
     .entries()
     .map(([year, events]) => (
       <>
-        <h2 class="mt-8 mb-4 font-heading text-2xl font-bold text-mauve-900">
+        <h2 class="mt-8 mb-4 font-heading text-2xl font-bold text-mauve-900 before:mr-2 before:text-pink-900 before:content-['#']">
           {year !== -1 ? year : "Earlier"}
         </h2>
         <div class="my-4">
