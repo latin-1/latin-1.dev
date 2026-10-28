@@ -41,13 +41,13 @@ const deviceIcons = {
       const Icon = socialIcons[social.kind as SocialKind];
       return (
         <a
-          class="flex items-center gap-2 rounded-full bg-sky-50 px-4 py-2 font-semibold text-sky-700 shadow-xs inset-ring inset-ring-sky-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+          class="flex items-center gap-2 rounded-full bg-sky-50 px-4 py-2 text-sky-700 shadow-xs inset-ring inset-ring-sky-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
           href={social.link}
           target="_blank"
           rel="noreferrer"
         >
           <Icon class="size-5" aria-hidden />
-          <span class="px-1">{social.name}</span>
+          <span class="px-1 font-semibold">{social.name}</span>
         </a>
       );
     })}
