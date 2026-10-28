@@ -3,11 +3,13 @@ import CollectionItem from "../../components/CollectionItem.astro";
 import CollectionList from "../../components/CollectionList.astro";
 import games from "../../data/collections/games.json" with { type: "json" };
 import PageLayout from "../../layouts/PageLayout.astro";
+
+const sortedGames = games.toSorted((a, b) => b.year - a.year);
 ---
 
 <PageLayout title="Game Collection" backHref="/collections/">
-  {Array.from(Map.groupBy(games, (game) => game.year))
-    .toSorted((a, b) => b[0] - a[0])
+  {Map.groupBy(sortedGames, (game) => game.year)
+    .entries()
     .map(([year, games]) => (
       <>
         <h2 class="mt-8 mb-4 font-heading text-2xl font-bold text-mauve-900">

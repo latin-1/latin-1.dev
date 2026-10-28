@@ -1,0 +1,34 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "../../layouts/PageLayout.astro";
+
+const posts = await getCollection("posts");
+const sortedPosts = posts.toSorted((a, b) =>
+  Temporal.PlainDate.compare(b.data.date, a.data.date),
+);
+---
+
+<PageLayout title="Posts">
+  {Map.groupBy(sortedPosts, (post) => post.data.date.year)
+    .entries()
+    .map(([year, posts]) => (
+      <>
+        <h2 class="mt-8 mb-4 font-heading text-2xl font-bold text-mauve-900">
+          {year}
+        </h2>
+        <div class="my-4 grid grid-cols-[repeat(auto-fill,minmax(--spacing(80),1fr))] gap-4">
+          {posts.map((post) => (
+            <a
+              class="flex flex-col gap-2 rounded-2xl bg-white p-6 text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+              href={`/posts/${post.data.slug}/`}
+            >
+              <h3 class="text-lg font-semibold">{post.data.title}</h3>
+              <p class="text-sm font-medium text-mauve-500">
+                {post.data.date.toPlainMonthDay().toString()}
+              </p>
+            </a>
+          ))}
+        </div>
+      </>
+    ))}
+</PageLayout>

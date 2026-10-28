@@ -36,6 +36,11 @@
       "whitespaceSensitivity": "ignore"
     }
   },
+  "markdown": {
+    "parser": {
+      "frontmatter": true
+    }
+  },
   "tailwind": {
     "stylesheet": "./src/styles/index.css"
   }
