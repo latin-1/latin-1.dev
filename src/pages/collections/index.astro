@@ -12,7 +12,7 @@ const collections = [
 
 <PageLayout title="Collections">
   <div
-    class="my-4 grid grid-cols-[repeat(auto-fill,minmax(--spacing(40),1fr))] gap-4"
+    class="my-4 grid grid-cols-[repeat(auto-fill,minmax(--spacing(80),1fr))] gap-4"
   >
     {collections.map((collection) => (
       <a
@@ -20,21 +20,21 @@ const collections = [
         href={collection.href}
       >
         <figure class="rounded-lg bg-mauve-100 p-1">
-          <div class="grid aspect-square grid-cols-2 grid-rows-2 gap-1">
+          <div class="grid grid-cols-3 gap-1">
             {collection.items
               .toSorted((a, b) => b.year - a.year)
-              .slice(0, 4)
+              .slice(0, 3)
               .map((item) => (
                 <AssetImage
-                  class="size-full rounded-sm bg-white object-cover"
+                  class="aspect-square w-full rounded-sm bg-white object-cover"
                   path={item.coverPath}
                   alt=""
                 />
               ))}
           </div>
         </figure>
-        <div class="px-4 py-2">
-          <h3 class="font-semibold">{collection.name}</h3>
+        <div class="p-4">
+          <h3 class="text-lg font-semibold">{collection.name}</h3>
           <p class="text-sm font-medium text-mauve-500">
             {collection.items.length === 1
               ? `${collection.items.length} item`
