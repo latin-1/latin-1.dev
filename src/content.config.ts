@@ -39,9 +39,9 @@ const globWithCustomData = <TCustomData extends Record<string, unknown>>({
 const posts = defineCollection({
   loader: globWithCustomData({
     base: "./src/posts",
-    pattern: "*.md",
+    pattern: "*.{md,mdx}",
     generateId: ({ entry }) => {
-      return entry.replace(/\.md$/u, "");
+      return entry.replace(/\.(?:md|mdx)$/u, "");
     },
     getCustomData: ({ id }) => {
       const match = id.match(/^(?<date>\d{4}-\d{2}-\d{2})-(?<name>.+)$/u);
