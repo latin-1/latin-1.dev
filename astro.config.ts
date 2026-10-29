@@ -23,8 +23,8 @@ export default defineConfig({
     },
     {
       provider: fontProviders.fontsource(),
-      name: "Roboto Slab",
-      cssVariable: "--font-roboto-slab",
+      name: "Source Serif 4",
+      cssVariable: "--font-source-serif-4",
       weights: ["400 700"],
       fallbacks: [],
     },

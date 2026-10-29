@@ -6,7 +6,7 @@
   --font-display: var(--font-fredoka), "Arial", "Source Han Sans", sans-serif;
   --font-ui: var(--font-figtree), "Arial", "Source Han Sans", sans-serif;
   --font-heading: var(--font-figtree), "Arial", "Source Han Sans", sans-serif;
-  --font-prose: var(--font-roboto-slab), "Arial", "Source Han Sans", sans-serif;
+  --font-prose: var(--font-source-serif-4), "Arial", "Source Han Sans", serif;
   --font-code: var(--font-iosevka), "Courier New", "Source Han Sans", monospace;
 
   --default-font-family: var(--font-ui);
