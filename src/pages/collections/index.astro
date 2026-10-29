@@ -5,8 +5,16 @@ import games from "../../data/collections/games.json" with { type: "json" };
 import PageLayout from "../../layouts/PageLayout.astro";
 
 const collections = [
-  { name: "Events", href: "/collections/events/", items: events },
-  { name: "Games", href: "/collections/games/", items: games },
+  {
+    name: "Events",
+    href: "/collections/events/",
+    items: events.toSorted((a, b) => b.year - a.year),
+  },
+  {
+    name: "Games",
+    href: "/collections/games/",
+    items: games.toSorted((a, b) => b.year - a.year),
+  },
 ];
 ---
 
@@ -21,16 +29,13 @@ const collections = [
       >
         <figure class="rounded-lg bg-mauve-100 p-1">
           <div class="grid grid-cols-3 gap-1">
-            {collection.items
-              .toSorted((a, b) => b.year - a.year)
-              .slice(0, 3)
-              .map((item) => (
-                <AssetImage
-                  class="aspect-square w-full rounded-sm bg-white object-cover"
-                  path={item.coverPath}
-                  alt=""
-                />
-              ))}
+            {collection.items.slice(0, 3).map((item) => (
+              <AssetImage
+                class="aspect-square w-full rounded-sm bg-white object-cover"
+                path={item.coverPath}
+                alt=""
+              />
+            ))}
           </div>
         </figure>
         <div class="p-4">
