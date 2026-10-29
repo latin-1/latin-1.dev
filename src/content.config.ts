@@ -22,12 +22,12 @@ const globWithCustomData = <TCustomData extends Record<string, unknown>>({
     load: async (context) => {
       await baseLoader.load({
         ...context,
-        parseData: async (props) => {
+        parseData: (props) => {
           return context.parseData({
             ...props,
             data: {
               ...props.data,
-              ...(await getCustomData(props)),
+              ...getCustomData(props),
             },
           });
         },
