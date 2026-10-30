@@ -12,9 +12,7 @@ const sortedGames = games.toSorted((a, b) => b.year - a.year);
     .entries()
     .map(([year, games]) => (
       <>
-        <h2 class="mt-8 mb-4 font-heading text-2xl font-bold text-mauve-900 before:text-pink-900 before:content-['#_']">
-          {year !== -1 ? year : "Earlier"}
-        </h2>
+        <h2 class="heading mt-8 mb-4">{year !== -1 ? year : "Earlier"}</h2>
         <div class="my-4">
           <CollectionList>
             {games.map((game) => (
