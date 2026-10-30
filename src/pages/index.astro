@@ -4,17 +4,17 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <header class="flex flex-col gap-4 py-8">
-    <h1 class="font-display text-7xl font-semibold text-rose-700">
+  <header class="flex flex-col gap-8 py-8">
+    <h1 class="w-min font-display text-7xl font-semibold text-rose-700">
       Hikari Hayashi
     </h1>
 
     <nav>
-      <ul class="flex flex-wrap items-start gap-x-6 gap-y-2">
+      <ul class="flex flex-col gap-2">
         {nav.items.map((item) => (
           <li>
             <a
-              class="block rounded-xs text-2xl font-semibold text-sky-700 outline-sky-600 hover:underline focus-visible:focus-ring"
+              class="block w-fit rounded-xs text-2xl font-semibold text-sky-700 outline-sky-600 hover:underline focus-visible:focus-ring"
               href={item.href}
             >
               {item.name}
