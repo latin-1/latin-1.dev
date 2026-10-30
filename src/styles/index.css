@@ -95,3 +95,96 @@
     background-color: --alpha(var(--color-rose-600) / 20%);
   }
 }
+
+@layer components {
+  .prose {
+    font-family: var(--font-prose);
+    color: var(--color-mauve-800);
+
+    :is(p, ol, ul) {
+      margin-block: 0.75em;
+    }
+
+    :is(ol, ul) :is(ol, ul) {
+      margin-block: 0.25em;
+    }
+
+    ol {
+      padding-left: --spacing(8);
+      list-style-type: decimal;
+    }
+
+    ul {
+      padding-left: --spacing(8);
+      list-style-type: "•  ";
+    }
+
+    li {
+      margin-block: 0.25em;
+
+      &::marker {
+        color: var(--color-mauve-600);
+      }
+    }
+
+    a {
+      color: var(--color-sky-700);
+      text-decoration: underline;
+      outline-color: var(--color-sky-600);
+
+      @apply focus-visible:focus-ring;
+    }
+
+    pre {
+      padding-block: --spacing(4);
+      padding-inline: --spacing(6);
+      margin-block: --spacing(4);
+      font-size: var(--text-sm);
+      line-height: var(--text-sm--line-height);
+      outline-color: var(--color-sky-600);
+      border-radius: var(--radius-lg);
+
+      @apply focus-visible:focus-ring;
+    }
+
+    code {
+      font-size: var(--text-sm);
+      line-height: var(--text-sm--line-height);
+    }
+
+    code:not(pre code) {
+      padding-block: 0.2cap;
+      padding-inline: 1ch;
+      background-color: var(--color-white);
+      border: 1px solid var(--color-mauve-200);
+      border-radius: var(--radius-sm);
+    }
+
+    :is(h1, h2, h3, h4, h5, h6) {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      color: var(--color-mauve-900);
+    }
+
+    :is(h1, h2) {
+      margin-top: --spacing(8);
+      font-size: var(--text-2xl);
+      line-height: var(--text-2xl--line-height);
+
+      &::before {
+        color: var(--color-pink-900);
+        content: "# ";
+      }
+    }
+
+    :is(h3, h4, h5, h6) {
+      margin-top: --spacing(6);
+      font-size: var(--text-xl);
+      line-height: var(--text-xl--line-height);
+    }
+
+    :is(h1, h2, h3, h4, h5, h6) + :is(h1, h2, h3, h4, h5, h6) {
+      margin-top: 0;
+    }
+  }
+}

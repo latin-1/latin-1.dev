@@ -21,5 +21,7 @@ const { Content } = await render(post);
 ---
 
 <PageLayout title={post.data.title} backHref="/posts/">
-  <Content />
+  <div class="prose">
+    <Content />
+  </div>
 </PageLayout>

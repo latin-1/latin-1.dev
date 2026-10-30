@@ -37,6 +37,12 @@ export default defineConfig({
     },
   ],
 
+  markdown: {
+    shikiConfig: {
+      theme: "catppuccin-latte",
+    },
+  },
+
   integrations: [mdx(), sitemap()],
 
   vite: {
