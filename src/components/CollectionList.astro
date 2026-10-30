@@ -1,13 +1,17 @@
 ---
 import type { HTMLAttributes } from "astro/types";
+import { cn } from "cn";
 
 interface Props extends HTMLAttributes<"div"> {}
 
-const { ...props } = Astro.props;
+const { class: className, ...props } = Astro.props;
 ---
 
 <div
-  class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(40),1fr))] gap-4"
+  class={cn(
+    "grid grid-cols-[repeat(auto-fill,minmax(--spacing(40),1fr))] gap-4",
+    className,
+  )}
   {...props}
 >
   <slot />

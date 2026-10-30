@@ -2563,6 +2563,13 @@
         "version": "2.1.1"
       }
     },
+    "cn@npm:0.5.0": {
+      "checksum": "ceac119ee33a0596d2c1da30af12121e004abe88152927b18c2566ba095664e959ea41e7c196bbd3420b6a7a9ef14ffbd955190eaaaa6adfd8bf97b9d414e3dd",
+      "resolution": {
+        "resolution": "cn@npm:0.5.0",
+        "version": "0.5.0"
+      }
+    },
     "comma-separated-tokens@npm:^2.0.0": {
       "checksum": "aa05456caac4ce9d7cd07a7318540fda575a264a8f64d617aee6bfe2e3fb4563d9e30f7267a6b9ed3d1dc4281c1709d58b34e33f16b87bfb9c0756fbde9c512d",
       "resolution": {
@@ -3136,6 +3143,7 @@
           "@tabler/icons-astro": "3.49.0",
           "@tailwindcss/vite": "4.3.3",
           "astro": "7.4.2",
+          "cn": "0.5.0",
           "tailwindcss": "4.3.3",
           "ts-dedent": "2.3.0",
           "typescript": "6.0.3",
