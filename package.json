@@ -9,7 +9,7 @@
     "typecheck": "astro check"
   },
   "dependencies": {
-    "@tabler/icons-astro": "3.49.0",
+    "@tabler/icons-astro": "3.50.0",
     "astro": "7.4.2",
     "ts-dedent": "2.3.0"
   },
