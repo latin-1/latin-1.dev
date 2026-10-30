@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import InteractiveCard from "../../components/InteractiveCard.astro";
 import PageLayout from "../../layouts/PageLayout.astro";
 
 const posts = await getCollection("posts");
@@ -16,8 +17,9 @@ const sortedPosts = posts.toSorted((a, b) =>
         <h2 class="heading mt-8 mb-4">{year}</h2>
         <div class="my-4 grid grid-cols-[repeat(auto-fill,minmax(--spacing(80),1fr))] gap-4">
           {posts.map((post) => (
-            <a
-              class="flex flex-col gap-2 rounded-2xl bg-white p-6 text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+            <InteractiveCard
+              as="a"
+              class="flex flex-col gap-2 rounded-2xl p-6"
               href={`/posts/${post.data.slug}/`}
             >
               <h3 class="text-lg font-semibold">{post.data.title}</h3>
@@ -27,7 +29,7 @@ const sortedPosts = posts.toSorted((a, b) =>
                   day: "numeric",
                 })}
               </p>
-            </a>
+            </InteractiveCard>
           ))}
         </div>
       </>

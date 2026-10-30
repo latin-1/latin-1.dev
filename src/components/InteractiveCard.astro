@@ -1,0 +1,18 @@
+---
+import type { HTMLTag, Polymorphic } from "astro/types";
+import { cn } from "cn";
+
+type Props<TTag extends HTMLTag = "button"> = Polymorphic<{ as: TTag }>;
+
+const { as: Tag = "button", class: className, ...props } = Astro.props;
+---
+
+<Tag
+  class={cn(
+    "bg-white text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring",
+    className,
+  )}
+  {...props}
+>
+  <slot />
+</Tag>

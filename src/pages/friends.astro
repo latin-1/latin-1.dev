@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import InteractiveCard from "../components/InteractiveCard.astro";
 import friends from "../data/friends.json" with { type: "json" };
 import PageLayout from "../layouts/PageLayout.astro";
 ---
@@ -9,8 +10,9 @@ import PageLayout from "../layouts/PageLayout.astro";
     class="my-4 grid grid-cols-[repeat(auto-fill,minmax(--spacing(60),1fr))] gap-3"
   >
     {friends.map((friend) => (
-      <a
-        class="flex rounded-2xl bg-white p-2 text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+      <InteractiveCard
+        as="a"
+        class="flex rounded-2xl p-2"
         href={friend.link}
         target="_blank"
         rel="noreferrer"
@@ -32,7 +34,7 @@ import PageLayout from "../layouts/PageLayout.astro";
             {new URL(friend.link).hostname}
           </p>
         </div>
-      </a>
+      </InteractiveCard>
     ))}
   </div>
 </PageLayout>
