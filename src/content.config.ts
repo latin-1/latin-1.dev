@@ -45,23 +45,23 @@ const posts = defineCollection({
     },
     getCustomData: ({ id }) => {
       const match = id.match(/^(?<date>\d{4}-\d{2}-\d{2})-(?<name>.+)$/u);
-      const { date: dateString, name } = match?.groups ?? {};
-      if (!dateString || !name) {
+      const { date, name } = match?.groups ?? {};
+      if (!date || !name) {
         throw new Error(
           `Invalid post ID "${id}": expected format "YYYY-MM-DD-name".`,
         );
       }
-      const date = Temporal.PlainDate.from(dateString);
+      const publishedAt = Temporal.PlainDate.from(date);
       return {
-        slug: `${date.year}/${name}`,
-        date: date,
+        slug: `${publishedAt.year}/${name}`,
+        publishedAt,
       };
     },
   }),
   schema: z.object({
     slug: z.string(),
     title: z.string(),
-    date: z.instanceof(Temporal.PlainDate),
+    publishedAt: z.instanceof(Temporal.PlainDate),
   }),
 });
 

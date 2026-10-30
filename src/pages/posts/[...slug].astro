@@ -23,8 +23,8 @@ const { Content } = await render(post);
 <PageLayout title={post.data.title} backHref="/posts/">
   <span slot="metadata">
     Published on{" "}
-    <time datetime={post.data.date.toString({ calendarName: "never" })}>
-      {post.data.date.toLocaleString("en", { dateStyle: "long" })}
+    <time datetime={post.data.publishedAt.toString({ calendarName: "never" })}>
+      {post.data.publishedAt.toLocaleString("en", { dateStyle: "long" })}
     </time>
   </span>
 

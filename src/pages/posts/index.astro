@@ -4,12 +4,12 @@ import PageLayout from "../../layouts/PageLayout.astro";
 
 const posts = await getCollection("posts");
 const sortedPosts = posts.toSorted((a, b) =>
-  Temporal.PlainDate.compare(b.data.date, a.data.date),
+  Temporal.PlainDate.compare(b.data.publishedAt, a.data.publishedAt),
 );
 ---
 
 <PageLayout title="Posts">
-  {Map.groupBy(sortedPosts, (post) => post.data.date.year)
+  {Map.groupBy(sortedPosts, (post) => post.data.publishedAt.year)
     .entries()
     .map(([year, posts]) => (
       <>
@@ -22,7 +22,7 @@ const sortedPosts = posts.toSorted((a, b) =>
             >
               <h3 class="text-lg font-semibold">{post.data.title}</h3>
               <p class="text-sm font-medium text-mauve-500">
-                {post.data.date.toLocaleString("en", {
+                {post.data.publishedAt.toLocaleString("en", {
                   month: "long",
                   day: "numeric",
                 })}

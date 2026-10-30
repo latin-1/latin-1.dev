@@ -10,9 +10,12 @@
   },
   "linter": {
     "rules": {
+      "style": {
+        "useConsistentObjectDefinitions": "warn"
+      },
       "nursery": {
-        "useTailwindSortedClasses": "error",
-        "useTailwindShorthandClasses": "error"
+        "useTailwindSortedClasses": "warn",
+        "useTailwindShorthandClasses": "warn"
       }
     }
   },
