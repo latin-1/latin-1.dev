@@ -299,54 +299,11 @@
         }
       }
     },
-    "@astrojs/markdown-satteri@npm:0.4.6": {
-      "checksum": "b7ab625af24599e8d3aa76060f481ee7cc27a2869a6a7d277be444bed245687da6f1fd38c0878759700939f28bf44d894a010cfb94344040fc419846782130cc",
-      "resolution": {
-        "resolution": "@astrojs/markdown-satteri@npm:0.4.6",
-        "version": "0.4.6",
-        "dependencies": {
-          "@astrojs/internal-helpers": "0.13.0",
-          "@astrojs/prism": "4.1.2",
-          "github-slugger": "^2.0.0",
-          "satteri": "^0.10.5"
-        }
-      }
-    },
-    "@astrojs/mdx@npm:8.1.2": {
-      "checksum": "1c50c89692f0fa8805e97eb86768d4373893438ce0f20c2af89b2b733f1e3a1202a98b30152a00d4a2310ec0ee9c6e54ede7454eb4839ae2c903bee225e29a64",
-      "resolution": {
-        "resolution": "@astrojs/mdx@npm:8.1.2",
-        "version": "8.1.2",
-        "dependencies": {
-          "@astrojs/internal-helpers": "0.13.0",
-          "@astrojs/markdown-satteri": "0.4.6",
-          "es-module-lexer": "^3.0.3"
-        },
-        "peerDependencies": {
-          "@astrojs/markdown-remark": "^7.3.0",
-          "@astrojs/markdown-satteri": "^0.4.0",
-          "astro": "^7.2.10"
-        },
-        "optionalPeerDependencies": [
-          "@astrojs/markdown-remark"
-        ]
-      }
-    },
     "@astrojs/prism@npm:4.1.1": {
       "checksum": "2220aa11f644d21ca074fd73b759f7f4da6fe59b519fc701f4f9c346c356a2412086c311652fa2a4f96809c342ba2df4c38d384596b3da5195942361e48e74cc",
       "resolution": {
         "resolution": "@astrojs/prism@npm:4.1.1",
         "version": "4.1.1",
-        "dependencies": {
-          "prismjs": "^1.30.0"
-        }
-      }
-    },
-    "@astrojs/prism@npm:4.1.2": {
-      "checksum": "adc1700845d36bdeb2eb8ad092d38cbb8bd890e71f2dc3fc025c45c5c96b996d619c147babd8ee26d7e3b1500063a77b63ba514f860ca66d0c8578ffe613f120",
-      "resolution": {
-        "resolution": "@astrojs/prism@npm:4.1.2",
-        "version": "4.1.2",
         "dependencies": {
           "prismjs": "^1.30.0"
         }
@@ -3174,7 +3131,6 @@
         "version": "0.0.0",
         "dependencies": {
           "@astrojs/check": "0.9.12",
-          "@astrojs/mdx": "8.1.2",
           "@astrojs/sitemap": "3.7.4",
           "@biomejs/biome": "2.6.3",
           "@tabler/icons-astro": "3.49.0",
