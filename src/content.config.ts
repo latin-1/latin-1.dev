@@ -53,7 +53,7 @@ const posts = defineCollection({
       }
       const publishedAt = Temporal.PlainDate.from(date);
       return {
-        slug: `${publishedAt.year}/${name}`,
+        slug: `${publishedAt.year}-${name}`,
         publishedAt,
       };
     },
