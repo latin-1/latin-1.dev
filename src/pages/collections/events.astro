@@ -13,20 +13,18 @@ const sortedEvents = events.toSorted((a, b) => b.year - a.year);
     .map(([year, events]) => (
       <>
         <h2 class="heading mt-8 mb-4">{year !== -1 ? year : "Earlier"}</h2>
-        <div class="my-4">
-          <CollectionList>
-            {events.map((event) => (
-              <CollectionItem
-                name={event.name}
-                nameLang={event.nameLang}
-                description={event.description}
-                descriptionLang={event.descriptionLang}
-                coverPath={event.coverPath}
-                coverAspectRatio="3 / 4"
-              />
-            ))}
-          </CollectionList>
-        </div>
+        <CollectionList class="my-4">
+          {events.map((event) => (
+            <CollectionItem
+              name={event.name}
+              nameLang={event.nameLang}
+              description={event.description}
+              descriptionLang={event.descriptionLang}
+              coverPath={event.coverPath}
+              coverAspectRatio="3 / 4"
+            />
+          ))}
+        </CollectionList>
       </>
     ))}
 </PageLayout>

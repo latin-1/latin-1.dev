@@ -13,18 +13,16 @@ const sortedGames = games.toSorted((a, b) => b.year - a.year);
     .map(([year, games]) => (
       <>
         <h2 class="heading mt-8 mb-4">{year !== -1 ? year : "Earlier"}</h2>
-        <div class="my-4">
-          <CollectionList>
-            {games.map((game) => (
-              <CollectionItem
-                name={game.name}
-                nameLang={game.nameLang}
-                coverPath={game.coverPath}
-                coverAspectRatio="2 / 3"
-              />
-            ))}
-          </CollectionList>
-        </div>
+        <CollectionList class="my-4">
+          {games.map((game) => (
+            <CollectionItem
+              name={game.name}
+              nameLang={game.nameLang}
+              coverPath={game.coverPath}
+              coverAspectRatio="2 / 3"
+            />
+          ))}
+        </CollectionList>
       </>
     ))}
 </PageLayout>
