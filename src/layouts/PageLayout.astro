@@ -14,10 +14,10 @@ const { title, backHref = "/" } = Astro.props;
   <div class="mx-auto flex min-h-svh max-w-200 flex-col py-8">
     <header class="flex flex-col gap-2">
       <a
-        class="-ml-1 flex w-fit items-center gap-1 rounded-xs text-lg font-semibold text-sky-700 outline-sky-600 [view-transition-class:shared] [view-transition-name:page-back-button] hover:underline focus-visible:focus-ring"
+        class="flex w-fit items-center gap-2 rounded-xs text-lg font-semibold text-sky-700 outline-sky-600 [view-transition-class:shared] [view-transition-name:page-back-button] hover:underline focus-visible:focus-ring"
         href={backHref}
       >
-        <IconChevronLeft class="size-6" aria-hidden />
+        <IconChevronLeft class="-mx-1 size-6" aria-hidden />
         <span>Back</span>
       </a>
 
