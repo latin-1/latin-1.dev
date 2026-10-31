@@ -91,12 +91,21 @@
   html {
     scrollbar-gutter: stable;
     scroll-behavior: smooth;
-    scrollbar-color: var(--color-mauve-500) var(--color-mauve-50);
+    scrollbar-color: var(--color-mauve-600) var(--color-mauve-50);
     background-color: var(--color-mauve-50);
   }
 
   ::selection {
     background-color: --alpha(var(--color-rose-600) / 20%);
+  }
+
+  ::search-text {
+    background-color: var(--color-rose-200);
+  }
+
+  ::search-text:current {
+    color: var(--color-white);
+    background-color: var(--color-rose-800);
   }
 }
 
@@ -148,12 +157,60 @@
       margin-block: --spacing(4);
       color: var(--color-mauve-600);
 
+      &:lang(en) {
+        font-style: italic;
+      }
+
       &::before {
         position: absolute;
         white-space-collapse: preserve;
         content: "“ ";
         translate: -100% 0;
       }
+    }
+
+    hr {
+      height: auto;
+      margin-block: --spacing(8);
+      border: none;
+
+      &::before {
+        display: block;
+        width: max-content;
+        margin-inline: auto;
+        color: var(--color-mauve-600);
+        /* Use em spaces instead of `letter-spacing` to avoid alignment issues. */
+        content: "*\2003*\2003*";
+      }
+    }
+
+    em {
+      font-style: normal;
+      text-emphasis: dot var(--color-mauve-600);
+      text-emphasis-position: under;
+
+      &:lang(en) {
+        font-style: italic;
+        text-emphasis: none;
+      }
+    }
+
+    strong {
+      font-weight: var(--font-weight-bold);
+    }
+
+    del {
+      color: var(--color-mauve-600);
+    }
+
+    mark {
+      background-color: var(--color-rose-200);
+    }
+
+    abbr {
+      text-decoration: underline dashed var(--color-mauve-600);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 20%;
     }
 
     a {
@@ -184,6 +241,7 @@
     code:not(pre code) {
       padding-block: 0.2cap;
       padding-inline: 1ch;
+      color: var(--color-mauve-600);
       background-color: var(--color-white);
       border: 1px solid var(--color-mauve-200);
       border-radius: var(--radius-sm);
@@ -191,7 +249,7 @@
 
     :is(h1, h2, h3, h4, h5, h6) {
       font-family: var(--font-heading);
-      font-weight: 700;
+      font-weight: var(--font-weight-bold);
       color: var(--color-mauve-900);
     }
 
@@ -201,7 +259,7 @@
       line-height: var(--text-2xl--line-height);
 
       &::before {
-        color: var(--color-pink-900);
+        color: var(--color-rose-900);
         content: "# ";
       }
     }
@@ -219,7 +277,7 @@
 
   .heading {
     font-family: var(--font-heading);
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     color: var(--color-mauve-900);
 
     &:is(h1, h2) {
@@ -227,7 +285,7 @@
       line-height: var(--text-2xl--line-height);
 
       &::before {
-        color: var(--color-pink-900);
+        color: var(--color-rose-900);
         content: "# ";
       }
     }
@@ -236,6 +294,16 @@
       margin-top: --spacing(6);
       font-size: var(--text-xl);
       line-height: var(--text-xl--line-height);
+    }
+  }
+
+  [data-footnote-ref] {
+    &::before {
+      content: "[";
+    }
+
+    &::after {
+      content: "]";
     }
   }
 }
