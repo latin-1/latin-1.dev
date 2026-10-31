@@ -286,24 +286,24 @@
         ]
       }
     },
-    "@astrojs/markdown-satteri@npm:0.4.5": {
-      "checksum": "ebb1ba6a82403634d50a61bec4a6336a0ae10ada82e8cd9d363e5a844a01c95192f01401f6a667a70b9504746cff024e9d6a005c8a4b16e8a98b5714b9552856",
+    "@astrojs/markdown-satteri@npm:0.4.6": {
+      "checksum": "b7ab625af24599e8d3aa76060f481ee7cc27a2869a6a7d277be444bed245687da6f1fd38c0878759700939f28bf44d894a010cfb94344040fc419846782130cc",
       "resolution": {
-        "resolution": "@astrojs/markdown-satteri@npm:0.4.5",
-        "version": "0.4.5",
+        "resolution": "@astrojs/markdown-satteri@npm:0.4.6",
+        "version": "0.4.6",
         "dependencies": {
           "@astrojs/internal-helpers": "0.13.0",
-          "@astrojs/prism": "4.1.1",
+          "@astrojs/prism": "4.1.2",
           "github-slugger": "^2.0.0",
           "satteri": "^0.10.5"
         }
       }
     },
-    "@astrojs/prism@npm:4.1.1": {
-      "checksum": "2220aa11f644d21ca074fd73b759f7f4da6fe59b519fc701f4f9c346c356a2412086c311652fa2a4f96809c342ba2df4c38d384596b3da5195942361e48e74cc",
+    "@astrojs/prism@npm:4.1.2": {
+      "checksum": "adc1700845d36bdeb2eb8ad092d38cbb8bd890e71f2dc3fc025c45c5c96b996d619c147babd8ee26d7e3b1500063a77b63ba514f860ca66d0c8578ffe613f120",
       "resolution": {
-        "resolution": "@astrojs/prism@npm:4.1.1",
-        "version": "4.1.1",
+        "resolution": "@astrojs/prism@npm:4.1.2",
+        "version": "4.1.2",
         "dependencies": {
           "prismjs": "^1.30.0"
         }
@@ -320,11 +320,11 @@
         }
       }
     },
-    "@astrojs/telemetry@npm:3.4.1": {
-      "checksum": "1bc39a07882575d218165b38c1b49bcc45a5b3df7d168be07abe369585825fbc42b1db9c75c2360baa50931b9a6346c0b1729ef66e5dfa9aa1b495af7eedc7d5",
+    "@astrojs/telemetry@npm:3.4.2": {
+      "checksum": "9f282079f98febe890914cda8cd3c292bf2a3d34298cdd955dd57df0981d1daa3a95faa89924f194d98af7632459ad2362ddd34ea38f713d3f9a3cc77e1428c7",
       "resolution": {
-        "resolution": "@astrojs/telemetry@npm:3.4.1",
-        "version": "3.4.1",
+        "resolution": "@astrojs/telemetry@npm:3.4.2",
+        "version": "3.4.2",
         "dependencies": {
           "ci-info": "^4.4.0",
           "dset": "^3.1.4",
@@ -378,22 +378,22 @@
         }
       }
     },
-    "@biomejs/biome@npm:2.6.3": {
-      "checksum": "507d53ea334e3573c32f159e48e097870af462070c411d4b1fb72fcf40feb981deceaecc27a0745f08711ebb7361aebb13a888a37d37e34e68ee0e460dd3b3fe",
+    "@biomejs/biome@npm:2.6.4": {
+      "checksum": "939839a564689cb25247e84a81cab8759481a83508b35134c59200c1ad48241bf510542472a89aa4d115f7d4ea8ff853b0789b0d499b81ec2254cc55f92ab998",
       "resolution": {
-        "resolution": "@biomejs/biome@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/biome@npm:2.6.4",
+        "version": "2.6.4",
         "dependencies": {
-          "@biomejs/cli-android-arm64": "2.6.3",
-          "@biomejs/cli-android-x64": "2.6.3",
-          "@biomejs/cli-darwin-arm64": "2.6.3",
-          "@biomejs/cli-darwin-x64": "2.6.3",
-          "@biomejs/cli-linux-arm64": "2.6.3",
-          "@biomejs/cli-linux-arm64-musl": "2.6.3",
-          "@biomejs/cli-linux-x64": "2.6.3",
-          "@biomejs/cli-linux-x64-musl": "2.6.3",
-          "@biomejs/cli-win32-arm64": "2.6.3",
-          "@biomejs/cli-win32-x64": "2.6.3"
+          "@biomejs/cli-android-arm64": "2.6.4",
+          "@biomejs/cli-android-x64": "2.6.4",
+          "@biomejs/cli-darwin-arm64": "2.6.4",
+          "@biomejs/cli-darwin-x64": "2.6.4",
+          "@biomejs/cli-linux-arm64": "2.6.4",
+          "@biomejs/cli-linux-arm64-musl": "2.6.4",
+          "@biomejs/cli-linux-x64": "2.6.4",
+          "@biomejs/cli-linux-x64-musl": "2.6.4",
+          "@biomejs/cli-win32-arm64": "2.6.4",
+          "@biomejs/cli-win32-x64": "2.6.4"
         },
         "optionalDependencies": [
           "@biomejs/cli-android-arm64",
@@ -409,11 +409,11 @@
         ]
       }
     },
-    "@biomejs/cli-android-arm64@npm:2.6.3": {
+    "@biomejs/cli-android-arm64@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-android-arm64@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-android-arm64@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "arm64"
@@ -424,11 +424,11 @@
         }
       }
     },
-    "@biomejs/cli-android-x64@npm:2.6.3": {
+    "@biomejs/cli-android-x64@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-android-x64@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-android-x64@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "x64"
@@ -439,11 +439,11 @@
         }
       }
     },
-    "@biomejs/cli-darwin-arm64@npm:2.6.3": {
+    "@biomejs/cli-darwin-arm64@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-darwin-arm64@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-darwin-arm64@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "arm64"
@@ -454,11 +454,11 @@
         }
       }
     },
-    "@biomejs/cli-darwin-x64@npm:2.6.3": {
+    "@biomejs/cli-darwin-x64@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-darwin-x64@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-darwin-x64@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "x64"
@@ -469,11 +469,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-arm64@npm:2.6.3": {
+    "@biomejs/cli-linux-arm64@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-arm64@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-linux-arm64@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "arm64"
@@ -487,11 +487,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-arm64-musl@npm:2.6.3": {
+    "@biomejs/cli-linux-arm64-musl@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-arm64-musl@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-linux-arm64-musl@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "arm64"
@@ -505,11 +505,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-x64@npm:2.6.3": {
+    "@biomejs/cli-linux-x64@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-x64@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-linux-x64@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "x64"
@@ -523,11 +523,11 @@
         }
       }
     },
-    "@biomejs/cli-linux-x64-musl@npm:2.6.3": {
+    "@biomejs/cli-linux-x64-musl@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-linux-x64-musl@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-linux-x64-musl@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "x64"
@@ -541,11 +541,11 @@
         }
       }
     },
-    "@biomejs/cli-win32-arm64@npm:2.6.3": {
+    "@biomejs/cli-win32-arm64@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-win32-arm64@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-win32-arm64@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "arm64"
@@ -556,11 +556,11 @@
         }
       }
     },
-    "@biomejs/cli-win32-x64@npm:2.6.3": {
+    "@biomejs/cli-win32-x64@npm:2.6.4": {
       "checksum": null,
       "resolution": {
-        "resolution": "@biomejs/cli-win32-x64@npm:2.6.3",
-        "version": "2.6.3",
+        "resolution": "@biomejs/cli-win32-x64@npm:2.6.4",
+        "version": "2.6.4",
         "requirements": {
           "cpu": [
             "x64"
@@ -1470,18 +1470,18 @@
         "version": "1.1.0"
       }
     },
-    "@oxc-project/types@npm:=0.155.0": {
-      "checksum": "94d92d871ab702a9270136a425ea2b40b0f060edf9179e7d0733097a3f82f766cce33b4a5dc512cb43219c5248b8e25debbec8d22fe852652230168d8c7f853b",
+    "@oxc-project/types@npm:=0.156.0": {
+      "checksum": "afbaa4431c0b7798c14f2d37dccce16934145888541148e346307b6f0623df4e3da05bc4358aea004350cedd3831c2a60b8852c129a4e28dca866e987c87ce29",
       "resolution": {
-        "resolution": "@oxc-project/types@npm:0.155.0",
-        "version": "0.155.0"
+        "resolution": "@oxc-project/types@npm:0.156.0",
+        "version": "0.156.0"
       }
     },
-    "@rolldown/binding-android-arm-eabi@npm:1.2.15": {
+    "@rolldown/binding-android-arm-eabi@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-android-arm-eabi@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-android-arm-eabi@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "arm"
@@ -1492,11 +1492,11 @@
         }
       }
     },
-    "@rolldown/binding-android-arm64@npm:1.2.15": {
+    "@rolldown/binding-android-arm64@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-android-arm64@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-android-arm64@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1507,11 +1507,11 @@
         }
       }
     },
-    "@rolldown/binding-darwin-arm64@npm:1.2.15": {
+    "@rolldown/binding-darwin-arm64@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-darwin-arm64@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-darwin-arm64@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1522,11 +1522,11 @@
         }
       }
     },
-    "@rolldown/binding-darwin-x64@npm:1.2.15": {
+    "@rolldown/binding-darwin-x64@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-darwin-x64@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-darwin-x64@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "x64"
@@ -1537,11 +1537,11 @@
         }
       }
     },
-    "@rolldown/binding-freebsd-x64@npm:1.2.15": {
+    "@rolldown/binding-freebsd-x64@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-freebsd-x64@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-freebsd-x64@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "x64"
@@ -1552,11 +1552,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.15": {
+    "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-linux-arm-gnueabihf@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "arm"
@@ -1567,11 +1567,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-arm64-gnu@npm:1.2.15": {
+    "@rolldown/binding-linux-arm64-gnu@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-arm64-gnu@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-linux-arm64-gnu@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1585,11 +1585,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-arm64-musl@npm:1.2.15": {
+    "@rolldown/binding-linux-arm64-musl@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-arm64-musl@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-linux-arm64-musl@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1603,11 +1603,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-ppc64-gnu@npm:1.2.15": {
+    "@rolldown/binding-linux-ppc64-gnu@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-ppc64-gnu@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-linux-ppc64-gnu@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "ppc64"
@@ -1621,11 +1621,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-s390x-gnu@npm:1.2.15": {
+    "@rolldown/binding-linux-s390x-gnu@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-s390x-gnu@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-linux-s390x-gnu@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "s390x"
@@ -1639,11 +1639,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-x64-gnu@npm:1.2.15": {
+    "@rolldown/binding-linux-x64-gnu@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-x64-gnu@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-linux-x64-gnu@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "x64"
@@ -1657,11 +1657,11 @@
         }
       }
     },
-    "@rolldown/binding-linux-x64-musl@npm:1.2.15": {
+    "@rolldown/binding-linux-x64-musl@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-linux-x64-musl@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-linux-x64-musl@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "x64"
@@ -1675,11 +1675,11 @@
         }
       }
     },
-    "@rolldown/binding-openharmony-arm64@npm:1.2.15": {
+    "@rolldown/binding-openharmony-arm64@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-openharmony-arm64@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-openharmony-arm64@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1690,11 +1690,11 @@
         }
       }
     },
-    "@rolldown/binding-win32-arm64-msvc@npm:1.2.15": {
+    "@rolldown/binding-win32-arm64-msvc@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-win32-arm64-msvc@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-win32-arm64-msvc@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1705,11 +1705,11 @@
         }
       }
     },
-    "@rolldown/binding-win32-x64-msvc@npm:1.2.15": {
+    "@rolldown/binding-win32-x64-msvc@npm:1.2.16": {
       "checksum": null,
       "resolution": {
-        "resolution": "@rolldown/binding-win32-x64-msvc@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "@rolldown/binding-win32-x64-msvc@npm:1.2.16",
+        "version": "1.2.16",
         "requirements": {
           "cpu": [
             "x64"
@@ -1814,20 +1814,20 @@
         "version": "10.1.0"
       }
     },
-    "@tabler/icons@npm:3.49.0": {
-      "checksum": "54b5ba3c700c506c5d930364f0f11a4079375987050f64284d2c62913f8b83e78f23903df758e62b0622e1f27f630fc95b16aff67bfcb0ec6508b988dfb17574",
+    "@tabler/icons@npm:3.50.0": {
+      "checksum": "6bb4ef4540ef3f858a58eed8e4330672431fe6b3506933c9b9c879cbcfee0552b5f507ed707de94946bb939f19cd40ccad6080232dbf6714919579cf1b2c86f6",
       "resolution": {
-        "resolution": "@tabler/icons@npm:3.49.0",
-        "version": "3.49.0"
+        "resolution": "@tabler/icons@npm:3.50.0",
+        "version": "3.50.0"
       }
     },
-    "@tabler/icons-astro@npm:3.49.0": {
-      "checksum": "d4c1b5b20e35d98cc262db859371d4c1ff7096597615dfd0af258b8d57a7821025f2b247d3d6f50c8b60941f20b91e3ffa12248d899c350264506c4b0758da91",
+    "@tabler/icons-astro@npm:3.50.0": {
+      "checksum": "4cc46047e73faf15138571d49a46c2d94e5ff4976064bda1cf4e54f14ee80fdcf6165eb473b411928b034ef398f98ffc81cb7d39bbc2e58d6376dda8ebf6e300",
       "resolution": {
-        "resolution": "@tabler/icons-astro@npm:3.49.0",
-        "version": "3.49.0",
+        "resolution": "@tabler/icons-astro@npm:3.50.0",
+        "version": "3.50.0",
         "dependencies": {
-          "@tabler/icons": "3.49.0"
+          "@tabler/icons": "3.50.0"
         },
         "peerDependencies": {
           "astro": ">=4.0.0"
@@ -2407,16 +2407,16 @@
         "version": "5.3.2"
       }
     },
-    "astro@npm:7.4.2": {
-      "checksum": "368f190a1847bf58115d6e97b922d569f805a75a2351be80cdff6304ce7b6cd474792f5f36d33063df995220152bd01cf84e45ea3843f4ae45a0c72d07e34db7",
+    "astro@npm:7.4.4": {
+      "checksum": "38e223554f2189bb67fdd0f77ab381f45361fead1f7eb761af5315b75018552be71a1d1945b454f568eb7bcb2ad0a1f1898f07eac23d1a37620fc012b5c2627b",
       "resolution": {
-        "resolution": "astro@npm:7.4.2",
-        "version": "7.4.2",
+        "resolution": "astro@npm:7.4.4",
+        "version": "7.4.4",
         "dependencies": {
           "@astrojs/compiler-rs": "^0.5.1",
           "@astrojs/internal-helpers": "0.13.0",
-          "@astrojs/markdown-satteri": "0.4.5",
-          "@astrojs/telemetry": "3.4.1",
+          "@astrojs/markdown-satteri": "0.4.6",
+          "@astrojs/telemetry": "3.4.2",
           "@capsizecss/unpack": "^4.0.1",
           "@clack/prompts": "^1.8.1",
           "@oslojs/encoding": "^1.1.0",
@@ -2448,7 +2448,7 @@
           "package-manager-detector": "^1.9.0",
           "piccolore": "^0.1.3",
           "picomatch": "^4.0.7",
-          "rolldown": "^1.2.13",
+          "rolldown": "^1.2.14",
           "sharp": "^0.35.4",
           "shiki": "^4.5.0",
           "smol-toml": "^1.9.1",
@@ -2461,7 +2461,7 @@
           "unifont": "^1.0.3",
           "unstorage": "^1.17.5",
           "verkit": "^0.5.0",
-          "vite": "^8.3.4",
+          "vite": "^8.3.5",
           "vitefu": "^1.1.3",
           "xxhash-wasm": "^1.1.0",
           "yargs-parser": "^22.0.0",
@@ -2563,11 +2563,11 @@
         "version": "2.1.1"
       }
     },
-    "cn@npm:0.5.0": {
-      "checksum": "ceac119ee33a0596d2c1da30af12121e004abe88152927b18c2566ba095664e959ea41e7c196bbd3420b6a7a9ef14ffbd955190eaaaa6adfd8bf97b9d414e3dd",
+    "cn@npm:0.5.1": {
+      "checksum": "f82a542eb6bdb01c85c66a011a90c5e84ffbb0f1512daf49587b89765cd526818fc24830a90b0910c24384f739839886b59becdb1cfc9596730ef6492b877688",
       "resolution": {
-        "resolution": "cn@npm:0.5.0",
-        "version": "0.5.0"
+        "resolution": "cn@npm:0.5.1",
+        "version": "0.5.1"
       }
     },
     "comma-separated-tokens@npm:^2.0.0": {
@@ -3139,11 +3139,11 @@
         "dependencies": {
           "@astrojs/check": "0.9.12",
           "@astrojs/sitemap": "3.7.4",
-          "@biomejs/biome": "2.6.3",
-          "@tabler/icons-astro": "3.49.0",
+          "@biomejs/biome": "2.6.4",
+          "@tabler/icons-astro": "3.50.0",
           "@tailwindcss/vite": "4.3.3",
-          "astro": "7.4.2",
-          "cn": "0.5.0",
+          "astro": "7.4.4",
+          "cn": "0.5.1",
           "tailwindcss": "4.3.3",
           "ts-dedent": "2.3.0",
           "typescript": "6.0.3",
@@ -4039,28 +4039,28 @@
         }
       }
     },
-    "rolldown@npm:^1.2.13, rolldown@npm:~1.2.14": {
-      "checksum": "0d7cc7c161fac76e3843ec7cde9d3d7aa145cbf739dd2ea82c78f2ee68b54ed5269a5cbc92f89d0d37c14852fb1059e551b214a1a8b45f5323dce14d4df772bf",
+    "rolldown@npm:^1.2.14, rolldown@npm:~1.2.14": {
+      "checksum": "a3284e94f519a94533cae992fc1549b4457d0d8b159adb07d8990c1f293ac1c09557b148e8cada7861b84088dae0e7886122872aea1e0d929cc44c9e1bc10a96",
       "resolution": {
-        "resolution": "rolldown@npm:1.2.15",
-        "version": "1.2.15",
+        "resolution": "rolldown@npm:1.2.16",
+        "version": "1.2.16",
         "dependencies": {
-          "@oxc-project/types": "=0.155.0",
-          "@rolldown/binding-android-arm-eabi": "1.2.15",
-          "@rolldown/binding-android-arm64": "1.2.15",
-          "@rolldown/binding-darwin-arm64": "1.2.15",
-          "@rolldown/binding-darwin-x64": "1.2.15",
-          "@rolldown/binding-freebsd-x64": "1.2.15",
-          "@rolldown/binding-linux-arm-gnueabihf": "1.2.15",
-          "@rolldown/binding-linux-arm64-gnu": "1.2.15",
-          "@rolldown/binding-linux-arm64-musl": "1.2.15",
-          "@rolldown/binding-linux-ppc64-gnu": "1.2.15",
-          "@rolldown/binding-linux-s390x-gnu": "1.2.15",
-          "@rolldown/binding-linux-x64-gnu": "1.2.15",
-          "@rolldown/binding-linux-x64-musl": "1.2.15",
-          "@rolldown/binding-openharmony-arm64": "1.2.15",
-          "@rolldown/binding-win32-arm64-msvc": "1.2.15",
-          "@rolldown/binding-win32-x64-msvc": "1.2.15",
+          "@oxc-project/types": "=0.156.0",
+          "@rolldown/binding-android-arm-eabi": "1.2.16",
+          "@rolldown/binding-android-arm64": "1.2.16",
+          "@rolldown/binding-darwin-arm64": "1.2.16",
+          "@rolldown/binding-darwin-x64": "1.2.16",
+          "@rolldown/binding-freebsd-x64": "1.2.16",
+          "@rolldown/binding-linux-arm-gnueabihf": "1.2.16",
+          "@rolldown/binding-linux-arm64-gnu": "1.2.16",
+          "@rolldown/binding-linux-arm64-musl": "1.2.16",
+          "@rolldown/binding-linux-ppc64-gnu": "1.2.16",
+          "@rolldown/binding-linux-s390x-gnu": "1.2.16",
+          "@rolldown/binding-linux-x64-gnu": "1.2.16",
+          "@rolldown/binding-linux-x64-musl": "1.2.16",
+          "@rolldown/binding-openharmony-arm64": "1.2.16",
+          "@rolldown/binding-win32-arm64-msvc": "1.2.16",
+          "@rolldown/binding-win32-x64-msvc": "1.2.16",
           "@rolldown/pluginutils": "^1.0.0"
         },
         "optionalDependencies": [
@@ -4662,7 +4662,7 @@
         }
       }
     },
-    "vite@npm:8.3.5, vite@npm:^8.3.4": {
+    "vite@npm:8.3.5, vite@npm:^8.3.5": {
       "checksum": "b2bba277c87f3dff68e229abdb57f6bd7ebf324c88141bd62183c841db2a8a2d244b4a383b67b2d44979724bcda9cfe3a0f9d359030b079456bb7a7690eec394",
       "resolution": {
         "resolution": "vite@npm:8.3.5",
