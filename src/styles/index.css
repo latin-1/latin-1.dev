@@ -101,7 +101,12 @@
     font-family: var(--font-prose);
     color: var(--color-mauve-800);
 
-    :is(p, ol, ul) {
+    p {
+      margin-block: 0.75em;
+    }
+
+    :is(ol, ul) {
+      padding-left: --spacing(8);
       margin-block: 0.75em;
     }
 
@@ -110,12 +115,10 @@
     }
 
     ol {
-      padding-left: --spacing(8);
       list-style-type: decimal;
     }
 
     ul {
-      padding-left: --spacing(8);
       list-style-type: "•  ";
     }
 
@@ -124,6 +127,20 @@
 
       &::marker {
         color: var(--color-mauve-600);
+      }
+    }
+
+    blockquote {
+      min-height: 1lh;
+      padding-left: --spacing(8);
+      margin-block: --spacing(4);
+      color: var(--color-mauve-600);
+
+      &::before {
+        position: absolute;
+        white-space-collapse: preserve;
+        content: "“ ";
+        translate: -100% 0;
       }
     }
 
