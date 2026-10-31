@@ -98,15 +98,6 @@
   ::selection {
     background-color: --alpha(var(--color-rose-600) / 20%);
   }
-
-  ::search-text {
-    background-color: var(--color-rose-200);
-  }
-
-  ::search-text:current {
-    color: var(--color-white);
-    background-color: var(--color-rose-800);
-  }
 }
 
 @layer components {

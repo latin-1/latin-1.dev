@@ -1,0 +1,15 @@
+/*
+ * This syntax is not supported by Lightning CSS, so it is kept in a separate file.
+ * See: https://github.com/parcel-bundler/lightningcss/issues/1303
+ */
+
+@layer base {
+  ::search-text {
+    background-color: var(--color-rose-200);
+  }
+
+  ::search-text:current {
+    color: var(--color-white);
+    background-color: var(--color-rose-800);
+  }
+}
