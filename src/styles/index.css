@@ -145,7 +145,7 @@
 
     blockquote {
       min-height: 1lh;
-      padding-left: --spacing(8);
+      padding-inline: --spacing(6);
       margin-block: --spacing(4);
       color: var(--color-mauve-600);
 
