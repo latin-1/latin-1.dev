@@ -86,7 +86,6 @@
   html {
     scrollbar-gutter: stable;
     scroll-behavior: smooth;
-    text-autospace: normal;
     scrollbar-color: var(--color-mauve-500) var(--color-mauve-50);
     background-color: var(--color-mauve-50);
   }
@@ -100,6 +99,14 @@
   .prose {
     font-family: var(--font-prose);
     color: var(--color-mauve-800);
+
+    & {
+      text-autospace: normal;
+
+      @supports (text-autospace: normal replace) {
+        text-autospace: normal replace;
+      }
+    }
 
     p {
       margin-block: 0.75em;
