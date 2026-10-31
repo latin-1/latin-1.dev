@@ -14,11 +14,7 @@ const { title, backHref = "/" } = Astro.props;
   <div class="mx-auto flex min-h-screen max-w-200 flex-col py-8">
     <header class="flex flex-col gap-2">
       <a
-        class="-ml-1 flex w-fit items-center gap-1 rounded-xs text-lg font-semibold text-sky-700 outline-sky-600 hover:underline focus-visible:focus-ring"
-        style={{
-          "view-transition-name": "page-back-button",
-          "view-transition-class": "shared",
-        }}
+        class="-ml-1 flex w-fit items-center gap-1 rounded-xs text-lg font-semibold text-sky-700 outline-sky-600 [view-transition-class:shared] [view-transition-name:page-back-button] hover:underline focus-visible:focus-ring"
         href={backHref}
       >
         <IconChevronLeft class="size-6" aria-hidden />
@@ -45,13 +41,9 @@ const { title, backHref = "/" } = Astro.props;
     </main>
 
     <footer
-      class="mt-auto"
-      style={{
-        "view-transition-name": "page-footer",
-        "view-transition-class": "shared",
-      }}
+      class="mt-auto [view-transition-class:shared] [view-transition-name:page-footer]"
     >
-      <p class="font-medium text-mauve-500">Copyright &copy; Hikari Hayashi</p>
+      <p class="font-medium text-mauve-500">Copyright © Hikari Hayashi</p>
     </footer>
   </div>
 </Layout>

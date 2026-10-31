@@ -30,9 +30,9 @@
       animation-timing-function: var(--ease-in-out);
     }
 
-    ::view-transition-old(root),
-    ::view-transition-new(root) {
-      mix-blend-mode: plus-lighter;
+    ::view-transition-old(*),
+    ::view-transition-new(*) {
+      animation-duration: 200ms;
     }
 
     ::view-transition-old(root) {
@@ -43,11 +43,6 @@
       animation:
         view-transition-fade-in 200ms linear both,
         view-transition-slide-in 200ms var(--ease-out) both;
-    }
-
-    ::view-transition-old(.shared),
-    ::view-transition-new(.shared) {
-      mix-blend-mode: plus-lighter;
     }
 
     ::view-transition-old(.shared) {
@@ -65,14 +60,24 @@
     }
 
     @keyframes view-transition-fade-out {
+      from {
+        mix-blend-mode: plus-lighter;
+      }
+
       to {
+        mix-blend-mode: plus-lighter;
         opacity: 0%;
       }
     }
 
     @keyframes view-transition-fade-in {
       from {
+        mix-blend-mode: plus-lighter;
         opacity: 0%;
+      }
+
+      to {
+        mix-blend-mode: plus-lighter;
       }
     }
 

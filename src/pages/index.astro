@@ -4,26 +4,34 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <header class="flex flex-col gap-8 py-8">
-    <h1
-      class="w-min py-2 font-display text-7xl leading-16 font-semibold text-rose-700"
-    >
-      Hikari Hayashi
-    </h1>
+  <div class="flex min-h-screen max-w-200 flex-col gap-8 py-8">
+    <header class="flex flex-col gap-8">
+      <h1
+        class="w-min py-2 font-display text-7xl leading-16 font-semibold text-rose-700"
+      >
+        Hikari Hayashi
+      </h1>
 
-    <nav>
-      <ul class="flex flex-col gap-2">
-        {nav.items.map((item) => (
-          <li>
-            <a
-              class="block w-fit rounded-xs text-2xl font-semibold text-sky-700 outline-sky-600 hover:underline focus-visible:focus-ring"
-              href={item.href}
-            >
-              {item.name}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </nav>
-  </header>
+      <nav>
+        <ul class="flex flex-col gap-2">
+          {nav.items.map((item) => (
+            <li>
+              <a
+                class="block w-fit rounded-xs text-2xl font-semibold text-sky-700 outline-sky-600 hover:underline focus-visible:focus-ring"
+                href={item.href}
+              >
+                {item.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+
+    <footer
+      class="mt-auto [view-transition-class:shared] [view-transition-name:page-footer]"
+    >
+      <p class="font-medium text-mauve-500">Copyright © Hikari Hayashi</p>
+    </footer>
+  </div>
 </Layout>
