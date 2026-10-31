@@ -7,7 +7,7 @@ interface Props extends Omit<ComponentProps<typeof Image>, "src"> {
 }
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "../assets/images/**/*.{jpg,webp}",
+  "../assets/images/**/*.{svg,jpg,webp}",
 );
 
 const getImage = (path: string) => {

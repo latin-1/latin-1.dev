@@ -1,0 +1,11 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="450"
+  height="300"
+  viewBox="0 0 450 300"
+  aria-hidden="true"
+>
+  <path fill="#ff218c" d="M0 0h450v100H0z" />
+  <path fill="#ffd800" d="M0 100h450v100H0z" />
+  <path fill="#21b1ff" d="M0 200h450v100H0z" />
+</svg>

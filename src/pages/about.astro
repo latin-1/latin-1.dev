@@ -13,6 +13,7 @@ import {
 import AssetImage from "../components/AssetImage.astro";
 import Card from "../components/Card.astro";
 import devices from "../data/devices.json" with { type: "json" };
+import flags from "../data/flags.json" with { type: "json" };
 import socials from "../data/socials.json" with { type: "json" };
 import PageLayout from "../layouts/PageLayout.astro";
 
@@ -62,6 +63,25 @@ const deviceIcons = {
       loading="eager"
     />
   </figure>
+
+  <div class="my-4 font-prose text-lg text-mauve-800">
+    <p class="my-2">Designer, engineer. Making something special.</p>
+    <blockquote class="my-2 text-mauve-600 italic">
+      May everyone become who they want to be.
+    </blockquote>
+  </div>
+
+  <div class="my-4 flex gap-2">
+    {flags.map((flag) => (
+      <figure class="rounded-lg bg-mauve-100 p-1">
+        <AssetImage
+          class="h-8 w-12 rounded-sm bg-white"
+          path={flag.imagePath}
+          alt={flag.name}
+        />
+      </figure>
+    ))}
+  </div>
 
   <h2 class="heading mt-8 mb-4">My devices</h2>
   <div

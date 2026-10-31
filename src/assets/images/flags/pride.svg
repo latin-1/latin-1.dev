@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="450"
+  height="300"
+  viewBox="0 0 450 300"
+  aria-hidden="true"
+>
+  <path fill="#e50000" d="M0 0h450v50H0z" />
+  <path fill="#ff8d00" d="M0 50h450v50H0z" />
+  <path fill="#fe0" d="M0 100h450v50H0z" />
+  <path fill="#028121" d="M0 150h450v50H0z" />
+  <path fill="#004cff" d="M0 200h450v50H0z" />
+  <path fill="#708" d="M0 250h450v50H0z" />
+</svg>
