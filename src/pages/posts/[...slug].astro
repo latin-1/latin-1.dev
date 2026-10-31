@@ -21,6 +21,10 @@ const { Content } = await render(post);
 ---
 
 <PageLayout title={post.data.title} backHref="/posts/">
+  <span slot="title" lang={post.data.lang}>
+    {post.data.title}
+  </span>
+
   <span slot="metadata">
     Published on{" "}
     <time datetime={post.data.publishedAt.toString({ calendarName: "never" })}>
@@ -28,7 +32,7 @@ const { Content } = await render(post);
     </time>
   </span>
 
-  <div class="prose">
+  <div class="prose" lang={post.data.lang}>
     <Content />
   </div>
 </PageLayout>

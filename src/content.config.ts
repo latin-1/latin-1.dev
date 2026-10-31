@@ -61,6 +61,7 @@ const posts = defineCollection({
   schema: z.object({
     slug: z.string(),
     title: z.string(),
+    lang: z.string(),
     publishedAt: z.instanceof(Temporal.PlainDate),
   }),
 });
