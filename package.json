@@ -9,19 +9,19 @@
     "typecheck": "astro check"
   },
   "dependencies": {
-    "@tabler/icons-astro": "3.50.0",
-    "astro": "7.4.4",
-    "cn": "0.5.1",
+    "@tabler/icons-astro": "3.51.0",
+    "astro": "7.4.8",
+    "cn": "0.5.2",
     "ts-dedent": "2.3.0"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.12",
     "@astrojs/sitemap": "3.7.4",
-    "@biomejs/biome": "2.6.4",
-    "@tailwindcss/vite": "4.3.3",
-    "tailwindcss": "4.3.3",
+    "@biomejs/biome": "2.6.6",
+    "@tailwindcss/vite": "4.3.5",
+    "tailwindcss": "4.3.5",
     "typescript": "6.0.3",
-    "vite": "8.3.5"
+    "vite": "8.3.7"
   },
   "packageManager": "yarn@6.0.0-rc.23",
   "devEngines": {
