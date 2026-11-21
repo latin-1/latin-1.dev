@@ -3,30 +3,15 @@
     "version": 10
   },
   "entries": {
-    "@astrojs/astro2tsx@npm:^0.1.2": {
-      "checksum": "937091e88088f1cd3aa96966c257bf3915decf5efb3ca2398dd71f871a202af9792bf6133a69a4a3eab372f707c073fd45bb2f7e53f35d391d4230dfd2ccf5f3",
+    "@astrojs/astro2tsx@npm:^0.1.0": {
+      "checksum": "2cd566c41516539772dd313e85ec2973be942b15c5ca1a96f277301a29b6a2e23457a297115769672e49f6d475a4091eac19b043b13de446ac3ee17862ac462a",
       "resolution": {
-        "resolution": "@astrojs/astro2tsx@npm:0.1.3",
-        "version": "0.1.3",
+        "resolution": "@astrojs/astro2tsx@npm:0.1.4",
+        "version": "0.1.4",
         "dependencies": {
           "@emnapi/core": "1.11.3",
+          "@emnapi/runtime": "1.11.3",
           "@napi-rs/wasm-runtime": "1.2.4"
-        }
-      }
-    },
-    "@astrojs/check@npm:0.9.12": {
-      "checksum": "5215cf724d2d798b550cd13151786a59155c612e86d4b1f978dba296a8093e07242f57c3aaa136462db4f0259fc791ddb876d7f66ad3caa09888d036e0dd5ee7",
-      "resolution": {
-        "resolution": "@astrojs/check@npm:0.9.12",
-        "version": "0.9.12",
-        "dependencies": {
-          "@astrojs/language-server": "^2.17.3",
-          "chokidar": "^5.0.0",
-          "kleur": "^4.1.5",
-          "yargs": "^18.2.0"
-        },
-        "peerDependencies": {
-          "typescript": "^5.0.0 || ^6.0.0"
         }
       }
     },
@@ -252,40 +237,6 @@
         }
       }
     },
-    "@astrojs/language-server@npm:^2.17.3": {
-      "checksum": "06aec9daab89490d33efb7047192f5026e5b9702e4a9471e46e525dd6764999fae6d0c232d19326f385f578657fa19db99cff28fa3a62a6f58e779c2c009af15",
-      "resolution": {
-        "resolution": "@astrojs/language-server@npm:2.17.3",
-        "version": "2.17.3",
-        "dependencies": {
-          "@astrojs/astro2tsx": "^0.1.2",
-          "@astrojs/yaml2ts": "^0.2.4",
-          "@volar/kit": "~2.4.28",
-          "@volar/language-core": "~2.4.28",
-          "@volar/language-server": "~2.4.28",
-          "@volar/language-service": "~2.4.28",
-          "muggle-string": "^0.4.1",
-          "tinyglobby": "^0.2.17",
-          "volar-service-css": "0.0.71",
-          "volar-service-emmet": "0.0.71",
-          "volar-service-html": "0.0.71",
-          "volar-service-prettier": "0.0.71",
-          "volar-service-typescript": "0.0.71",
-          "volar-service-typescript-twoslash-queries": "0.0.71",
-          "volar-service-yaml": "0.0.71",
-          "vscode-html-languageservice": "^5.6.2",
-          "vscode-uri": "^3.2.0"
-        },
-        "peerDependencies": {
-          "prettier": "^3.0.0",
-          "prettier-plugin-astro": ">=0.11.0"
-        },
-        "optionalPeerDependencies": [
-          "prettier",
-          "prettier-plugin-astro"
-        ]
-      }
-    },
     "@astrojs/markdown-satteri@npm:0.4.7": {
       "checksum": "08fe516a520038ad2a002cf1d939d00204ac4bf7c65ce501c37c74593423ba0fcb6842b7c413cb095d7820477886188fb0617564dfca0e06476d8d617f632fbc",
       "resolution": {
@@ -333,13 +284,14 @@
         }
       }
     },
-    "@astrojs/yaml2ts@npm:^0.2.4": {
-      "checksum": "0efad7237e1a03cf17fdf4b9f9f68ca8891559255c58f1c2ed4f08b7cb403ca9023fb235cf3614e40a6db362ee2de715b2bad30dccd031b4a7afd3f1b5941746",
+    "@astrojs/ts-content-mapper@npm:0.2.0": {
+      "checksum": "32b8758625a45db1184f969d5abdeb27c210fae544900eb3e4bac8eaa146c8c13911b20ec0f2bd25769e0aea0ff214564ab4d9d9213498db2798911fdf8e03ab",
       "resolution": {
-        "resolution": "@astrojs/yaml2ts@npm:0.2.4",
-        "version": "0.2.4",
+        "resolution": "@astrojs/ts-content-mapper@npm:0.2.0",
+        "version": "0.2.0",
         "dependencies": {
-          "yaml": "^2.8.3"
+          "@astrojs/astro2tsx": "^0.1.0",
+          "vscode-jsonrpc": "^9.0.1"
         }
       }
     },
@@ -782,68 +734,6 @@
           "fast-wrap-ansi": "^0.2.0",
           "sisteransi": "^1.0.5"
         }
-      }
-    },
-    "@emmetio/abbreviation@npm:^2.3.3": {
-      "checksum": "327392fd77ef6986f10dc6a228a0871463ed5df950b327a800b668e975520d4a7b2ca578a829666f53a59be78f166b2852f7dc9155a9f11dd971822bdb62e566",
-      "resolution": {
-        "resolution": "@emmetio/abbreviation@npm:2.3.3",
-        "version": "2.3.3",
-        "dependencies": {
-          "@emmetio/scanner": "^1.0.4"
-        }
-      }
-    },
-    "@emmetio/css-abbreviation@npm:^2.1.8": {
-      "checksum": "47db7d63fe88edf2d86b59c7f6447bc2570565a54a089284fa93fbcb97c5200ff1c615affad277d9390ceff19fcc0d32560f6d36a3a6f3016c27cdafd41f877c",
-      "resolution": {
-        "resolution": "@emmetio/css-abbreviation@npm:2.1.8",
-        "version": "2.1.8",
-        "dependencies": {
-          "@emmetio/scanner": "^1.0.4"
-        }
-      }
-    },
-    "@emmetio/css-parser@npm:^0.4.1": {
-      "checksum": "88df039e4a9aa870c3d3a102e36144fe48edde8507174f0b26c47454be2c99e9e1bcc34de50154e2f7b826b7ae1b5a2d6ff001be7372179253403b3e9ef3f01b",
-      "resolution": {
-        "resolution": "@emmetio/css-parser@npm:0.4.1",
-        "version": "0.4.1",
-        "dependencies": {
-          "@emmetio/stream-reader": "^2.2.0",
-          "@emmetio/stream-reader-utils": "^0.1.0"
-        }
-      }
-    },
-    "@emmetio/html-matcher@npm:^1.3.0": {
-      "checksum": "c0f6725e5682f98b41bbf0d054d0f74c816b8604a40f829397909ce769d27515420750e94c96dc49aee0da4a0cb55854663fbb221d87518ce6908217cb03d64c",
-      "resolution": {
-        "resolution": "@emmetio/html-matcher@npm:1.3.0",
-        "version": "1.3.0",
-        "dependencies": {
-          "@emmetio/scanner": "^1.0.0"
-        }
-      }
-    },
-    "@emmetio/scanner@npm:^1.0.0, @emmetio/scanner@npm:^1.0.4": {
-      "checksum": "f0e90fd26aeb55ae6d8e86ea5a5581380479fc7b28795bbf5bf689a0262b110d9a492936f03daec5df6a6e4356e155856b7814ebdc61feebaabe7bacad3fc982",
-      "resolution": {
-        "resolution": "@emmetio/scanner@npm:1.0.4",
-        "version": "1.0.4"
-      }
-    },
-    "@emmetio/stream-reader@npm:^2.2.0": {
-      "checksum": "3ed3586a1c4b32f8c70aced380a9e53ff208ec7331326b07365cd651aa5ae59a2465fb63bf4eff31d3573a103f59c3312294da26c9caea7be5d7793202f0d44a",
-      "resolution": {
-        "resolution": "@emmetio/stream-reader@npm:2.2.0",
-        "version": "2.2.0"
-      }
-    },
-    "@emmetio/stream-reader-utils@npm:^0.1.0": {
-      "checksum": "48ab6315b2819a9c4218eeb86d41ada743bd47b44f6a36c1590d8162906e067bd658a295a036bb9bbfd9c494a57ae1a4131bbcc80f28c624af6d0dd8dba65fe2",
-      "resolution": {
-        "resolution": "@emmetio/stream-reader-utils@npm:0.1.0",
-        "version": "0.1.0"
       }
     },
     "@emnapi/core@npm:1.11.1": {
@@ -2216,6 +2106,321 @@
         "version": "3.0.3"
       }
     },
+    "@typescript/typescript-aix-ppc64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-aix-ppc64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "aix"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-android-arm64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-android-arm64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "android"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-darwin-arm64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-darwin-arm64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-darwin-x64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-darwin-x64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-freebsd-arm64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-freebsd-arm64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "freebsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-freebsd-x64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-freebsd-x64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "freebsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-arm@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-arm@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-arm64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-arm64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-loong64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-loong64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "loong64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-mips64el@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-mips64el@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "mips64el"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-ppc64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-ppc64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-riscv64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-riscv64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-s390x@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-s390x@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "s390x"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-x64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-x64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-netbsd-arm64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-netbsd-arm64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "netbsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-netbsd-x64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-netbsd-x64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "netbsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-openbsd-arm64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-openbsd-arm64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "openbsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-openbsd-x64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-openbsd-x64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "openbsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-sunos-x64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-sunos-x64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "sunos"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-win32-arm64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-win32-arm64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-win32-x64@npm:7.1.0-beta": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-win32-x64@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
     "@ungap/structured-clone@npm:^1.0.0": {
       "checksum": "da282bdf31d339a1544a15bb4d3817f191ea8fdb2d80dc06f527cfbe1e7af31898b3559929a3d24891243bb469913a8222813baed814e4d6bb60d7db6cda9646",
       "resolution": {
@@ -2223,164 +2428,11 @@
         "version": "1.4.0"
       }
     },
-    "@volar/kit@npm:~2.4.28": {
-      "checksum": "7aaee277c3d02f6933c0e23055e9734e94bce27967e9df31a21fc5c8ef819b39c9fcf8eeda6071ccd073a84c3f9d71ee05c7ccd1a0248227f07e61dbaa4fd977",
-      "resolution": {
-        "resolution": "@volar/kit@npm:2.4.30",
-        "version": "2.4.30",
-        "dependencies": {
-          "@volar/language-service": "2.4.30",
-          "@volar/typescript": "2.4.30",
-          "typesafe-path": "^0.2.2",
-          "vscode-languageserver-textdocument": "^1.0.11",
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "typescript": "<7"
-        }
-      }
-    },
-    "@volar/language-core@npm:2.4.30, @volar/language-core@npm:~2.4.28": {
-      "checksum": "533b3e5c306a375e5834bcdd51d332953ac61ba54fb35f1bd51156657556286f8dd01be6c5ac07705a366eceb0a1251e7309063f0b62de5288a231277f0b654b",
-      "resolution": {
-        "resolution": "@volar/language-core@npm:2.4.30",
-        "version": "2.4.30",
-        "dependencies": {
-          "@volar/source-map": "2.4.30"
-        }
-      }
-    },
-    "@volar/language-server@npm:~2.4.28": {
-      "checksum": "ad070ae08aab6fa6e9e6f94be2aa1292be6b547d3483f2381bb65b8b3795034c9d82ceab31fb6b301897e56f635ed4a7b1b85326d03fa164172052f41ecac122",
-      "resolution": {
-        "resolution": "@volar/language-server@npm:2.4.30",
-        "version": "2.4.30",
-        "dependencies": {
-          "@volar/language-core": "2.4.30",
-          "@volar/language-service": "2.4.30",
-          "@volar/typescript": "2.4.30",
-          "path-browserify": "^1.0.1",
-          "request-light": "^0.7.0",
-          "vscode-languageserver": "^9.0.1",
-          "vscode-languageserver-protocol": "^3.17.5",
-          "vscode-languageserver-textdocument": "^1.0.11",
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "typescript": "<7"
-        },
-        "optionalPeerDependencies": [
-          "typescript"
-        ]
-      }
-    },
-    "@volar/language-service@npm:2.4.30, @volar/language-service@npm:~2.4.28": {
-      "checksum": "9186fd7c68b6d03b9de374c048a5c637e8d956f313bcd179ca8e1ca7460be629b483048af513bc94ad45f436e69995965ee520d929b5180c48f0dff5de6bcaff",
-      "resolution": {
-        "resolution": "@volar/language-service@npm:2.4.30",
-        "version": "2.4.30",
-        "dependencies": {
-          "@volar/language-core": "2.4.30",
-          "vscode-languageserver-protocol": "^3.17.5",
-          "vscode-languageserver-textdocument": "^1.0.11",
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "typescript": "<7"
-        },
-        "optionalPeerDependencies": [
-          "typescript"
-        ]
-      }
-    },
-    "@volar/source-map@npm:2.4.30": {
-      "checksum": "7034ac0d09d0e1eaa0947050f6c9150bde12ea24d4504c5825f1c4d4e037ab61922bccae1313fa0e833a2d0f4391a9963b4b935f61484976a8e050728e2d2e75",
-      "resolution": {
-        "resolution": "@volar/source-map@npm:2.4.30",
-        "version": "2.4.30"
-      }
-    },
-    "@volar/typescript@npm:2.4.30": {
-      "checksum": "d42d13bcfccd4c00566fd5730e346decf9efe43f884a13c3c50e377229bddc6594d1832fca7b83e66d1bc1970ee14760903060cb87f0e9034f20f2da5317f0e8",
-      "resolution": {
-        "resolution": "@volar/typescript@npm:2.4.30",
-        "version": "2.4.30",
-        "dependencies": {
-          "@volar/language-core": "2.4.30",
-          "@volar/language-service": "2.4.30",
-          "path-browserify": "^1.0.1",
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "typescript": "<7"
-        },
-        "optionalPeerDependencies": [
-          "typescript"
-        ]
-      }
-    },
-    "@vscode/emmet-helper@npm:^2.9.3": {
-      "checksum": "4c05d0f6bdcf631b209659b51557f3840726bc80de63861c9227bd156dbfa5eb96dd0002c7c72383a255f76ccea0b8392e045aa9d4abf454d30a3ac24ddebba6",
-      "resolution": {
-        "resolution": "@vscode/emmet-helper@npm:2.11.0",
-        "version": "2.11.0",
-        "dependencies": {
-          "emmet": "^2.4.3",
-          "jsonc-parser": "^2.3.0",
-          "vscode-languageserver-textdocument": "^1.0.1",
-          "vscode-languageserver-types": "^3.15.1",
-          "vscode-uri": "^3.0.8"
-        }
-      }
-    },
-    "@vscode/l10n@npm:^0.0.18": {
-      "checksum": "062c9a86afa264db74c170122d68d80a5ca91ce5296e3054a3739534c1c9371c9b462ca679a6f08d2bfde7ed30642f113b23fdf853b322e3d3d391ce3540e429",
-      "resolution": {
-        "resolution": "@vscode/l10n@npm:0.0.18",
-        "version": "0.0.18"
-      }
-    },
     "abbrev@npm:^5.0.0": {
       "checksum": "564ce9278dbeb3bba0562b5feebf08f01414b70794e8ee001c6ab693fa79c1007dbaccaf4ba2b4a769dae313408041641a5de932cb110237819239c82f7cd436",
       "resolution": {
         "resolution": "abbrev@npm:5.0.0",
         "version": "5.0.0"
-      }
-    },
-    "ajv@npm:^8.17.1": {
-      "checksum": "7c8ea4e5116c4afdd2b1c36a89d972a4822f6d5baef7611e4f75b5331d9a3a6bb45c6e5b647b4e4c7a8447fc87a9e30ac9876eec9f013c30f1f4cb07b90c3529",
-      "resolution": {
-        "resolution": "ajv@npm:8.20.0",
-        "version": "8.20.0",
-        "dependencies": {
-          "fast-deep-equal": "^3.1.3",
-          "fast-uri": "^3.0.1",
-          "json-schema-traverse": "^1.0.0",
-          "require-from-string": "^2.0.2"
-        }
-      }
-    },
-    "ajv-draft-04@npm:^1.0.0": {
-      "checksum": "3f3bc264d7ba300e5db07f25b264100bc81f942b015f494f8911e943f450192595454bb3edb0aff2216841dbaa770992d150ad93d1386e4bb5bfdb3c8bc75a54",
-      "resolution": {
-        "resolution": "ajv-draft-04@npm:1.0.0",
-        "version": "1.0.0",
-        "peerDependencies": {
-          "ajv": "^8.5.0"
-        },
-        "optionalPeerDependencies": [
-          "ajv"
-        ]
-      }
-    },
-    "ajv-i18n@npm:^4.2.0": {
-      "checksum": "e8c43531f2c750db95d877a17a2048ec8012be31103b1ff6c11a445f18665068c6b365deaebe3d84e91998b5ad809f41b7271e9172c9ba571001274580590fd0",
-      "resolution": {
-        "resolution": "ajv-i18n@npm:4.2.0",
-        "version": "4.2.0",
-        "peerDependencies": {
-          "ajv": "^8.0.0-beta.0"
-        }
       }
     },
     "am-i-vibing@npm:^0.5.0": {
@@ -2391,20 +2443,6 @@
         "dependencies": {
           "process-ancestry": "^0.1.0"
         }
-      }
-    },
-    "ansi-regex@npm:^6.2.2": {
-      "checksum": "0d5c3caa486bf344dfd88244048144974b8f4b23f32f736485aa20808a7b5ca9be07dfced44b8e111bb737094c91e655f2302c17f1b2b64509970176ee80ba3e",
-      "resolution": {
-        "resolution": "ansi-regex@npm:6.4.0",
-        "version": "6.4.0"
-      }
-    },
-    "ansi-styles@npm:^6.2.1": {
-      "checksum": "4836667081339c94b2b9e4adfba909ed8989c0eff65b3949cf578b369830c2a0ae79c519787356e0455f6be477f1297d68f36f5c6b70e69c37b8580ccf932155",
-      "resolution": {
-        "resolution": "ansi-styles@npm:6.2.3",
-        "version": "6.2.3"
       }
     },
     "anymatch@npm:^3.1.3": {
@@ -2567,18 +2605,6 @@
       "resolution": {
         "resolution": "ci-info@npm:4.4.0",
         "version": "4.4.0"
-      }
-    },
-    "cliui@npm:^9.0.1": {
-      "checksum": "832811c67d9ad0666fc74207a949b15d74c2f362f90c2ffc4d0d34bf6e24471a29c0d3ab381b3511a0b14301b62325875d93f0a426b699b9b22ef1d52a4b1ac4",
-      "resolution": {
-        "resolution": "cliui@npm:9.0.1",
-        "version": "9.0.1",
-        "dependencies": {
-          "string-width": "^7.2.0",
-          "strip-ansi": "^7.1.0",
-          "wrap-ansi": "^9.0.0"
-        }
       }
     },
     "clsx@npm:^2.1.1": {
@@ -2793,24 +2819,6 @@
         "version": "3.1.4"
       }
     },
-    "emmet@npm:^2.4.3": {
-      "checksum": "42e84199256720551ab2d43ab88e9c7370295fad9f4fe0b858b56a904b097352408df057f24f6d23624c285f88371bbdccf163684276d3c5cac6b208a12900da",
-      "resolution": {
-        "resolution": "emmet@npm:2.4.11",
-        "version": "2.4.11",
-        "dependencies": {
-          "@emmetio/abbreviation": "^2.3.3",
-          "@emmetio/css-abbreviation": "^2.1.8"
-        }
-      }
-    },
-    "emoji-regex@npm:^10.3.0": {
-      "checksum": "8aaeae66228e561241c2c40b451456e8009a5807dcc0d5e1d0a495945f1768417b856bba7bcea5a9b584d17a6b2022217c6846d24c201f8ba748fce91fdce6df",
-      "resolution": {
-        "resolution": "emoji-regex@npm:10.6.0",
-        "version": "10.6.0"
-      }
-    },
     "enhanced-resolve@npm:^5.24.5": {
       "checksum": "dc9821ba1778d362a08d9d8d7b94c5d6aaeb19d4ca4eb9ed8dbac2065ac80936dd2204e41b38c3b164309a78379c9c611a302a2180a1e8583772b6c3b4a14c48",
       "resolution": {
@@ -2843,13 +2851,6 @@
         "version": "3.0.4"
       }
     },
-    "escalade@npm:^3.1.1": {
-      "checksum": "f4f2aac845ea084352d0f5c3d0f2d992aaca4855c51dc5404773fd6fed9f38bae48fa24d1752ada2204fcd843acc52507e901dac310e807581fc6311c99a548c",
-      "resolution": {
-        "resolution": "escalade@npm:3.2.0",
-        "version": "3.2.0"
-      }
-    },
     "exponential-backoff@npm:^3.1.1": {
       "checksum": "74d4db3572ce4af46e038920afe07617eb3d0fbb0ef0388d5be3b2c6068a6cac12d68565d8b8f46edb5f5b83c93b269244962165e9cc70f12d9d4dceee0b62d3",
       "resolution": {
@@ -2862,13 +2863,6 @@
       "resolution": {
         "resolution": "extend@npm:3.0.2",
         "version": "3.0.2"
-      }
-    },
-    "fast-deep-equal@npm:^3.1.3": {
-      "checksum": "1bfc4970eb637954b3cea3e02b113f8fa0fa9b80ddc1f89f917baf9b5c341244d9f7f0e2f2a559591d8f72da0b6e167411a9dc3786a72fbc8fbb243528464ca2",
-      "resolution": {
-        "resolution": "fast-deep-equal@npm:3.1.3",
-        "version": "3.1.3"
       }
     },
     "fast-string-truncated-width@npm:^3.0.2": {
@@ -2886,13 +2880,6 @@
         "dependencies": {
           "fast-string-truncated-width": "^3.0.2"
         }
-      }
-    },
-    "fast-uri@npm:^3.0.1": {
-      "checksum": "f4915be16f4a33c8aeec31f62ec1329bb23d71eb46b1af3055d9baf42754898b82d8356b697cb69c51a90cbbc0d3844fb7e775c1f3f8b119d67a3fbf1a41afe8",
-      "resolution": {
-        "resolution": "fast-uri@npm:3.1.9",
-        "version": "3.1.9"
       }
     },
     "fast-wrap-ansi@npm:^0.2.0": {
@@ -2977,20 +2964,6 @@
             "darwin"
           ]
         }
-      }
-    },
-    "get-caller-file@npm:^2.0.5": {
-      "checksum": "35293bb0f07be3b71873aa7c5e3ba8045e0f1a6920342845b45f9397a0b5b894ac500de3204ccca885453b224b06a4598e113e02c48d29be1287830f326b8c0d",
-      "resolution": {
-        "resolution": "get-caller-file@npm:2.0.5",
-        "version": "2.0.5"
-      }
-    },
-    "get-east-asian-width@npm:^1.0.0, get-east-asian-width@npm:^1.5.0": {
-      "checksum": "e864c4443c2574597418477a3ff09910d14b35eaf156f8fb5518473c32c601877589abf2665aa3bbd03d38a9575c4ee37690ebe5d2b0757b1d1f1a5a06e407f9",
-      "resolution": {
-        "resolution": "get-east-asian-width@npm:1.7.0",
-        "version": "1.7.0"
       }
     },
     "get-tsconfig@npm:5.0.0-beta.6": {
@@ -3121,32 +3094,11 @@
         "version": "2.7.0"
       }
     },
-    "json-schema-traverse@npm:^1.0.0": {
-      "checksum": "704a3b88d70e46ad913c69784b8728c950ec05a55f4eb11560e27214480c7223d2b81ef749ec98152ffa30ea880929965137b24fd0a3a44c4705d3807d393e04",
-      "resolution": {
-        "resolution": "json-schema-traverse@npm:1.0.0",
-        "version": "1.0.0"
-      }
-    },
-    "jsonc-parser@npm:^2.3.0": {
-      "checksum": "ebe2cb73d1aa0f974bc888b3308ec679db42394f0cd7a162245772c598ed22fb6c94014c8f10fa98f9f13a354714f8470872e0f2577037553c63b89f6c4a261d",
-      "resolution": {
-        "resolution": "jsonc-parser@npm:2.3.1",
-        "version": "2.3.1"
-      }
-    },
-    "jsonc-parser@npm:^3.0.0, jsonc-parser@npm:^3.3.1": {
+    "jsonc-parser@npm:^3.3.1": {
       "checksum": "a55c26f0c2885d26f2efa5974cfe0dedc955cbd37d6090f0fbec1e04bbba793a47cf1ad4ae56b30dd1d44579532d681cfb062971e3fab6138a0229700b85a360",
       "resolution": {
         "resolution": "jsonc-parser@npm:3.3.1",
         "version": "3.3.1"
-      }
-    },
-    "kleur@npm:^4.1.5": {
-      "checksum": "8dd375ffc1a8ce503deb717e4139644340b61dcc73efaa6b25ce7ca00a751dd73b6066d6518be483f6c73a1d6c0443bba07b83cbbac1c2c57b3ea0b3c3960aa7",
-      "resolution": {
-        "resolution": "kleur@npm:4.1.5",
-        "version": "4.1.5"
       }
     },
     "latin-1.dev@workspace:^": {
@@ -3155,8 +3107,8 @@
         "resolution": "latin-1.dev@workspace:latin-1.dev",
         "version": "0.0.0",
         "dependencies": {
-          "@astrojs/check": "0.9.12",
           "@astrojs/sitemap": "3.7.4",
+          "@astrojs/ts-content-mapper": "0.2.0",
           "@biomejs/biome": "2.6.6",
           "@tabler/icons-astro": "3.51.0",
           "@tailwindcss/vite": "4.3.5",
@@ -3164,7 +3116,7 @@
           "cn": "0.5.2",
           "tailwindcss": "4.3.5",
           "ts-dedent": "2.3.0",
-          "typescript": "6.0.3",
+          "typescript": "7.1.0-beta",
           "vite": "8.3.7"
         }
       }
@@ -3516,13 +3468,6 @@
         "version": "2.0.1"
       }
     },
-    "muggle-string@npm:^0.4.1": {
-      "checksum": "5d85034b1b076327b25cc9e54856902da568a970731e0f9d836c1a1268e7ca46b1d6d9fb91ffa54dfc49c3be32fab98d548a3c17426dd242ba55e63d4d29c899",
-      "resolution": {
-        "resolution": "muggle-string@npm:0.4.1",
-        "version": "0.4.1"
-      }
-    },
     "nanoid@npm:^3.3.20": {
       "checksum": "a621892fd6f0dcbc855eaced073415c3a5928945da937211b1ab7b950d40e7070edd21f99756dcf5a4fbae6bdfb9ad4068cacf38bcf13dce079a1c427efadc30",
       "resolution": {
@@ -3669,13 +3614,6 @@
         "version": "1.9.0"
       }
     },
-    "path-browserify@npm:^1.0.1": {
-      "checksum": "6c640abcb8dffff22b170e7421a1cd34000cdb766c0da9466fe018b1ee7f83fa5271ecc11e19d2df6c3ceaca4915ce82364439fe18a762659a81a6096b05a288",
-      "resolution": {
-        "resolution": "path-browserify@npm:1.0.1",
-        "version": "1.0.1"
-      }
-    },
     "piccolore@npm:^0.1.3": {
       "checksum": "ff0a89089b575b3c6ec4642dd2d3b67156159480f3a7f2ce8154ff7a7c380a2fda018acbc03bd5900f3b69f22615fbbcc555bea07432af8f7c61acbe12287646",
       "resolution": {
@@ -3714,13 +3652,6 @@
           "picocolors": "^1.1.1",
           "source-map-js": "^1.2.2"
         }
-      }
-    },
-    "prettier@npm:^3.8.1": {
-      "checksum": "210844ec6650424b53ce67933534debb4c53b47c89d829cbc7640673f9ac94d7a914000443583c2e0bcf9949fea45495e1298a64a41e8068b048f0e0dfd28108",
-      "resolution": {
-        "resolution": "prettier@npm:3.9.10",
-        "version": "3.9.10"
       }
     },
     "prismjs@npm:^1.30.0": {
@@ -3790,27 +3721,6 @@
       "resolution": {
         "resolution": "regex-utilities@npm:2.3.0",
         "version": "2.3.0"
-      }
-    },
-    "request-light@npm:^0.5.7": {
-      "checksum": "cd98fa6f53994fb53dddd8eb0bb9a43b1c408af3ca58ef9adeab14b4a83a883be69dbd963bb6f085ed9c30dc0e58e4d3300047664269572fd5e925835cfd7a46",
-      "resolution": {
-        "resolution": "request-light@npm:0.5.8",
-        "version": "0.5.8"
-      }
-    },
-    "request-light@npm:^0.7.0": {
-      "checksum": "8474bad64c4e0ed31e35b8dfc325143346da87a5fb2956c127ee1aadc06c194afaa26d4eb2b9bf05384593a7fbdb31d0bf952d81dfa86f1145b02729ea5584be",
-      "resolution": {
-        "resolution": "request-light@npm:0.7.0",
-        "version": "0.7.0"
-      }
-    },
-    "require-from-string@npm:^2.0.2": {
-      "checksum": "3dfa2021d62b85bc28266e34a6bef6c5cd934ff26279125c0eb114fe5d823811a82662a8bffb58928cc748821cd83019a30e54bff9659ab7afc6c89dd0b0aa2c",
-      "resolution": {
-        "resolution": "require-from-string@npm:2.0.2",
-        "version": "2.0.2"
       }
     },
     "resolve-pkg-maps@npm:^1.0.0": {
@@ -3919,7 +3829,7 @@
         "version": "1.6.1"
       }
     },
-    "semver@npm:^7.3.5, semver@npm:^7.3.8, semver@npm:^7.6.2, semver@npm:^7.8.5": {
+    "semver@npm:^7.3.5, semver@npm:^7.8.5": {
       "checksum": "bb502cc3e9b1bcb2d3614459e10f0410f523ffaf6f3c2cdd7634f71553e45a3e444c8820df9bf53296e7d9c1ea82d0496cab4cc8d26a32924966461b246c35a0",
       "resolution": {
         "resolution": "semver@npm:7.8.5",
@@ -4061,29 +3971,6 @@
         "version": "4.3.0"
       }
     },
-    "string-width@npm:^7.0.0, string-width@npm:^7.2.0": {
-      "checksum": "6dc87a858bda4c2ae86c6daa6cdd148b03f70d925d49c317d13e8023d4ef9546b3a035742db41cf44ef82c220c443b60c4fb958bc651d38c9c61a67036914b69",
-      "resolution": {
-        "resolution": "string-width@npm:7.2.0",
-        "version": "7.2.0",
-        "dependencies": {
-          "emoji-regex": "^10.3.0",
-          "get-east-asian-width": "^1.0.0",
-          "strip-ansi": "^7.1.0"
-        }
-      }
-    },
-    "string-width@npm:^8.2.1": {
-      "checksum": "59a1f68a17ba882b49f6343108ffeb2a50500037eeefd041c9623f179cc72b017e67abfdf96d4f7d8fd9715895f637632a97918b7135acaf4a877442054299ef",
-      "resolution": {
-        "resolution": "string-width@npm:8.3.0",
-        "version": "8.3.0",
-        "dependencies": {
-          "get-east-asian-width": "^1.5.0",
-          "strip-ansi": "^7.1.2"
-        }
-      }
-    },
     "stringify-entities@npm:^4.0.0": {
       "checksum": "82043522689a882d78c474e198c25ea5cf6ebc30637bad7396457fbd7534e0db40a75f12f93562a64bfac9bf918d244b7e8e3785ba6cc6df9d77304ceb8a8a57",
       "resolution": {
@@ -4092,16 +3979,6 @@
         "dependencies": {
           "character-entities-html4": "^2.0.0",
           "character-entities-legacy": "^3.0.0"
-        }
-      }
-    },
-    "strip-ansi@npm:^7.1.0, strip-ansi@npm:^7.1.2": {
-      "checksum": "274a9c7e5724a52e757a16a3351d339dc6f6f47950111701ca12796796ddfd2415d4e43951043440cb4bc765072005ba7c31959676a1d6aa99fb9d00af6ae563",
-      "resolution": {
-        "resolution": "strip-ansi@npm:7.2.0",
-        "version": "7.2.0",
-        "dependencies": {
-          "ansi-regex": "^6.2.2"
         }
       }
     },
@@ -4216,35 +4093,110 @@
         "version": "2.8.1"
       }
     },
-    "typesafe-path@npm:^0.2.2": {
-      "checksum": "63a07a498f4d50eede61de3415c01fd35db14b22d981feea2fd278f1fb0669c1bbec98c90cdd916d5a4168e33e4511c4a2efc96c38198ad86b5bb928d949a2d8",
+    "typescript@npm:7.1.0-beta": {
+      "checksum": "8ba24e34eee75003acea0f53a8aa87460d4ff012133685e28ce5659be7ceb598915df9e7cb93d2812782f81d6074759b08f77cdaddf8609bd137fd413d2a919b",
       "resolution": {
-        "resolution": "typesafe-path@npm:0.2.2",
-        "version": "0.2.2"
+        "resolution": "typescript@npm:7.1.0-beta",
+        "version": "7.1.0-beta",
+        "dependencies": {
+          "@typescript/typescript-aix-ppc64": "7.1.0-beta",
+          "@typescript/typescript-android-arm64": "7.1.0-beta",
+          "@typescript/typescript-darwin-arm64": "7.1.0-beta",
+          "@typescript/typescript-darwin-x64": "7.1.0-beta",
+          "@typescript/typescript-freebsd-arm64": "7.1.0-beta",
+          "@typescript/typescript-freebsd-x64": "7.1.0-beta",
+          "@typescript/typescript-linux-arm": "7.1.0-beta",
+          "@typescript/typescript-linux-arm64": "7.1.0-beta",
+          "@typescript/typescript-linux-loong64": "7.1.0-beta",
+          "@typescript/typescript-linux-mips64el": "7.1.0-beta",
+          "@typescript/typescript-linux-ppc64": "7.1.0-beta",
+          "@typescript/typescript-linux-riscv64": "7.1.0-beta",
+          "@typescript/typescript-linux-s390x": "7.1.0-beta",
+          "@typescript/typescript-linux-x64": "7.1.0-beta",
+          "@typescript/typescript-netbsd-arm64": "7.1.0-beta",
+          "@typescript/typescript-netbsd-x64": "7.1.0-beta",
+          "@typescript/typescript-openbsd-arm64": "7.1.0-beta",
+          "@typescript/typescript-openbsd-x64": "7.1.0-beta",
+          "@typescript/typescript-sunos-x64": "7.1.0-beta",
+          "@typescript/typescript-win32-arm64": "7.1.0-beta",
+          "@typescript/typescript-win32-x64": "7.1.0-beta"
+        },
+        "optionalDependencies": [
+          "@typescript/typescript-aix-ppc64",
+          "@typescript/typescript-android-arm64",
+          "@typescript/typescript-darwin-arm64",
+          "@typescript/typescript-darwin-x64",
+          "@typescript/typescript-freebsd-arm64",
+          "@typescript/typescript-freebsd-x64",
+          "@typescript/typescript-linux-arm",
+          "@typescript/typescript-linux-arm64",
+          "@typescript/typescript-linux-loong64",
+          "@typescript/typescript-linux-mips64el",
+          "@typescript/typescript-linux-ppc64",
+          "@typescript/typescript-linux-riscv64",
+          "@typescript/typescript-linux-s390x",
+          "@typescript/typescript-linux-x64",
+          "@typescript/typescript-netbsd-arm64",
+          "@typescript/typescript-netbsd-x64",
+          "@typescript/typescript-openbsd-arm64",
+          "@typescript/typescript-openbsd-x64",
+          "@typescript/typescript-sunos-x64",
+          "@typescript/typescript-win32-arm64",
+          "@typescript/typescript-win32-x64"
+        ]
       }
     },
-    "typescript@npm:6.0.3": {
-      "checksum": "4c4b3eed4bdd784df1cb0ef0996b7d18e17aa02797728256170087cf063fd39dd5df72f7c62d53f52126ec94d2f48fe03df0028e22bff8657039dfd802f20f95",
-      "resolution": {
-        "resolution": "typescript@npm:6.0.3",
-        "version": "6.0.3"
-      }
-    },
-    "typescript@patch:typescript%40npm%3A6.0.3#<builtin>": {
+    "typescript@patch:typescript%40npm%3A7.1.0-beta#<builtin>": {
       "checksum": null,
       "resolution": {
-        "resolution": "typescript@patch:typescript%40npm%3A6.0.3#<builtin>&checksum=794343709b38fa2bda6fba140153ca2f2a3a19c87e96198fc70af6ad8b94ae00f2ad0a67d10282e87b9b1322a8322f9137f2d0877b8245a2af96d92d21a23f61",
-        "version": "6.0.3"
-      }
-    },
-    "typescript-auto-import-cache@npm:^0.3.5": {
-      "checksum": "0fe7a7696a8486831c7271d50e063055a1dd59c2608c2afdf6b89b037cf7fc6da02d348722c3a5172c1a8ba492d6c83100dad6e0791216b4b014e77a2701e941",
-      "resolution": {
-        "resolution": "typescript-auto-import-cache@npm:0.3.6",
-        "version": "0.3.6",
+        "resolution": "typescript@patch:typescript%40npm%3A7.1.0-beta#<builtin>&checksum=794343709b38fa2bda6fba140153ca2f2a3a19c87e96198fc70af6ad8b94ae00f2ad0a67d10282e87b9b1322a8322f9137f2d0877b8245a2af96d92d21a23f61",
+        "version": "7.1.0-beta",
         "dependencies": {
-          "semver": "^7.3.8"
-        }
+          "@typescript/typescript-aix-ppc64": "7.1.0-beta",
+          "@typescript/typescript-android-arm64": "7.1.0-beta",
+          "@typescript/typescript-darwin-arm64": "7.1.0-beta",
+          "@typescript/typescript-darwin-x64": "7.1.0-beta",
+          "@typescript/typescript-freebsd-arm64": "7.1.0-beta",
+          "@typescript/typescript-freebsd-x64": "7.1.0-beta",
+          "@typescript/typescript-linux-arm": "7.1.0-beta",
+          "@typescript/typescript-linux-arm64": "7.1.0-beta",
+          "@typescript/typescript-linux-loong64": "7.1.0-beta",
+          "@typescript/typescript-linux-mips64el": "7.1.0-beta",
+          "@typescript/typescript-linux-ppc64": "7.1.0-beta",
+          "@typescript/typescript-linux-riscv64": "7.1.0-beta",
+          "@typescript/typescript-linux-s390x": "7.1.0-beta",
+          "@typescript/typescript-linux-x64": "7.1.0-beta",
+          "@typescript/typescript-netbsd-arm64": "7.1.0-beta",
+          "@typescript/typescript-netbsd-x64": "7.1.0-beta",
+          "@typescript/typescript-openbsd-arm64": "7.1.0-beta",
+          "@typescript/typescript-openbsd-x64": "7.1.0-beta",
+          "@typescript/typescript-sunos-x64": "7.1.0-beta",
+          "@typescript/typescript-win32-arm64": "7.1.0-beta",
+          "@typescript/typescript-win32-x64": "7.1.0-beta"
+        },
+        "optionalDependencies": [
+          "@typescript/typescript-aix-ppc64",
+          "@typescript/typescript-android-arm64",
+          "@typescript/typescript-darwin-arm64",
+          "@typescript/typescript-darwin-x64",
+          "@typescript/typescript-freebsd-arm64",
+          "@typescript/typescript-freebsd-x64",
+          "@typescript/typescript-linux-arm",
+          "@typescript/typescript-linux-arm64",
+          "@typescript/typescript-linux-loong64",
+          "@typescript/typescript-linux-mips64el",
+          "@typescript/typescript-linux-ppc64",
+          "@typescript/typescript-linux-riscv64",
+          "@typescript/typescript-linux-s390x",
+          "@typescript/typescript-linux-x64",
+          "@typescript/typescript-netbsd-arm64",
+          "@typescript/typescript-netbsd-x64",
+          "@typescript/typescript-openbsd-arm64",
+          "@typescript/typescript-openbsd-x64",
+          "@typescript/typescript-sunos-x64",
+          "@typescript/typescript-win32-arm64",
+          "@typescript/typescript-win32-x64"
+        ]
       }
     },
     "ufo@npm:^1.6.1, ufo@npm:^1.6.3, ufo@npm:^1.6.4": {
@@ -4518,252 +4470,11 @@
         ]
       }
     },
-    "volar-service-css@npm:0.0.71": {
-      "checksum": "e8ce9c2884f44ad315209dd8c85f6e5e309260ea26d0340e53d5ba54ef4ab1d90e98aab5e0d25c9fa7f5776088f8141e64a6c1e36802c09d4aadb139a7454b93",
+    "vscode-jsonrpc@npm:^9.0.1": {
+      "checksum": "dc8a05d35a627ddfb45336fa85041e62a3a40f36db2681816246221525c98c0a364e631bd5358258826e2f3708d79b0c69f96389d547d115c34bce88faaa1656",
       "resolution": {
-        "resolution": "volar-service-css@npm:0.0.71",
-        "version": "0.0.71",
-        "dependencies": {
-          "vscode-css-languageservice": "^6.3.0",
-          "vscode-languageserver-textdocument": "^1.0.11",
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "@volar/language-service": "~2.4.0"
-        },
-        "optionalPeerDependencies": [
-          "@volar/language-service"
-        ]
-      }
-    },
-    "volar-service-emmet@npm:0.0.71": {
-      "checksum": "1b49ef4a79c3920609e9b4a9584ad3ac60c7e32d3cdbb59fd602ec0ea5e28b284fd697cce1b441446071c7f622dec87e2273ef96b0d0544a262650d95f05fa28",
-      "resolution": {
-        "resolution": "volar-service-emmet@npm:0.0.71",
-        "version": "0.0.71",
-        "dependencies": {
-          "@emmetio/css-parser": "^0.4.1",
-          "@emmetio/html-matcher": "^1.3.0",
-          "@vscode/emmet-helper": "^2.9.3",
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "@volar/language-service": "~2.4.0"
-        },
-        "optionalPeerDependencies": [
-          "@volar/language-service"
-        ]
-      }
-    },
-    "volar-service-html@npm:0.0.71": {
-      "checksum": "86ffcdbb9d5b1f4b98143155fb6a3d1a910092cd6658780c947402089186b6269a9daa1d00b3830aae84dea58fbe24b33213f7e9d3cf85711abfb66d9aeff2d9",
-      "resolution": {
-        "resolution": "volar-service-html@npm:0.0.71",
-        "version": "0.0.71",
-        "dependencies": {
-          "vscode-html-languageservice": "^5.3.0",
-          "vscode-languageserver-textdocument": "^1.0.11",
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "@volar/language-service": "~2.4.0"
-        },
-        "optionalPeerDependencies": [
-          "@volar/language-service"
-        ]
-      }
-    },
-    "volar-service-prettier@npm:0.0.71": {
-      "checksum": "da91b278ad70df2c965239479f1c25a74f3ead6941570cdf614ff8478fd7dbd6bd09683688abf2f07485e052d948aa0cd4225dba5af3299e480efffe5ef9b3fc",
-      "resolution": {
-        "resolution": "volar-service-prettier@npm:0.0.71",
-        "version": "0.0.71",
-        "dependencies": {
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "@volar/language-service": "~2.4.0",
-          "prettier": "^2.2 || ^3.0"
-        },
-        "optionalPeerDependencies": [
-          "@volar/language-service",
-          "prettier"
-        ]
-      }
-    },
-    "volar-service-typescript@npm:0.0.71": {
-      "checksum": "318e7eadfd4156f55c9f6f1d385a19ca2031f1bbaf19f6dbaaafdf358e93d49af1679b77ad544df59eb0052828e77549fd6842d364388e577ff260164beb98ee",
-      "resolution": {
-        "resolution": "volar-service-typescript@npm:0.0.71",
-        "version": "0.0.71",
-        "dependencies": {
-          "path-browserify": "^1.0.1",
-          "semver": "^7.6.2",
-          "typescript-auto-import-cache": "^0.3.5",
-          "vscode-languageserver-textdocument": "^1.0.11",
-          "vscode-nls": "^5.2.0",
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "@volar/language-service": "~2.4.0"
-        },
-        "optionalPeerDependencies": [
-          "@volar/language-service"
-        ]
-      }
-    },
-    "volar-service-typescript-twoslash-queries@npm:0.0.71": {
-      "checksum": "96c5c444a4fd69d21f3bd3fb627da68e61441d58d9a6cb0a6426613e602c676b5498ca7b9c5e37210164ead516ee2b35ce0cdc6cc05e7ba5e6fe7de877a6aa25",
-      "resolution": {
-        "resolution": "volar-service-typescript-twoslash-queries@npm:0.0.71",
-        "version": "0.0.71",
-        "dependencies": {
-          "vscode-uri": "^3.0.8"
-        },
-        "peerDependencies": {
-          "@volar/language-service": "~2.4.0"
-        },
-        "optionalPeerDependencies": [
-          "@volar/language-service"
-        ]
-      }
-    },
-    "volar-service-yaml@npm:0.0.71": {
-      "checksum": "417777b88a75dcb6486b00c8fcbfd1316babe5c46ff5d92d6c0c709cd7a51539f4f0e4a6409d4fb6c154726788296216dd3df44387a19aa8380f61c7000f9865",
-      "resolution": {
-        "resolution": "volar-service-yaml@npm:0.0.71",
-        "version": "0.0.71",
-        "dependencies": {
-          "vscode-uri": "^3.0.8",
-          "yaml-language-server": "~1.23.0"
-        },
-        "peerDependencies": {
-          "@volar/language-service": "~2.4.0"
-        },
-        "optionalPeerDependencies": [
-          "@volar/language-service"
-        ]
-      }
-    },
-    "vscode-css-languageservice@npm:^6.3.0": {
-      "checksum": "f7bfe525e5069bda92e82b9017af7f4ff175f5f42f5ed3c7899b913e71b48ec5bf5dbef4e5904f3bcaf1772417506d51c6b30c9e52981ec4942a94c0c972c218",
-      "resolution": {
-        "resolution": "vscode-css-languageservice@npm:6.3.10",
-        "version": "6.3.10",
-        "dependencies": {
-          "@vscode/l10n": "^0.0.18",
-          "vscode-languageserver-textdocument": "^1.0.12",
-          "vscode-languageserver-types": "3.17.5",
-          "vscode-uri": "^3.1.0"
-        }
-      }
-    },
-    "vscode-html-languageservice@npm:^5.3.0, vscode-html-languageservice@npm:^5.6.2": {
-      "checksum": "ff502952ab5bbf6dd8fcf98c65097c2d4e0c4b26aa197edfc450d38139988c5041809018ccf94303509177b53bf310f22f6a688c535d771bfeea8b0b6c8f03ab",
-      "resolution": {
-        "resolution": "vscode-html-languageservice@npm:5.6.2",
-        "version": "5.6.2",
-        "dependencies": {
-          "@vscode/l10n": "^0.0.18",
-          "vscode-languageserver-textdocument": "^1.0.12",
-          "vscode-languageserver-types": "^3.17.5",
-          "vscode-uri": "^3.1.0"
-        }
-      }
-    },
-    "vscode-json-languageservice@npm:4.1.8": {
-      "checksum": "07124bfbdf0f30a0f076948cc308e7d0bfb28752250f528cf5679913c913d3b8fee570fe37f42c60bec1f3ddc679ca738799172026362b77703d99fc4134f531",
-      "resolution": {
-        "resolution": "vscode-json-languageservice@npm:4.1.8",
-        "version": "4.1.8",
-        "dependencies": {
-          "jsonc-parser": "^3.0.0",
-          "vscode-languageserver-textdocument": "^1.0.1",
-          "vscode-languageserver-types": "^3.16.0",
-          "vscode-nls": "^5.0.0",
-          "vscode-uri": "^3.0.2"
-        }
-      }
-    },
-    "vscode-jsonrpc@npm:10.0.0": {
-      "checksum": "24e6c780ba1c3dac7ffac20c2c8c2d8feea892c9c46265717342052a9f22072a4d504037191a1d07610e184cf8c662501675401c411eafe4db0cc4a2036ab029",
-      "resolution": {
-        "resolution": "vscode-jsonrpc@npm:10.0.0",
-        "version": "10.0.0"
-      }
-    },
-    "vscode-jsonrpc@npm:8.2.0": {
-      "checksum": "27a2d065173892163d2e2a32064217c33600ae4dc8b7a0c8e67838ff02c618d32646a7e1bca7bc37385019b858b2fcec08e37f03472292f9616780689e933bcf",
-      "resolution": {
-        "resolution": "vscode-jsonrpc@npm:8.2.0",
-        "version": "8.2.0"
-      }
-    },
-    "vscode-languageserver@npm:^9.0.0, vscode-languageserver@npm:^9.0.1": {
-      "checksum": "106eed9bfd2b668e093ffcda0b438f532fa77cc75ece84127fea15b2af9ad691749ccf1f7ebd7c9c38347aaf0a51585e94d89ccfe34fdbd398ccdca573451659",
-      "resolution": {
-        "resolution": "vscode-languageserver@npm:9.0.1",
-        "version": "9.0.1",
-        "dependencies": {
-          "vscode-languageserver-protocol": "3.17.5"
-        }
-      }
-    },
-    "vscode-languageserver-protocol@npm:3.17.5": {
-      "checksum": "3025f0cb2a741af4e6d7ef6a2360a828c8d7791c62f864f8193ef6ada79c989be342876da403c19d1cf5cbcd94b52a557c7a07522e9a0892c02c39ecac53c22d",
-      "resolution": {
-        "resolution": "vscode-languageserver-protocol@npm:3.17.5",
-        "version": "3.17.5",
-        "dependencies": {
-          "vscode-jsonrpc": "8.2.0",
-          "vscode-languageserver-types": "3.17.5"
-        }
-      }
-    },
-    "vscode-languageserver-protocol@npm:^3.17.5": {
-      "checksum": "1b66759ee8b721a2881dd9d7aecf6ae15391f2cc2d0b2f52ecc4c939ba6d92764a69062d21688559c3cfde3a445102dacf7d243c89014a2c63b534dbfabaa5e5",
-      "resolution": {
-        "resolution": "vscode-languageserver-protocol@npm:3.18.5",
-        "version": "3.18.5",
-        "dependencies": {
-          "vscode-jsonrpc": "10.0.0",
-          "vscode-languageserver-types": "3.18.5"
-        }
-      }
-    },
-    "vscode-languageserver-textdocument@npm:^1.0.1, vscode-languageserver-textdocument@npm:^1.0.11, vscode-languageserver-textdocument@npm:^1.0.12": {
-      "checksum": "2ab5de7aa17a7f5747fdba73199c447456ede9079b8bcff9f5b8d53fffe5aa50931661d4581e23bfa3545bb8a85e407e2aa1bf1f25f23adaf57ca8f9d9a7acec",
-      "resolution": {
-        "resolution": "vscode-languageserver-textdocument@npm:1.0.16",
-        "version": "1.0.16"
-      }
-    },
-    "vscode-languageserver-types@npm:3.17.5": {
-      "checksum": "fff2a22350c7de9c4655bc0db28044ba29d1566a5c588d0ad89f3fa09bde00b2437582c59f43090bf97c6a250b6ec4687a213686cf8cc1516c963abdd62377bb",
-      "resolution": {
-        "resolution": "vscode-languageserver-types@npm:3.17.5",
-        "version": "3.17.5"
-      }
-    },
-    "vscode-languageserver-types@npm:3.18.5, vscode-languageserver-types@npm:^3.15.1, vscode-languageserver-types@npm:^3.16.0, vscode-languageserver-types@npm:^3.17.5": {
-      "checksum": "03b7c06cf45b5b9337d774da153921c94ac73427485e21991b3548132e32a83fe7d2a79ba7e6d444d582b95668bf3ef48887863ef623cfc0036d152f7783cbbf",
-      "resolution": {
-        "resolution": "vscode-languageserver-types@npm:3.18.5",
-        "version": "3.18.5"
-      }
-    },
-    "vscode-nls@npm:^5.0.0, vscode-nls@npm:^5.2.0": {
-      "checksum": "e879f9240202db1c5e218e14d780a4ff17d7ca72c7b2a10ae8328ddd8e681ffb4e7b24105f074ac5717f269fdfe749f7a06a611ff8232c4443e81ecd13e70f86",
-      "resolution": {
-        "resolution": "vscode-nls@npm:5.2.0",
-        "version": "5.2.0"
-      }
-    },
-    "vscode-uri@npm:^3.0.2, vscode-uri@npm:^3.0.8, vscode-uri@npm:^3.1.0, vscode-uri@npm:^3.2.0": {
-      "checksum": "5e85022c7aa8fd7b31571b611b6d98df27d0043fa5cf63cc872ef7d6e7830096bc20d2814985d9889622440b1866a4de7f9413932f4c59d1a63a6eeb4b7d4162",
-      "resolution": {
-        "resolution": "vscode-uri@npm:3.2.0",
-        "version": "3.2.0"
+        "resolution": "vscode-jsonrpc@npm:9.0.3",
+        "version": "9.0.3"
       }
     },
     "which@npm:^7.0.0": {
@@ -4776,30 +4487,11 @@
         }
       }
     },
-    "wrap-ansi@npm:^9.0.0": {
-      "checksum": "857a40e45a2a7f7dd1fbcee1235d86b978f5dcc03ecaec3015b20d375adf07754c323bfb6a4dbab31557e96bcc520944dcc7c5309a670df912e7953db33433e2",
-      "resolution": {
-        "resolution": "wrap-ansi@npm:9.0.2",
-        "version": "9.0.2",
-        "dependencies": {
-          "ansi-styles": "^6.2.1",
-          "string-width": "^7.0.0",
-          "strip-ansi": "^7.1.0"
-        }
-      }
-    },
     "xxhash-wasm@npm:^1.1.0": {
       "checksum": "ca6b8cd905ed74de169b7dfcc746d38249e6fa6b986031c9f04282beecb4d06eb65e0bc4dfaba367c16a1a1d25b131174b6e7e10f4e338c1f39b73355fa0c1f6",
       "resolution": {
         "resolution": "xxhash-wasm@npm:1.1.0",
         "version": "1.1.0"
-      }
-    },
-    "y18n@npm:^5.0.5": {
-      "checksum": "acdfd4bd7eb6d33a091b57c13ac446338c90dc777fc2248e2013f9ee5f07a12c26eaba094f66cdb711f880f858ed96749bd42c6c3e08fbc254fe653397431dc2",
-      "resolution": {
-        "resolution": "y18n@npm:5.0.8",
-        "version": "5.0.8"
       }
     },
     "yallist@npm:^5.0.0": {
@@ -4809,61 +4501,11 @@
         "version": "5.0.0"
       }
     },
-    "yaml@npm:2.8.3": {
-      "checksum": "8877ed5f1c9d3be9150dc0e37b531659af84d47f9ad2c1a35ec12df613674923e951b0ee6271de523e336be8ae4738c71d27484bd7514c4642988569f86a75ba",
-      "resolution": {
-        "resolution": "yaml@npm:2.8.3",
-        "version": "2.8.3"
-      }
-    },
-    "yaml@npm:^2.8.3, yaml@npm:^2.9.1": {
+    "yaml@npm:^2.9.1": {
       "checksum": "6a6d88e0a160f81331e1c53b43ae60befb707585bb81b01f3690c522200a52654d5bdba712631d5dc5d73ee4aba5f923e1588458b17197eebb9e3e27726a9006",
       "resolution": {
         "resolution": "yaml@npm:2.9.1",
         "version": "2.9.1"
-      }
-    },
-    "yaml-language-server@npm:~1.23.0": {
-      "checksum": "4954bb22291fc1d90a938ea2fbc5cf681e8455d78ddd2ff9f43206b39f4c98a970490cf15542606ab380106db81c527c1c06e735f2b997fd5c565cd4c502cce0",
-      "resolution": {
-        "resolution": "yaml-language-server@npm:1.23.0",
-        "version": "1.23.0",
-        "dependencies": {
-          "@vscode/l10n": "^0.0.18",
-          "ajv": "^8.17.1",
-          "ajv-draft-04": "^1.0.0",
-          "ajv-i18n": "^4.2.0",
-          "prettier": "^3.8.1",
-          "request-light": "^0.5.7",
-          "vscode-json-languageservice": "4.1.8",
-          "vscode-languageserver": "^9.0.0",
-          "vscode-languageserver-textdocument": "^1.0.1",
-          "vscode-languageserver-types": "^3.16.0",
-          "vscode-uri": "^3.0.2",
-          "yaml": "2.8.3"
-        }
-      }
-    },
-    "yargs@npm:^18.2.0": {
-      "checksum": "e3001a505e7181debb52320e909fcd40f3acea75b828ea0487ea6237aeadacdb7f22542cdd3bbcbe01300af4763205a8657ba73f355ba5852ad5f3f37c345a6e",
-      "resolution": {
-        "resolution": "yargs@npm:18.2.0",
-        "version": "18.2.0",
-        "dependencies": {
-          "cliui": "^9.0.1",
-          "escalade": "^3.1.1",
-          "get-caller-file": "^2.0.5",
-          "string-width": "^8.2.1",
-          "y18n": "^5.0.5",
-          "yargs-parser": "^22.0.0"
-        }
-      }
-    },
-    "yargs-parser@npm:^22.0.0": {
-      "checksum": "27ba3ce50d54b402fefb05883234bc701a593d01671ca1c153b2a69e84a816dcecc07eb1d0c6eda6f7b477b4948202d67ed631aa509ccee0d25a638137c1dca7",
-      "resolution": {
-        "resolution": "yargs-parser@npm:22.0.0",
-        "version": "22.0.0"
       }
     },
     "yocto-queue@npm:^1.2.1": {

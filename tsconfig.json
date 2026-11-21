@@ -5,9 +5,7 @@
   "compilerOptions": {
     "noEmit": true,
 
-    // Use "nodenext" after migrating to `@astrojs/ts-content-mapper`.
-    "module": "esnext",
-    "moduleResolution": "bundler",
+    "module": "nodenext",
 
     "verbatimModuleSyntax": true,
     "allowArbitraryExtensions": true,
@@ -17,6 +15,15 @@
     "exactOptionalPropertyTypes": true,
 
     "lib": ["esnext", "dom"],
-    "skipLibCheck": true
-  }
+    "skipLibCheck": true,
+
+    "jsx": "preserve"
+  },
+
+  "contentMappers": [
+    {
+      "extensions": [".astro"],
+      "package": "@astrojs/ts-content-mapper"
+    }
+  ]
 }

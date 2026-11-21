@@ -21,4 +21,4 @@ const getImage = (path: string) => {
 const { path, ...props } = Astro.props;
 ---
 
-<Image src={getImage(path)} {...props as ComponentProps<typeof Image>} />
+<Image {...props as ComponentProps<typeof Image>} src={getImage(path)} />
