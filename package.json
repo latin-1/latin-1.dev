@@ -17,7 +17,7 @@
   "devDependencies": {
     "@astrojs/sitemap": "3.7.6",
     "@astrojs/ts-content-mapper": "0.2.0",
-    "@biomejs/biome": "2.6.8",
+    "@biomejs/biome": "2.6.9",
     "@tailwindcss/vite": "4.3.5",
     "tailwindcss": "4.3.5",
     "typescript": "7.1.0-beta",
