@@ -9,7 +9,7 @@
     "typecheck": "astro sync && tsc --runExternalCode"
   },
   "dependencies": {
-    "@tabler/icons-astro": "3.52.0",
+    "@tabler/icons-astro": "3.53.0",
     "astro": "7.4.13",
     "cn": "0.5.2",
     "ts-dedent": "2.3.0"
